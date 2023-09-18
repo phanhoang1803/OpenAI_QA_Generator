@@ -11,7 +11,7 @@
   	+ json: {'text': material_text}
 
   - Response as json type: \
-    response_data = {
-        "en_res" : en_res,
-        "vi_res" : vi_res
+    response_data = { \
+        "en_res" : en_res,\
+        "vi_res" : vi_res\
     }
