@@ -10,8 +10,5 @@
   	+ url : http://localhost:5000/mcq
   	+ json: {'text': material_text}
 
-  - Response as json type: \
-    response_data = { \
-        "en_res" : en_res,\
-        "vi_res" : vi_res\
-    }
+  - Response as json type:
+    + response_data = {"en_res": en_res, "vi_res": vi_res}
