@@ -1,0 +1,1026 @@
+{
+  "en_res": [
+    {
+      "answer": "D",
+      "options": [
+        "Statistics tools",
+        "Machine learning tools",
+        "Deep learning tools",
+        "Both A and C"
+      ],
+      "question": "What are the tools used to process the data in the context of neural networks?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To represent the price of a stock over time",
+        "To demonstrate the use of statistical tools",
+        "To show the correlation between two variables",
+        "To explain the autoregressive model"
+      ],
+      "question": "What is the purpose of using the FTSE100 index in Figure 9.1.1?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "It reduces the computational complexity",
+        "It allows for easier training of a deep network",
+        "It provides more accurate predictions",
+        "It eliminates the need for statistical tools"
+      ],
+      "question": "What is the main advantage of using a simplified time series instead of the entire sequence?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Autoregressive model",
+        "Markov model",
+        "Latent autoregressive model",
+        "Recurrent neural network"
+      ],
+      "question": "What is the term used to describe a model that relies on its own past values?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To predict future values based on past observations",
+        "To update the hidden state based on predictions",
+        "To estimate the probability distribution of future values",
+        "To model the relationship between cause and effect"
+      ],
+      "question": "What is the purpose of using the latent autoregressive model in Figure 9.1.2?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The number of input variables",
+        "The type of data they can handle",
+        "The way they estimate probabilities",
+        "The order of the model"
+      ],
+      "question": "What is the main difference between an autoregressive model and a Markov model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Causal relationship",
+        "Temporal relationship",
+        "Correlation",
+        "Regression"
+      ],
+      "question": "What is the term used to describe the relationship between cause and effect in a time series?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To increase the length of the sequence",
+        "To align the sequence with the labels",
+        "To reduce the computational complexity",
+        "To eliminate the need for statistical tools"
+      ],
+      "question": "What is the purpose of padding the sequence with zeros?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To measure the difference between predicted and actual values",
+        "To regularize the weights of the model",
+        "To update the hidden state based on predictions",
+        "To estimate the probability distribution of future values"
+      ],
+      "question": "What is the purpose of using the L2 loss in the training process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To update the weights of the model",
+        "To compute the gradients of the loss function",
+        "To regularize the weights of the model",
+        "To estimate the probability distribution of future values"
+      ],
+      "question": "What is the purpose of using the Adam optimizer in the training process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. To load the time machine dataset into a list of text lines.",
+        "B. To convert the text lines into lowercase and remove non-alphabetic characters.",
+        "C. To download the time machine dataset from the internet.",
+        "D. To count the number of text lines in the time machine dataset."
+      ],
+      "question": "What is the purpose of the 'read_time_machine' function?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To generate natural language text",
+        "To classify text into categories",
+        "To tokenize text into words",
+        "To count token frequencies"
+      ],
+      "question": "What is the purpose of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To calculate the probability of a sequence of tokens",
+        "To tokenize text into words",
+        "To classify text into categories",
+        "To count token frequencies"
+      ],
+      "question": "What is the goal of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It can generate natural language text",
+        "It can tokenize text into words",
+        "It can classify text into categories",
+        "It can count token frequencies"
+      ],
+      "question": "What is the main advantage of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It can generate ambiguous text",
+        "It can tokenize text into words",
+        "It can classify text into categories",
+        "It can count token frequencies"
+      ],
+      "question": "What is the main limitation of a language model?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A sequence of tokens",
+        "A single token",
+        "A probability distribution",
+        "A classification label"
+      ],
+      "question": "What is the output of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To split text into individual tokens",
+        "To calculate token frequencies",
+        "To generate natural language text",
+        "To classify text into categories"
+      ],
+      "question": "What is the purpose of tokenization in language processing?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To map tokens to indices",
+        "To calculate token frequencies",
+        "To generate natural language text",
+        "To classify text into categories"
+      ],
+      "question": "What is the purpose of a vocabulary in language processing?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To represent tokens that are not in the vocabulary",
+        "To represent the most frequent token",
+        "To represent the least frequent token",
+        "To represent the token with the highest index"
+      ],
+      "question": "What is the role of the unknown token in a vocabulary?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To determine the most frequent tokens",
+        "To determine the least frequent tokens",
+        "To determine the token with the highest index",
+        "To determine the token with the lowest index"
+      ],
+      "question": "What is the purpose of counting token frequencies?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To generate natural language text",
+        "To classify text into categories",
+        "To tokenize text into words",
+        "To count token frequencies"
+      ],
+      "question": "What is the purpose of a language model in natural language processing?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To receive a message",
+        "To analyze a beautiful beach",
+        "To create a language model",
+        "To solve a translation problem"
+      ],
+      "question": "What is the purpose of modeling a document?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-2; x t-1)"
+      ],
+      "question": "What is the formula for calculating the probability of a sequence of words in a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To estimate the probability of a word given the previous word",
+        "To estimate the probability of a word given the previous two words",
+        "To estimate the probability of a word given the previous three words",
+        "To estimate the probability of a word given the previous four words"
+      ],
+      "question": "What is the purpose of Laplace smoothing in language modeling?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To estimate the probability of a word given the previous word",
+        "To estimate the probability of a word given the previous two words",
+        "To estimate the probability of a word given the previous three words",
+        "To estimate the probability of a word given the previous four words"
+      ],
+      "question": "What is the purpose of using n-grams in language modeling?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. To generate a minibatch of subsequences using random sampling.",
+        "B. To generate a minibatch of subsequences using sequential partitioning.",
+        "C. To generate a minibatch of subsequences using random sampling and sequential partitioning.",
+        "D. To generate a minibatch of subsequences using a fixed offset."
+      ],
+      "question": "What is the purpose of the `seq_data_iter_random` function?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "A. To generate a minibatch of subsequences using random sampling.",
+        "B. To generate a minibatch of subsequences using sequential partitioning.",
+        "C. To generate a minibatch of subsequences using random sampling and sequential partitioning.",
+        "D. To generate a minibatch of subsequences using a fixed offset."
+      ],
+      "question": "What is the purpose of the `seq_data_iter_sequential` function?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A. To load sequence data and iterate over it using random sampling.",
+        "B. To load sequence data and iterate over it using sequential partitioning.",
+        "C. To load sequence data and iterate over it using random sampling and sequential partitioning.",
+        "D. To load sequence data and iterate over it using a fixed offset."
+      ],
+      "question": "What is the purpose of the `SeqDataLoader` class?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The iterator and vocabulary of the time machine dataset",
+        "The iterator and vocabulary of the fashion mnist dataset",
+        "The iterator and vocabulary of the time machine dataset and the fashion mnist dataset",
+        "The iterator and vocabulary of the fashion mnist dataset and the time machine dataset"
+      ],
+      "question": "What does the function load_data_time_machine return?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Processing natural language",
+        "Processing images",
+        "Processing numerical data",
+        "Processing audio data"
+      ],
+      "question": "What is an n-gram model used for?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Unigrams",
+        "Bigrams",
+        "Trigrams",
+        "All of the above"
+      ],
+      "question": "What is the Zipf's law applicable to?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Random sampling and sequential partitioning",
+        "Random sampling and random partitioning",
+        "Sequential partitioning and random partitioning",
+        "Sequential partitioning and sequential sampling"
+      ],
+      "question": "What are the main options for reading long sequences of data?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Random sampling",
+        "Sequential partitioning",
+        "Random partitioning",
+        "Sequential sampling"
+      ],
+      "question": "What is a good idea to have as a backup plan?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To predict the next token based on the current and past tokens",
+        "To concatenate matrices",
+        "To calculate the dot product of matrices",
+        "To create a hidden state"
+      ],
+      "question": "What is the purpose of the RNN in language modeling?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(3, 4)",
+        "(4, 3)",
+        "(3, 1)",
+        "(1, 4)"
+      ],
+      "question": "What is the shape of the matrix obtained by multiplying X with W_xh and H with W_hh?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To create a matrix of shape (3, 4)",
+        "To create a matrix of shape (4, 3)",
+        "To create a matrix of shape (3, 5)",
+        "To create a matrix of shape (5, 4)"
+      ],
+      "question": "What is the purpose of concatenating X and H with W_xh and W_hh?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "By calculating the perplexity",
+        "By calculating the dot product",
+        "By calculating the cross-entropy",
+        "By calculating the softmax"
+      ],
+      "question": "How can the quality of a language model be evaluated?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To make it easier to read the data",
+        "To represent each token as a feature vector",
+        "To reduce the dimensionality of the data",
+        "To improve the accuracy of the model"
+      ],
+      "question": "What is the purpose of encoding tokens as one-hot vectors?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "(batch_size, num_steps, vocab_size)",
+        "(num_steps, batch_size, vocab_size)",
+        "(vocab_size, num_steps, batch_size)",
+        "(vocab_size, batch_size, num_steps)"
+      ],
+      "question": "What is the shape of the tensor after applying the one_hot function to a minibatch?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To initialize the hidden layer parameters of the RNN model",
+        "To initialize the output layer parameters of the RNN model",
+        "To initialize the state of the RNN model at the beginning of each time step",
+        "To initialize the state of the RNN model at the end of each time step"
+      ],
+      "question": "What is the purpose of the init_rnn_state function?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(batch_size, num_hiddens)",
+        "(num_hiddens, batch_size)",
+        "(batch_size, vocab_size)",
+        "(vocab_size, batch_size)"
+      ],
+      "question": "What is the shape of the hidden state in the RNN model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To generate new characters following a given prefix",
+        "To calculate the gradient of the RNN model",
+        "To update the parameters of the RNN model",
+        "To evaluate the performance of the RNN model"
+      ],
+      "question": "What is the purpose of the predict_ch8 function?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To make it easier to calculate the gradient",
+        "To prevent the gradient from exploding or vanishing",
+        "To reduce the dimensionality of the gradient",
+        "To improve the accuracy of the model"
+      ],
+      "question": "Why is gradient clipping necessary in RNN models?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To stabilize the training process",
+        "To increase the learning rate",
+        "To reduce the number of parameters",
+        "To improve the model's accuracy"
+      ],
+      "question": "What is the purpose of gradient clipping in RNN models?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To limit the magnitude of the gradients during training",
+        "To increase the learning rate during training",
+        "To reduce the number of parameters in the model",
+        "To improve the model's accuracy during training"
+      ],
+      "question": "What is the purpose of gradient clipping?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It introduces randomness and improves the model's generalization",
+        "It reduces the training time",
+        "It increases the model's capacity",
+        "It improves the model's accuracy"
+      ],
+      "question": "What is the benefit of using random sampling in training RNN models?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To reduce computational cost",
+        "To prevent gradient explosion",
+        "To improve model performance",
+        "To speed up training"
+      ],
+      "question": "What is the purpose of using gradient clipping?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Improved model performance",
+        "Reduced computational cost",
+        "Faster training time",
+        "Better generalization"
+      ],
+      "question": "What is the benefit of replacing one-hot encoding with learned embeddings?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "The code runs without any issues",
+        "The code produces incorrect results",
+        "The code runs slower",
+        "The code throws an error"
+      ],
+      "question": "What happens when running the code in this section without gradient clipping?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To improve model performance",
+        "To reduce computational cost",
+        "To prevent gradient explosion",
+        "To speed up training"
+      ],
+      "question": "What is the purpose of using the ReLU activation function in this section?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To improve model performance",
+        "To reduce computational cost",
+        "To prevent gradient explosion",
+        "To speed up training"
+      ],
+      "question": "What is the purpose of using the `detach` function in this section?"
+    }
+  ],
+  "vi_res": [
+    {
+      "answer": "D",
+      "options": [
+        "C\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea",
+        "C\u00f4ng c\u1ee5 h\u1ecdc m\u00e1y",
+        "C\u00f4ng c\u1ee5 h\u1ecdc s\u00e2u",
+        "C\u1ea3 A v\u00e0 C"
+      ],
+      "question": "C\u00e1c c\u00f4ng c\u1ee5 n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 x\u1eed l\u00fd d\u1eef li\u1ec7u trong ng\u1eef c\u1ea3nh c\u1ee7a m\u1ea1ng neural?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u0110\u1ea1i di\u1ec7n cho gi\u00e1 c\u1ed5 phi\u1ebfu theo th\u1eddi gian",
+        "Ch\u1ee9ng minh vi\u1ec7c s\u1eed d\u1ee5ng c\u00e1c c\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea",
+        "Hi\u1ec3n th\u1ecb m\u1ed1i t\u01b0\u01a1ng quan gi\u1eefa hai bi\u1ebfn s\u1ed1",
+        "Gi\u1ea3i th\u00edch m\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng ch\u1ec9 s\u1ed1 FTSE100 trong H\u00ecnh 9.1.1 l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Gi\u1ea3m \u0111\u1ed9 ph\u1ee9c t\u1ea1p t\u00ednh to\u00e1n",
+        "D\u1ec5 d\u00e0ng hu\u1ea5n luy\u1ec7n m\u1ea1ng s\u00e2u h\u01a1n",
+        "Cung c\u1ea5p d\u1ef1 \u0111o\u00e1n ch\u00ednh x\u00e1c h\u01a1n",
+        "Lo\u1ea1i b\u1ecf nhu c\u1ea7u s\u1eed d\u1ee5ng c\u00e1c c\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea"
+      ],
+      "question": "L\u1ee3i \u00edch ch\u00ednh c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng chu\u1ed7i th\u1eddi gian \u0111\u01a1n gi\u1ea3n thay v\u00ec to\u00e0n b\u1ed9 chu\u1ed7i l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "M\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy",
+        "M\u00f4 h\u00ecnh Markov",
+        "M\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy \u1ea9n",
+        "M\u1ea1ng neural t\u00e1i ph\u00e1t"
+      ],
+      "question": "Thu\u1eadt ng\u1eef n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 m\u00f4 t\u1ea3 m\u1ed9t m\u00f4 h\u00ecnh d\u1ef1a v\u00e0o c\u00e1c gi\u00e1 tr\u1ecb qu\u00e1 kh\u1ee9 c\u1ee7a n\u00f3?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "D\u1ef1 \u0111o\u00e1n gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai d\u1ef1a tr\u00ean quan s\u00e1t qu\u00e1 kh\u1ee9",
+        "C\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i \u1ea9n d\u1ef1a tr\u00ean d\u1ef1 \u0111o\u00e1n",
+        "\u01af\u1edbc l\u01b0\u1ee3ng ph\u00e2n b\u1ed1 x\u00e1c su\u1ea5t c\u1ee7a c\u00e1c gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai",
+        "M\u00f4 h\u00ecnh quan h\u1ec7 gi\u1eefa nguy\u00ean nh\u00e2n v\u00e0 k\u1ebft qu\u1ea3"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng m\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy \u1ea9n trong H\u00ecnh 9.1.2 l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "S\u1ed1 bi\u1ebfn \u0111\u1ea7u v\u00e0o",
+        "Lo\u1ea1i d\u1eef li\u1ec7u m\u00e0 ch\u00fang c\u00f3 th\u1ec3 x\u1eed l\u00fd",
+        "C\u00e1ch ch\u00fang \u01b0\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t",
+        "Th\u1ee9 t\u1ef1 c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "S\u1ef1 kh\u00e1c bi\u1ec7t ch\u00ednh gi\u1eefa m\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy v\u00e0 m\u00f4 h\u00ecnh Markov l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "M\u1ed1i quan h\u1ec7 nh\u00e2n qu\u1ea3",
+        "M\u1ed1i quan h\u1ec7 th\u1eddi gian",
+        "T\u01b0\u01a1ng quan",
+        "H\u1ed3i quy"
+      ],
+      "question": "Thu\u1eadt ng\u1eef n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 m\u00f4 t\u1ea3 m\u1ed1i quan h\u1ec7 gi\u1eefa nguy\u00ean nh\u00e2n v\u00e0 k\u1ebft qu\u1ea3 trong chu\u1ed7i th\u1eddi gian?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "T\u0103ng \u0111\u1ed9 d\u00e0i c\u1ee7a chu\u1ed7i",
+        "C\u0103n ch\u1ec9nh chu\u1ed7i v\u1edbi nh\u00e3n",
+        "Gi\u1ea3m \u0111\u1ed9 ph\u1ee9c t\u1ea1p t\u00ednh to\u00e1n",
+        "Lo\u1ea1i b\u1ecf nhu c\u1ea7u s\u1eed d\u1ee5ng c\u00e1c c\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c th\u00eam c\u00e1c gi\u00e1 tr\u1ecb 0 v\u00e0o chu\u1ed7i l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110o l\u01b0\u1eddng s\u1ef1 kh\u00e1c bi\u1ec7t gi\u1eefa gi\u00e1 tr\u1ecb d\u1ef1 \u0111o\u00e1n v\u00e0 gi\u00e1 tr\u1ecb th\u1ef1c t\u1ebf",
+        "Ch\u00ednh quy h\u00f3a tr\u1ecdng s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh",
+        "C\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i \u1ea9n d\u1ef1a tr\u00ean d\u1ef1 \u0111o\u00e1n",
+        "\u01af\u1edbc l\u01b0\u1ee3ng ph\u00e2n b\u1ed1 x\u00e1c su\u1ea5t c\u1ee7a c\u00e1c gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng h\u00e0m m\u1ea5t m\u00e1t L2 trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "C\u1eadp nh\u1eadt tr\u1ecdng s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh",
+        "T\u00ednh to\u00e1n \u0111\u1ed9 d\u1ed1c c\u1ee7a h\u00e0m m\u1ea5t m\u00e1t",
+        "Ch\u00ednh quy h\u00f3a tr\u1ecdng s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh",
+        "\u01af\u1edbc l\u01b0\u1ee3ng ph\u00e2n b\u1ed1 x\u00e1c su\u1ea5t c\u1ee7a c\u00e1c gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng b\u1ed9 t\u1ed1i \u01b0u h\u00f3a Adam trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. \u0110\u1ec3 t\u1ea3i t\u1eadp d\u1eef li\u1ec7u m\u00e1y th\u1eddi gian v\u00e0o m\u1ed9t danh s\u00e1ch c\u00e1c d\u00f2ng v\u0103n b\u1ea3n.",
+        "B. \u0110\u1ec3 chuy\u1ec3n \u0111\u1ed5i c\u00e1c d\u00f2ng v\u0103n b\u1ea3n th\u00e0nh ch\u1eef th\u01b0\u1eddng v\u00e0 lo\u1ea1i b\u1ecf c\u00e1c k\u00fd t\u1ef1 kh\u00f4ng ph\u1ea3i ch\u1eef c\u00e1i.",
+        "C. \u0110\u1ec3 t\u1ea3i xu\u1ed1ng t\u1eadp d\u1eef li\u1ec7u m\u00e1y th\u1eddi gian t\u1eeb internet.",
+        "D. \u0110\u1ec3 \u0111\u1ebfm s\u1ed1 d\u00f2ng v\u0103n b\u1ea3n trong t\u1eadp d\u1eef li\u1ec7u m\u00e1y th\u1eddi gian."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m 'read_time_machine' l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "T\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "\u0110\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u00ednh x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t chu\u1ed7i c\u00e1c t\u1eeb",
+        "T\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "\u0110\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "M\u1ee5c ti\u00eau c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "N\u00f3 c\u00f3 th\u1ec3 t\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "N\u00f3 c\u00f3 th\u1ec3 t\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "N\u00f3 c\u00f3 th\u1ec3 ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "N\u00f3 c\u00f3 th\u1ec3 \u0111\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "L\u1ee3i \u00edch ch\u00ednh c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "N\u00f3 c\u00f3 th\u1ec3 t\u1ea1o ra v\u0103n b\u1ea3n kh\u00f4ng r\u00f5 r\u00e0ng",
+        "N\u00f3 c\u00f3 th\u1ec3 t\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "N\u00f3 c\u00f3 th\u1ec3 ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "N\u00f3 c\u00f3 th\u1ec3 \u0111\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "H\u1ea1n ch\u1ebf ch\u00ednh c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "M\u1ed9t chu\u1ed7i c\u00e1c t\u1eeb",
+        "M\u1ed9t t\u1eeb duy nh\u1ea5t",
+        "M\u1ed9t ph\u00e2n ph\u1ed1i x\u00e1c su\u1ea5t",
+        "M\u1ed9t nh\u00e3n ph\u00e2n lo\u1ea1i"
+      ],
+      "question": "\u0110\u1ea7u ra c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Chia v\u0103n b\u1ea3n th\u00e0nh c\u00e1c t\u1eeb ri\u00eang l\u1ebb",
+        "T\u00ednh t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb",
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c t\u00e1ch t\u1eeb trong x\u1eed l\u00fd ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u00c1nh x\u1ea1 c\u00e1c t\u1eeb th\u00e0nh ch\u1ec9 s\u1ed1",
+        "T\u00ednh t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb",
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a t\u1eeb v\u1ef1ng trong x\u1eed l\u00fd ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ea1i di\u1ec7n cho c\u00e1c t\u1eeb kh\u00f4ng c\u00f3 trong t\u1eeb v\u1ef1ng",
+        "\u0110\u1ea1i di\u1ec7n cho t\u1eeb ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "\u0110\u1ea1i di\u1ec7n cho t\u1eeb \u00edt ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "\u0110\u1ea1i di\u1ec7n cho t\u1eeb c\u00f3 ch\u1ec9 s\u1ed1 cao nh\u1ea5t"
+      ],
+      "question": "Vai tr\u00f2 c\u1ee7a t\u1eeb kh\u00f4ng x\u00e1c \u0111\u1ecbnh trong t\u1eeb v\u1ef1ng l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "X\u00e1c \u0111\u1ecbnh c\u00e1c t\u1eeb ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "X\u00e1c \u0111\u1ecbnh c\u00e1c t\u1eeb \u00edt ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "X\u00e1c \u0111\u1ecbnh t\u1eeb c\u00f3 ch\u1ec9 s\u1ed1 cao nh\u1ea5t",
+        "X\u00e1c \u0111\u1ecbnh t\u1eeb c\u00f3 ch\u1ec9 s\u1ed1 th\u1ea5p nh\u1ea5t"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c \u0111\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "T\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "\u0110\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef trong x\u1eed l\u00fd ng\u00f4n ng\u1eef t\u1ef1 nhi\u00ean l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Nh\u1eadn m\u1ed9t tin nh\u1eafn",
+        "Ph\u00e2n t\u00edch m\u1ed9t b\u00e3i bi\u1ec3n \u0111\u1eb9p",
+        "T\u1ea1o m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef",
+        "Gi\u1ea3i quy\u1ebft m\u1ed9t v\u1ea5n \u0111\u1ec1 d\u1ecbch thu\u1eadt"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c m\u00f4 h\u00ecnh h\u00f3a m\u1ed9t t\u00e0i li\u1ec7u l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-2; x t-1)"
+      ],
+      "question": "C\u00f4ng th\u1ee9c t\u00ednh x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t chu\u1ed7i t\u1eeb trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean hai t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean ba t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean b\u1ed1n t\u1eeb tr\u01b0\u1edbc \u0111\u00f3"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng Laplace smoothing trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean hai t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean ba t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean b\u1ed1n t\u1eeb tr\u01b0\u1edbc \u0111\u00f3"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng n-grams trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean.",
+        "B. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "C. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "D. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch s\u1eed d\u1ee5ng m\u1ed9t \u0111\u1ed9 l\u1ec7ch c\u1ed1 \u0111\u1ecbnh."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m `seq_data_iter_random` l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "A. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean.",
+        "B. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "C. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "D. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch s\u1eed d\u1ee5ng m\u1ed9t \u0111\u1ed9 l\u1ec7ch c\u1ed1 \u0111\u1ecbnh."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m `seq_data_iter_sequential` l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean.",
+        "B. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "C. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "D. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch s\u1eed d\u1ee5ng m\u1ed9t \u0111\u1ed9 l\u1ec7ch c\u1ed1 \u0111\u1ecbnh."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a l\u1edbp `SeqDataLoader` l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u time machine",
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u fashion mnist",
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u time machine v\u00e0 fashion mnist",
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u fashion mnist v\u00e0 time machine"
+      ],
+      "question": "H\u00e0m load_data_time_machine tr\u1ea3 v\u1ec1 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "X\u1eed l\u00fd ng\u00f4n ng\u1eef t\u1ef1 nhi\u00ean",
+        "X\u1eed l\u00fd h\u00ecnh \u1ea3nh",
+        "X\u1eed l\u00fd d\u1eef li\u1ec7u s\u1ed1",
+        "X\u1eed l\u00fd d\u1eef li\u1ec7u \u00e2m thanh"
+      ],
+      "question": "M\u00f4 h\u00ecnh n-gram \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 l\u00e0m g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Unigrams",
+        "Bigrams",
+        "Trigrams",
+        "T\u1ea5t c\u1ea3 c\u00e1c tr\u01b0\u1eddng h\u1ee3p tr\u00ean"
+      ],
+      "question": "\u0110\u1ecbnh lu\u1eadt Zipf \u00e1p d\u1ee5ng cho \u0111i\u1ec1u g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "L\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 ph\u00e2n chia tu\u1ea7n t\u1ef1",
+        "L\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 ph\u00e2n chia ng\u1eabu nhi\u00ean",
+        "Ph\u00e2n chia tu\u1ea7n t\u1ef1 v\u00e0 ph\u00e2n chia ng\u1eabu nhi\u00ean",
+        "Ph\u00e2n chia tu\u1ea7n t\u1ef1 v\u00e0 l\u1ea5y m\u1eabu tu\u1ea7n t\u1ef1"
+      ],
+      "question": "C\u00e1c t\u00f9y ch\u1ecdn ch\u00ednh \u0111\u1ec3 \u0111\u1ecdc c\u00e1c chu\u1ed7i d\u1eef li\u1ec7u d\u00e0i l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "L\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean",
+        "Ph\u00e2n chia tu\u1ea7n t\u1ef1",
+        "Ph\u00e2n chia ng\u1eabu nhi\u00ean",
+        "L\u1ea5y m\u1eabu tu\u1ea7n t\u1ef1"
+      ],
+      "question": "\u00dd t\u01b0\u1edfng t\u1ed1t \u0111\u1ec3 c\u00f3 l\u00e0m k\u1ebf ho\u1ea1ch d\u1ef1 ph\u00f2ng l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "D\u1ef1 \u0111o\u00e1n m\u00e3 th\u00f4ng b\u00e1o ti\u1ebfp theo d\u1ef1a tr\u00ean m\u00e3 th\u00f4ng b\u00e1o hi\u1ec7n t\u1ea1i v\u00e0 qu\u00e1 kh\u1ee9",
+        "N\u1ed1i c\u00e1c ma tr\u1eadn",
+        "T\u00ednh t\u00edch v\u00f4 h\u01b0\u1edbng c\u1ee7a c\u00e1c ma tr\u1eadn",
+        "T\u1ea1o ra tr\u1ea1ng th\u00e1i \u1ea9n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a RNN trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(3, 4)",
+        "(4, 3)",
+        "(3, 1)",
+        "(1, 4)"
+      ],
+      "question": "H\u00ecnh d\u1ea1ng c\u1ee7a ma tr\u1eadn thu \u0111\u01b0\u1ee3c b\u1eb1ng c\u00e1ch nh\u00e2n X v\u1edbi W_xh v\u00e0 H v\u1edbi W_hh l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (3, 4)",
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (4, 3)",
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (3, 5)",
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (5, 4)"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c n\u1ed1i X v\u00e0 H v\u1edbi W_xh v\u00e0 W_hh l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "B\u1eb1ng c\u00e1ch t\u00ednh perplexity",
+        "B\u1eb1ng c\u00e1ch t\u00ednh t\u00edch v\u00f4 h\u01b0\u1edbng",
+        "B\u1eb1ng c\u00e1ch t\u00ednh cross-entropy",
+        "B\u1eb1ng c\u00e1ch t\u00ednh softmax"
+      ],
+      "question": "L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 ch\u1ea5t l\u01b0\u1ee3ng c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u0110\u1ec3 d\u1ec5 d\u00e0ng \u0111\u1ecdc d\u1eef li\u1ec7u",
+        "\u0110\u1ec3 bi\u1ec3u di\u1ec5n m\u1ed7i token d\u01b0\u1edbi d\u1ea1ng vector \u0111\u1eb7c tr\u01b0ng",
+        "\u0110\u1ec3 gi\u1ea3m s\u1ed1 chi\u1ec1u c\u1ee7a d\u1eef li\u1ec7u",
+        "\u0110\u1ec3 c\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c m\u00e3 h\u00f3a c\u00e1c token th\u00e0nh c\u00e1c vector one-hot l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "(batch_size, num_steps, vocab_size)",
+        "(num_steps, batch_size, vocab_size)",
+        "(vocab_size, num_steps, batch_size)",
+        "(vocab_size, batch_size, num_steps)"
+      ],
+      "question": "H\u00ecnh d\u1ea1ng c\u1ee7a tensor sau khi \u00e1p d\u1ee5ng h\u00e0m one_hot cho m\u1ed9t minibatch l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Kh\u1edfi t\u1ea1o c\u00e1c tham s\u1ed1 c\u1ee7a hidden layer trong m\u00f4 h\u00ecnh RNN",
+        "Kh\u1edfi t\u1ea1o c\u00e1c tham s\u1ed1 c\u1ee7a output layer trong m\u00f4 h\u00ecnh RNN",
+        "Kh\u1edfi t\u1ea1o tr\u1ea1ng th\u00e1i c\u1ee7a m\u00f4 h\u00ecnh RNN \u1edf \u0111\u1ea7u m\u1ed7i b\u01b0\u1edbc th\u1eddi gian",
+        "Kh\u1edfi t\u1ea1o tr\u1ea1ng th\u00e1i c\u1ee7a m\u00f4 h\u00ecnh RNN \u1edf cu\u1ed1i m\u1ed7i b\u01b0\u1edbc th\u1eddi gian"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m init_rnn_state l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(batch_size, num_hiddens)",
+        "(num_hiddens, batch_size)",
+        "(batch_size, vocab_size)",
+        "(vocab_size, batch_size)"
+      ],
+      "question": "H\u00ecnh d\u1ea1ng c\u1ee7a hidden state trong m\u00f4 h\u00ecnh RNN l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u1ea1o ra c\u00e1c k\u00fd t\u1ef1 m\u1edbi theo m\u1ed9t ti\u1ec1n t\u1ed1 cho tr\u01b0\u1edbc",
+        "T\u00ednh to\u00e1n gradient c\u1ee7a m\u00f4 h\u00ecnh RNN",
+        "C\u1eadp nh\u1eadt c\u00e1c tham s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh RNN",
+        "\u0110\u00e1nh gi\u00e1 hi\u1ec7u su\u1ea5t c\u1ee7a m\u00f4 h\u00ecnh RNN"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m predict_ch8 l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u0110\u1ec3 d\u1ec5 d\u00e0ng t\u00ednh to\u00e1n gradient",
+        "Ng\u0103n ch\u1eb7n gradient b\u1ecb ph\u00ecnh to ho\u1eb7c bi\u1ebfn m\u1ea5t",
+        "Gi\u1ea3m s\u1ed1 chi\u1ec1u c\u1ee7a gradient",
+        "C\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "T\u1ea1i sao c\u1ea7n c\u1eaft gradient trong c\u00e1c m\u00f4 h\u00ecnh RNN?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ec3 \u1ed5n \u0111\u1ecbnh qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n",
+        "\u0110\u1ec3 t\u0103ng t\u1ef7 l\u1ec7 h\u1ecdc",
+        "\u0110\u1ec3 gi\u1ea3m s\u1ed1 l\u01b0\u1ee3ng tham s\u1ed1",
+        "\u0110\u1ec3 c\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c c\u1eaft gradient trong m\u00f4 h\u00ecnh RNN l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Gi\u1edbi h\u1ea1n \u0111\u1ed9 l\u1edbn c\u1ee7a gradient trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n",
+        "T\u0103ng t\u1ef7 l\u1ec7 h\u1ecdc trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n",
+        "Gi\u1ea3m s\u1ed1 l\u01b0\u1ee3ng tham s\u1ed1 trong m\u00f4 h\u00ecnh",
+        "C\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c c\u1eaft gradient l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "N\u00f3 gi\u1edbi thi\u1ec7u s\u1ef1 ng\u1eabu nhi\u00ean v\u00e0 c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng t\u1ed5ng qu\u00e1t h\u00f3a c\u1ee7a m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m th\u1eddi gian hu\u1ea5n luy\u1ec7n",
+        "T\u0103ng kh\u1ea3 n\u0103ng c\u1ee7a m\u00f4 h\u00ecnh",
+        "C\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "L\u1ee3i \u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng m\u1eabu ng\u1eabu nhi\u00ean trong hu\u1ea5n luy\u1ec7n m\u00f4 h\u00ecnh RNN l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "Ng\u0103n ch\u1eb7n s\u1ef1 ph\u00ecnh to c\u1ee7a gradient",
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "L\u00e0m t\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng gradient clipping l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "T\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n",
+        "C\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng t\u1ed5ng qu\u00e1t h\u00f3a"
+      ],
+      "question": "L\u1ee3i \u00edch c\u1ee7a vi\u1ec7c thay th\u1ebf m\u00e3 h\u00f3a one-hot b\u1eb1ng vi\u1ec7c h\u1ecdc nh\u00fang l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "M\u00e3 ch\u1ea1y m\u00e0 kh\u00f4ng g\u1eb7p v\u1ea5n \u0111\u1ec1 g\u00ec",
+        "M\u00e3 t\u1ea1o ra k\u1ebft qu\u1ea3 kh\u00f4ng ch\u00ednh x\u00e1c",
+        "M\u00e3 ch\u1ea1y ch\u1eadm h\u01a1n",
+        "M\u00e3 g\u00e2y ra l\u1ed7i"
+      ],
+      "question": "\u0110i\u1ec1u g\u00ec x\u1ea3y ra khi ch\u1ea1y m\u00e3 trong ph\u1ea7n n\u00e0y m\u00e0 kh\u00f4ng s\u1eed d\u1ee5ng gradient clipping?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "Ng\u0103n ch\u1eb7n s\u1ef1 ph\u00ecnh to c\u1ee7a gradient",
+        "L\u00e0m t\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng h\u00e0m k\u00edch ho\u1ea1t ReLU trong ph\u1ea7n n\u00e0y l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "Ng\u0103n ch\u1eb7n s\u1ef1 ph\u00ecnh to c\u1ee7a gradient",
+        "L\u00e0m t\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng h\u00e0m `detach` trong ph\u1ea7n n\u00e0y l\u00e0 g\u00ec?"
+    }
+  ]
+}
