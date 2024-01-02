@@ -13,3 +13,5 @@
 
   - Response as json type:
     + response_data = {"en_res": en_res, "vi_res": vi_res}
+
+![me](https://github.com/Daisyliu6/Daisyliu6/blob/master/me.gif)
