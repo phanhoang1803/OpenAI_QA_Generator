@@ -6,6 +6,9 @@
   - Run app.py: py app.py
   - Then run demo_call_api.py: py demo_call_api.py
 
+### Run website:
+  - Run file index.js in templates: node index.js
+
 ### To call api:
   - Call by POST method: 
   	+ url : http://localhost:5000/mcq
