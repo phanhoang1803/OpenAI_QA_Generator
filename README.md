@@ -1,7 +1,7 @@
 # OpenAI_QA_Generator
 
 ## Demo:
-<img src="https://github.com/phanhoang1803/OpenAI_QA_Generator/blob/main/MCQ_Generator_Demo.gif" width="800" height="600">
+![](https://github.com/phanhoang1803/OpenAI_QA_Generator/blob/main/MCQ_Generator_Demo.gif)
 
 ## To run demo:
   - Install requirements: pip install -r requirements. txt
