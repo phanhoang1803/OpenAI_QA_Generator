@@ -54,7 +54,7 @@
     "options": [
       "Reproduction, mutation, competition, and selection",
       "Adaptation, mutation, competition, and selection",
-      "Reproduction, adaptation, mutation, and selection",
+      "Reproduction, adaptation, competition, and selection",
       "Reproduction, mutation, adaptation, and selection"
     ],
     "answer": "A"
@@ -112,12 +112,12 @@
   {
     "question": "What is the explanation provided by Michalewicz for generating a population with increasing fitness?",
     "options": [
-      "The breeding of rabbits",
-      "The survival of rabbits",
-      "The speed of rabbits",
-      "The genetic structure of rabbits"
+      "The breeding of rabbits with superior fitness",
+      "The survival of faster rabbits",
+      "The combination of genes from fast rabbits",
+      "The environmental challenges faced by rabbits"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "What is the purpose of simulating natural evolution in a computer?",
@@ -215,7 +215,7 @@
       "To improve the average fitness of the population",
       "To provide a guarantee that the search algorithm is not trapped on a local optimum",
       "To create new offspring through crossover",
-      "To select the fittest chromosomes for mating"
+      "To select the fittest species for breeding"
     ],
     "answer": "B"
   },
@@ -263,9 +263,9 @@
     "question": "What is the purpose of performance graphs in a genetic algorithm?",
     "options": [
       "To calculate the fitness of each chromosome",
-      "To convert binary strings into decimal values",
-      "To represent the behavior of the algorithm over generations",
-      "To randomly generate an initial population"
+      "To represent problem variables as a chromosome",
+      "To display the GA's performance",
+      "To convert binary strings into decimal values"
     ],
     "answer": "C"
   },
@@ -305,7 +305,7 @@
       "The probability is higher for short schemata than for long ones.",
       "The probability is higher for long schemata than for short ones.",
       "The probability is the same for all schemata.",
-      "The probability cannot be determined."
+      "The probability depends on the order of the schema."
     ],
     "answer": "A"
   },
@@ -315,7 +315,7 @@
       "The probability is higher for low-order schemata than for high-order ones.",
       "The probability is higher for high-order schemata than for low-order ones.",
       "The probability is the same for all schemata.",
-      "The probability cannot be determined."
+      "The probability depends on the defining length of the schema."
     ],
     "answer": "A"
   },
@@ -400,34 +400,54 @@
     "answer": "B"
   },
   {
-    "question": "What does a negative net reserve at any interval indicate?",
+    "question": "How is the fitness of a chromosome determined?",
     "options": [
-      "A legal schedule",
-      "An illegal schedule",
-      "A good maintenance schedule",
-      "A bad maintenance schedule"
+      "By counting the number of constraint violations",
+      "By subtracting the sum of capacities from the total installed capacity",
+      "By subtracting the maximum loads from the net reserves",
+      "By taking the lowest net reserve value"
     ],
-    "answer": "B"
+    "answer": "D"
+  },
+  {
+    "question": "What happens if the net reserve at any interval is negative?",
+    "options": [
+      "The chromosome is considered illegal",
+      "The chromosome's fitness remains unchanged",
+      "The chromosome is selected for mating",
+      "The chromosome is mutated"
+    ],
+    "answer": "A"
   },
   {
     "question": "What is the purpose of the crossover operator in the genetic algorithm?",
     "options": [
       "To randomly select genes from the corresponding pools",
       "To evaluate the chromosome performance",
-      "To exchange parental genes after a cut",
-      "To replace a gene with a randomly selected gene"
+      "To create an initial population of chromosomes",
+      "To exchange parental genes and create children"
     ],
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What is the purpose of the mutation operator in the genetic algorithm?",
     "options": [
-      "To determine the number of intervals required for maintenance",
+      "To randomly select genes from the corresponding pools",
       "To evaluate the chromosome performance",
-      "To select the genes for each unit",
-      "To randomly replace a gene with a gene from the corresponding pool"
+      "To create an initial population of chromosomes",
+      "To randomly change a gene in a chromosome"
     ],
     "answer": "D"
+  },
+  {
+    "question": "What factors should be considered when choosing the population size and number of generations in the genetic algorithm?",
+    "options": [
+      "The problem being solved and the problem coding scheme",
+      "The number of units and intervals in the maintenance schedule",
+      "The fitness function and the crossover operator",
+      "The mutation rate and the gene pools"
+    ],
+    "answer": "A"
   },
   {
     "question": "What is the minimum net reserve for the best schedule created by 50 generations of 20 chromosomes?",
@@ -452,12 +472,12 @@
   {
     "question": "What is the minimum net reserve for the best schedule after increasing the mutation rate to 0.01?",
     "options": [
+      "10 MW",
       "15 MW",
       "20 MW",
-      "25 MW",
-      "30 MW"
+      "25 MW"
     ],
-    "answer": "C"
+    "answer": "D"
   },
   {
     "question": "What approach was proposed in Germany in the early 1960s to simulate natural evolution?",
@@ -530,22 +550,22 @@
     "answer": "A"
   },
   {
-    "question": "What is the graphical representation of a LISP S-expression?",
+    "question": "How are LISP S-expressions depicted?",
     "options": [
-      "A rooted point-labelled tree with ordered branches",
-      "A sequence of operations applied to values",
-      "A collection of items inside a pair of parentheses",
-      "A string of binary numbers"
+      "As a sequence of operations and values",
+      "As a rooted point-labelled tree with ordered branches",
+      "As a collection of items inside a pair of parentheses",
+      "As a combination of functions and terminals"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "What is the purpose of the fitness function in genetic programming?",
+    "question": "What are the preparatory steps before applying genetic programming to a problem?",
     "options": [
-      "To evaluate the performance of a computer program",
-      "To determine the set of terminals",
-      "To select the set of primitive functions",
-      "To define the parameters for controlling the run"
+      "Determine the set of terminals, select the set of primitive functions, define the fitness function, decide on the parameters for controlling the run, choose the method for designating a result of the run",
+      "Choose the method for designating a result of the run, define the fitness function, select the set of primitive functions, determine the set of terminals, decide on the parameters for controlling the run",
+      "Decide on the parameters for controlling the run, determine the set of terminals, define the fitness function, select the set of primitive functions, choose the method for designating a result of the run",
+      "Select the set of primitive functions, determine the set of terminals, define the fitness function, decide on the parameters for controlling the run, choose the method for designating a result of the run"
     ],
     "answer": "A"
   },
@@ -592,10 +612,10 @@
   {
     "question": "What does the crossover operator do in genetic programming?",
     "options": [
-      "It combines randomly chosen parts of two parents to create two offspring",
-      "It randomly changes any function or terminal in a computer program",
-      "It selects the fittest individual as the result of a run",
-      "It assigns the maximum number of generations to be run"
+      "Exchanges randomly chosen parts of two parents to create two offspring",
+      "Replaces a function with a terminal in a computer program",
+      "Randomly changes any function or terminal in a computer program",
+      "Selects the fittest individual for reproduction"
     ],
     "answer": "A"
   },
@@ -610,12 +630,22 @@
     "answer": "A"
   },
   {
-    "question": "What can be replaced under mutation in genetic programming?",
+    "question": "What can be changed under mutation in genetic programming?",
     "options": [
-      "A function can only be replaced by a function and a terminal can only be replaced by a terminal",
-      "A function can be replaced by a terminal and a terminal can be replaced by a function",
-      "A function can be replaced by another function or a terminal, and a terminal can be replaced by another terminal or a function",
-      "A function can be replaced by any other function or terminal, and a terminal can be replaced by any other terminal or function"
+      "Any function or any terminal",
+      "Only functions",
+      "Only terminals",
+      "Only the fitness function"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the first step in genetic programming?",
+    "options": [
+      "Assign the maximum number of generations and probabilities",
+      "Generate an initial population of computer programs",
+      "Execute each computer program and calculate its fitness",
+      "Select a genetic operator to perform cloning, crossover, or mutation"
     ],
     "answer": "A"
   },
@@ -700,42 +730,182 @@
     "answer": "A"
   },
   {
-    "question": "Which book is NOT listed in the bibliography?",
+    "question": "Which book was written by Whitley?",
     "options": [
       "Foundations of Genetic Algorithms 2",
       "The Theory of Evolution Strategies",
-      "Genetic Algorithms and Robotics",
+      "Designing Efficient Parallel Genetic Algorithms",
       "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "Which book is written by J.R. Koza?",
+    "question": "In which city was the 6th International Congress on Genetics held?",
     "options": [
-      "Genetic Algorithms and Engineering Design",
-      "Genetic Programming: On the Programming of Computers by Means of Natural Selection",
-      "Genetic Algorithms for Control and Signal Processing",
-      "Genetic Algorithms: Concepts and Designs"
+      "San Francisco, CA",
+      "Ithaca, NY",
+      "Boston",
+      "Heidelberg"
     ],
     "answer": "B"
   },
   {
-    "question": "Which book is NOT published by Kluwer Academic Publishers?",
+    "question": "Which book was written by Beyer?",
     "options": [
       "Noisy Optimization with Evolution Strategies",
+      "The Theory of Evolution Strategies",
       "Designing Efficient Parallel Genetic Algorithms",
-      "Genetic Programming IV: Routine Human-Competitive Machine Intelligence",
-      "Grammatical Evolution: Evolutionary Automatic Programming in an Arbitrary Language"
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Cantu-Paz?",
+    "options": [
+      "Foundations of Genetic Algorithms 2",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
     ],
     "answer": "C"
   },
   {
-    "question": "Which book is written by D.A. Coley?",
+    "question": "Which book was written by Christian?",
+    "options": [
+      "Illustrating Evolutionary Computation with Mathematica",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Coley?",
     "options": [
       "An Introduction to Genetic Algorithms for Scientists and Engineers",
-      "Genetic Algorithms and Engineering Optimization",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Davidor?",
+    "options": [
+      "Genetic Algorithms and Robotics",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Gen and Cheng?",
+    "options": [
+      "Genetic Algorithms and Engineering Design",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Goldberg?",
+    "options": [
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Haupt and Haupt?",
+    "options": [
+      "Practical Genetic Algorithms",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Koza?",
+    "options": [
+      "Genetic Programming: On the Programming of Computers by Means of Natural Selection",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Koza, Bennett III, Andre, and Keane?",
+    "options": [
       "Genetic Programming III: Darwinian Invention and Problem Solving",
-      "Genetic Programming and Data Structures: Genetic Programming + Data Structures = Automatic Programming!"
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Koza, Keane, Streeter, Mydlowec, Yu, and Lanza?",
+    "options": [
+      "Genetic Programming IV: Routine Human-Competitive Machine Intelligence",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Langdon?",
+    "options": [
+      "Genetic Programming and Data Structures: Genetic Programming + Data Structures = Automatic Programming!",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Langdon and Poli?",
+    "options": [
+      "Foundations of Genetic Programming",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Man, Tang, Kwong, and Halang?",
+    "options": [
+      "Genetic Algorithms for Control and Signal Processing",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by Man, Tang, and Kwong?",
+    "options": [
+      "Genetic Algorithms: Concepts and Designs",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book was written by O\u2019Neill and Ryan?",
+    "options": [
+      "Grammatical Evolution: Evolutionary Automatic Programming in an Arbitrary Language",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
     ],
     "answer": "A"
   }

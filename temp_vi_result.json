@@ -54,7 +54,7 @@
     "options": [
       "Sinh s\u1ea3n, \u0111\u1ed9t bi\u1ebfn, c\u1ea1nh tranh v\u00e0 l\u1ef1a ch\u1ecdn",
       "Th\u00edch nghi, \u0111\u1ed9t bi\u1ebfn, c\u1ea1nh tranh v\u00e0 l\u1ef1a ch\u1ecdn",
-      "Sinh s\u1ea3n, th\u00edch nghi, \u0111\u1ed9t bi\u1ebfn v\u00e0 l\u1ef1a ch\u1ecdn",
+      "Sinh s\u1ea3n, th\u00edch nghi, c\u1ea1nh tranh v\u00e0 l\u1ef1a ch\u1ecdn",
       "Sinh s\u1ea3n, \u0111\u1ed9t bi\u1ebfn, th\u00edch nghi v\u00e0 l\u1ef1a ch\u1ecdn"
     ],
     "answer": "A"
@@ -95,7 +95,7 @@
       "S\u1ef1 thay \u0111\u1ed5i m\u00f4i tr\u01b0\u1eddng t\u0129nh",
       "H\u00e0m li\u00ean t\u1ee5c c\u1ee7a th\u00edch \u1ee9ng",
       "S\u1ef1 thay \u0111\u1ed5i h\u00ecnh d\u1ea1ng c\u1ee7a c\u1ea5u tr\u00fac",
-      "L\u1ef1a ch\u1ecdn lo\u00e0i"
+      "S\u1ef1 l\u1ef1a ch\u1ecdn c\u1ee7a c\u00e1c lo\u00e0i"
     ],
     "answer": "C"
   },
@@ -103,21 +103,21 @@
     "question": "M\u1ee5c ti\u00eau c\u1ee7a ti\u1ebfn h\u00f3a l\u00e0 g\u00ec?",
     "options": [
       "T\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 c\u00e1 th\u1ec3 c\u00f3 kh\u1ea3 n\u0103ng th\u00edch \u1ee9ng t\u0103ng d\u1ea7n",
-      "M\u00f4 ph\u1ecfng t\u1ef1 nhi\u00ean l\u1ef1a ch\u1ecdn v\u00e0 di truy\u1ec1n",
+      "M\u00f4 ph\u1ecfng s\u1ef1 l\u1ef1a ch\u1ecdn t\u1ef1 nhi\u00ean v\u00e0 di truy\u1ec1n",
       "T\u1ed1i \u01b0u h\u00f3a s\u1ef1 s\u1ed1ng trong m\u00f4i tr\u01b0\u1eddng thay \u0111\u1ed5i",
       "T\u1ea1o ra h\u00e0nh vi th\u00f4ng minh"
     ],
     "answer": "A"
   },
   {
-    "question": "Gi\u1ea3i th\u00edch n\u00e0o \u0111\u01b0\u1ee3c cung c\u1ea5p b\u1edfi Michalewicz \u0111\u1ec3 t\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 c\u00f3 kh\u1ea3 n\u0103ng th\u00edch \u1ee9ng t\u0103ng d\u1ea7n?",
+    "question": "Gi\u1ea3i th\u00edch c\u1ee7a Michalewicz \u0111\u1ec3 t\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 c\u00f3 kh\u1ea3 n\u0103ng th\u00edch \u1ee9ng t\u0103ng d\u1ea7n l\u00e0 g\u00ec?",
     "options": [
-      "S\u1ef1 sinh s\u1ea3n c\u1ee7a th\u1ecf",
-      "S\u1ef1 s\u1ed1ng s\u00f3t c\u1ee7a th\u1ecf",
-      "T\u1ed1c \u0111\u1ed9 c\u1ee7a th\u1ecf",
-      "C\u1ea5u tr\u00fac di truy\u1ec1n c\u1ee7a th\u1ecf"
+      "S\u1ef1 lai t\u1ea1o c\u1ee7a th\u1ecf v\u1edbi kh\u1ea3 n\u0103ng th\u00edch \u1ee9ng cao",
+      "S\u1ef1 s\u1ed1ng s\u00f3t c\u1ee7a th\u1ecf nhanh h\u01a1n",
+      "S\u1ef1 k\u1ebft h\u1ee3p c\u1ee7a gen t\u1eeb th\u1ecf nhanh",
+      "Nh\u1eefng th\u00e1ch th\u1ee9c m\u00f4i tr\u01b0\u1eddng m\u00e0 th\u1ecf ph\u1ea3i \u0111\u1ed1i m\u1eb7t"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
     "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c m\u00f4 ph\u1ecfng ti\u1ebfn h\u00f3a t\u1ef1 nhi\u00ean tr\u00ean m\u00e1y t\u00ednh l\u00e0 g\u00ec?",
@@ -140,12 +140,12 @@
     "answer": "A"
   },
   {
-    "question": "M\u00e3 h\u00f3a trong thu\u1eadt to\u00e1n di truy\u1ec1n \u0111\u01b0\u1ee3c th\u1ef1c hi\u1ec7n nh\u01b0 th\u1ebf n\u00e0o?",
+    "question": "M\u00e3 h\u00f3a \u0111\u01b0\u1ee3c th\u1ef1c hi\u1ec7n nh\u01b0 th\u1ebf n\u00e0o trong thu\u1eadt to\u00e1n di truy\u1ec1n?",
     "options": [
-      "Bi\u1ec3u di\u1ec5n nhi\u1ec5m s\u1eafc th\u1ec3 d\u01b0\u1edbi d\u1ea1ng chu\u1ed7i c\u00e1c s\u1ed1 1 v\u00e0 0",
-      "Trao \u0111\u1ed5i c\u00e1c ph\u1ea7n c\u1ee7a hai nhi\u1ec5m s\u1eafc th\u1ec3 \u0111\u01a1n",
-      "Thay \u0111\u1ed5i gi\u00e1 tr\u1ecb gen \u1edf m\u1ed9t v\u1ecb tr\u00ed \u0111\u01b0\u1ee3c ch\u1ecdn ng\u1eabu nhi\u00ean",
-      "\u0110o hi\u1ec7u su\u1ea5t c\u1ee7a c\u00e1c nhi\u1ec5m s\u1eafc th\u1ec3"
+      "B\u1eb1ng c\u00e1ch bi\u1ec3u di\u1ec5n nhi\u1ec5m s\u1eafc th\u1ec3 d\u01b0\u1edbi d\u1ea1ng chu\u1ed7i c\u00e1c s\u1ed1 m\u1ed9t v\u00e0 s\u1ed1 kh\u00f4ng",
+      "B\u1eb1ng c\u00e1ch trao \u0111\u1ed5i c\u00e1c ph\u1ea7n c\u1ee7a hai nhi\u1ec5m s\u1eafc th\u1ec3 \u0111\u01a1n",
+      "B\u1eb1ng c\u00e1ch thay \u0111\u1ed5i gi\u00e1 tr\u1ecb gen \u1edf m\u1ed9t s\u1ed1 v\u1ecb tr\u00ed \u0111\u01b0\u1ee3c ch\u1ecdn ng\u1eabu nhi\u00ean",
+      "B\u1eb1ng c\u00e1ch \u0111o hi\u1ec7u su\u1ea5t c\u1ee7a c\u00e1c nhi\u1ec5m s\u1eafc th\u1ec3"
     ],
     "answer": "A"
   },
@@ -162,10 +162,10 @@
   {
     "question": "Ti\u00eau ch\u00ed k\u1ebft th\u00fac cho thu\u1eadt to\u00e1n di truy\u1ec1n l\u00e0 g\u00ec?",
     "options": [
-      "S\u1ed1 th\u1ebf h\u1ec7 x\u00e1c \u0111\u1ecbnh",
+      "M\u1ed9t s\u1ed1 th\u1ebf h\u1ec7 \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh",
       "S\u1ef1 \u1ed5n \u0111\u1ecbnh v\u1ec1 s\u1ef1 th\u00edch nghi c\u1ee7a qu\u1ea7n th\u1ec3",
       "S\u1ef1 xu\u1ea5t hi\u1ec7n c\u1ee7a m\u1ed9t nhi\u1ec5m s\u1eafc th\u1ec3 \u01b0u vi\u1ec7t",
-      "K\u00edch th\u01b0\u1edbc qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u"
+      "K\u00edch th\u01b0\u1edbc c\u1ee7a qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u"
     ],
     "answer": "A"
   },
@@ -215,7 +215,7 @@
       "C\u1ea3i thi\u1ec7n s\u1ef1 th\u00edch nghi trung b\u00ecnh c\u1ee7a qu\u1ea7n th\u1ec3",
       "\u0110\u1ea3m b\u1ea3o thu\u1eadt to\u00e1n t\u00ecm ki\u1ebfm kh\u00f4ng b\u1ecb m\u1eafc k\u1eb9t \u1edf c\u1ef1c \u0111\u1ea1i c\u1ee5c b\u1ed9",
       "T\u1ea1o ra con c\u00e1i m\u1edbi th\u00f4ng qua lai gh\u00e9p",
-      "Ch\u1ecdn ra nh\u1eefng gen m\u1ea1nh nh\u1ea5t \u0111\u1ec3 giao ph\u1ed1i"
+      "Ch\u1ecdn lo\u00e0i m\u1ea1nh nh\u1ea5t \u0111\u1ec3 lai t\u1ea1o"
     ],
     "answer": "B"
   },
@@ -225,7 +225,7 @@
       "T\u00ednh to\u00e1n \u0111\u1ed9 th\u00edch nghi c\u1ee7a m\u1ed7i nhi\u1ec5m s\u1eafc th\u1ec3",
       "Chuy\u1ec3n \u0111\u1ed5i chu\u1ed7i nh\u1ecb ph\u00e2n th\u00e0nh gi\u00e1 tr\u1ecb th\u1eadp ph\u00e2n",
       "Ng\u1eabu nhi\u00ean t\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u",
-      "Bi\u1ec3u di\u1ec5n c\u00e1c bi\u1ebfn c\u1ee7a v\u1ea5n \u0111\u1ec1 d\u01b0\u1edbi d\u1ea1ng m\u1ed9t nhi\u1ec5m s\u1eafc th\u1ec3"
+      "Bi\u1ec3u di\u1ec5n c\u00e1c bi\u1ebfn c\u1ee7a b\u00e0i to\u00e1n d\u01b0\u1edbi d\u1ea1ng nhi\u1ec5m s\u1eafc th\u1ec3"
     ],
     "answer": "B"
   },
@@ -255,7 +255,7 @@
       "T\u00ednh to\u00e1n \u0111\u1ed9 th\u00edch nghi c\u1ee7a m\u1ed7i nhi\u1ec5m s\u1eafc th\u1ec3",
       "Chuy\u1ec3n \u0111\u1ed5i chu\u1ed7i nh\u1ecb ph\u00e2n th\u00e0nh gi\u00e1 tr\u1ecb th\u1eadp ph\u00e2n",
       "Ng\u1eabu nhi\u00ean t\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u",
-      "Kh\u00e1m ph\u00e1 c\u1ea3nh quan theo m\u1ed9t c\u00e1ch ng\u1eabu nhi\u00ean"
+      "Kh\u00e1m ph\u00e1 \u0111\u1ecba h\u00ecnh theo c\u00e1ch ng\u1eabu nhi\u00ean"
     ],
     "answer": "D"
   },
@@ -263,9 +263,9 @@
     "question": "M\u1ee5c \u0111\u00edch c\u1ee7a \u0111\u1ed3 th\u1ecb hi\u1ec7u su\u1ea5t trong thu\u1eadt to\u00e1n di truy\u1ec1n l\u00e0 g\u00ec?",
     "options": [
       "T\u00ednh to\u00e1n \u0111\u1ed9 th\u00edch nghi c\u1ee7a m\u1ed7i nhi\u1ec5m s\u1eafc th\u1ec3",
-      "Chuy\u1ec3n \u0111\u1ed5i chu\u1ed7i nh\u1ecb ph\u00e2n th\u00e0nh gi\u00e1 tr\u1ecb th\u1eadp ph\u00e2n",
-      "Bi\u1ec3u di\u1ec5n h\u00e0nh vi c\u1ee7a thu\u1eadt to\u00e1n qua c\u00e1c th\u1ebf h\u1ec7",
-      "Ng\u1eabu nhi\u00ean t\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u"
+      "Bi\u1ec3u di\u1ec5n c\u00e1c bi\u1ebfn c\u1ee7a b\u00e0i to\u00e1n d\u01b0\u1edbi d\u1ea1ng nhi\u1ec5m s\u1eafc th\u1ec3",
+      "Hi\u1ec3n th\u1ecb hi\u1ec7u su\u1ea5t c\u1ee7a thu\u1eadt to\u00e1n di truy\u1ec1n",
+      "Chuy\u1ec3n \u0111\u1ed5i chu\u1ed7i nh\u1ecb ph\u00e2n th\u00e0nh gi\u00e1 tr\u1ecb th\u1eadp ph\u00e2n"
     ],
     "answer": "C"
   },
@@ -283,7 +283,7 @@
     "question": "Th\u1ee9 t\u1ef1 c\u1ee7a m\u1ed9t schema l\u00e0 g\u00ec?",
     "options": [
       "S\u1ed1 bit \u0111\u00e3 x\u00e1c \u0111\u1ecbnh trong m\u1ed9t schema.",
-      "S\u1ed1 d\u1ea5u sao trong m\u1ed9t schema.",
+      "S\u1ed1 d\u1ea5u hoa th\u1ecb trong m\u1ed9t schema.",
       "S\u1ed1 chromosome trong m\u1ed9t schema.",
       "S\u1ed1 l\u1ea7n xu\u1ea5t hi\u1ec7n c\u1ee7a m\u1ed9t schema."
     ],
@@ -305,7 +305,7 @@
       "X\u00e1c su\u1ea5t cao h\u01a1n \u0111\u1ed1i v\u1edbi c\u00e1c schemata ng\u1eafn h\u01a1n so v\u1edbi c\u00e1c schemata d\u00e0i.",
       "X\u00e1c su\u1ea5t cao h\u01a1n \u0111\u1ed1i v\u1edbi c\u00e1c schemata d\u00e0i h\u01a1n so v\u1edbi c\u00e1c schemata ng\u1eafn.",
       "X\u00e1c su\u1ea5t gi\u1ed1ng nhau cho t\u1ea5t c\u1ea3 c\u00e1c schemata.",
-      "Kh\u00f4ng th\u1ec3 x\u00e1c \u0111\u1ecbnh x\u00e1c su\u1ea5t."
+      "X\u00e1c su\u1ea5t ph\u1ee5 thu\u1ed9c v\u00e0o th\u1ee9 t\u1ef1 c\u1ee7a schema."
     ],
     "answer": "A"
   },
@@ -315,7 +315,7 @@
       "X\u00e1c su\u1ea5t cao h\u01a1n \u0111\u1ed1i v\u1edbi c\u00e1c schemata th\u1ea5p h\u01a1n so v\u1edbi c\u00e1c schemata cao.",
       "X\u00e1c su\u1ea5t cao h\u01a1n \u0111\u1ed1i v\u1edbi c\u00e1c schemata cao h\u01a1n so v\u1edbi c\u00e1c schemata th\u1ea5p.",
       "X\u00e1c su\u1ea5t gi\u1ed1ng nhau cho t\u1ea5t c\u1ea3 c\u00e1c schemata.",
-      "Kh\u00f4ng th\u1ec3 x\u00e1c \u0111\u1ecbnh x\u00e1c su\u1ea5t."
+      "X\u00e1c su\u1ea5t ph\u1ee5 thu\u1ed9c v\u00e0o \u0111\u1ed9 d\u00e0i x\u00e1c \u0111\u1ecbnh c\u1ee7a schema."
     ],
     "answer": "A"
   },
@@ -323,7 +323,7 @@
     "question": "T\u1ea1i sao c\u00e1c v\u1ea5n \u0111\u1ec1 l\u1eadp l\u1ecbch l\u1ea1i kh\u00f3 kh\u0103n?",
     "options": [
       "Ch\u00fang c\u00f3 th\u1ec3 kh\u00f4ng th\u1ec3 qu\u1ea3n l\u00fd \u0111\u01b0\u1ee3c v\u00e0 kh\u00f4ng th\u1ec3 \u0111\u01b0\u1ee3c gi\u1ea3i quy\u1ebft b\u1eb1ng c\u00e1c k\u1ef9 thu\u1eadt t\u00ecm ki\u1ebfm t\u1ed5 h\u1ee3p.",
-      "Heuristics m\u1ed9t m\u00ecnh kh\u00f4ng th\u1ec3 \u0111\u1ea3m b\u1ea3o gi\u1ea3i ph\u00e1p t\u1ed1t nh\u1ea5t.",
+      "Heuristics m\u1ed9t m\u00ecnh kh\u00f4ng \u0111\u1ea3m b\u1ea3o \u0111\u01b0\u1ee3c gi\u1ea3i ph\u00e1p t\u1ed1t nh\u1ea5t.",
       "Ch\u00fang li\u00ean quan \u0111\u1ebfn s\u1ef1 c\u1ea1nh tranh v\u1ec1 t\u00e0i nguy\u00ean h\u1ea1n ch\u1ebf v\u00e0 ph\u1ee9c t\u1ea1p do nhi\u1ec1u r\u00e0ng bu\u1ed9c.",
       "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng \u00e1n tr\u00ean."
     ],
@@ -332,7 +332,7 @@
   {
     "question": "Y\u1ebfu t\u1ed1 quan tr\u1ecdng \u0111\u1ec3 th\u00e0nh c\u00f4ng c\u1ee7a thu\u1eadt to\u00e1n di truy\u1ec1n trong c\u00e1c v\u1ea5n \u0111\u1ec1 l\u1eadp l\u1ecbch l\u00e0 g\u00ec?",
     "options": [
-      "X\u00e1c \u0111\u1ecbnh m\u1ed9t h\u00e0m th\u00edch nghi t\u00edch h\u1ee3p t\u1ea5t c\u1ea3 c\u00e1c r\u00e0ng bu\u1ed9c.",
+      "X\u00e1c \u0111\u1ecbnh m\u1ed9t h\u00e0m th\u00edch nghi k\u1ebft h\u1ee3p t\u1ea5t c\u1ea3 c\u00e1c r\u00e0ng bu\u1ed9c.",
       "S\u1eed d\u1ee5ng heuristics m\u1ed9t m\u00ecnh \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o gi\u1ea3i ph\u00e1p t\u1ed1t nh\u1ea5t.",
       "Gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 b\u1eb1ng c\u00e1c k\u1ef9 thu\u1eadt t\u00ecm ki\u1ebfm t\u1ed5 h\u1ee3p.",
       "Kh\u00f4ng c\u00f3 ph\u01b0\u01a1ng \u00e1n n\u00e0o tr\u00ean."
@@ -392,42 +392,62 @@
   {
     "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m th\u00edch nghi trong thu\u1eadt to\u00e1n di truy\u1ec1n l\u00e0 g\u00ec?",
     "options": [
-      "X\u00e1c \u0111\u1ecbnh s\u1ed1 kho\u1ea3ng th\u1eddi gian c\u1ea7n thi\u1ebft cho b\u1ea3o tr\u00ec",
+      "X\u00e1c \u0111\u1ecbnh s\u1ed1 kho\u1ea3ng th\u1eddi gian c\u1ea7n thi\u1ebft cho b\u1ea3o d\u01b0\u1ee1ng",
       "\u0110\u00e1nh gi\u00e1 hi\u1ec7u su\u1ea5t c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3",
-      "Ch\u1ecdn c\u00e1c gene cho m\u1ed7i \u0111\u01a1n v\u1ecb",
+      "Ch\u1ecdn c\u00e1c gen cho m\u1ed7i \u0111\u01a1n v\u1ecb",
       "T\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3"
     ],
     "answer": "B"
   },
   {
-    "question": "M\u1ed9t d\u01b0 tr\u1eef \u00e2m t\u1ea1i b\u1ea5t k\u1ef3 kho\u1ea3ng th\u1eddi gian n\u00e0o cho th\u1ea5y \u0111i\u1ec1u g\u00ec?",
+    "question": "L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh s\u1ef1 th\u00edch nghi c\u1ee7a m\u1ed9t nhi\u1ec5m s\u1eafc th\u1ec3?",
     "options": [
-      "M\u1ed9t l\u1ecbch tr\u00ecnh h\u1ee3p l\u1ec7",
-      "M\u1ed9t l\u1ecbch tr\u00ecnh kh\u00f4ng h\u1ee3p l\u1ec7",
-      "M\u1ed9t l\u1ecbch tr\u00ecnh b\u1ea3o tr\u00ec t\u1ed1t",
-      "M\u1ed9t l\u1ecbch tr\u00ecnh b\u1ea3o tr\u00ec k\u00e9m"
+      "B\u1eb1ng c\u00e1ch \u0111\u1ebfm s\u1ed1 l\u01b0\u1ee3ng vi ph\u1ea1m r\u00e0ng bu\u1ed9c",
+      "B\u1eb1ng c\u00e1ch tr\u1eeb t\u1ed5ng dung l\u01b0\u1ee3ng t\u1eeb t\u1ed5ng dung l\u01b0\u1ee3ng \u0111\u00e3 c\u00e0i \u0111\u1eb7t",
+      "B\u1eb1ng c\u00e1ch tr\u1eeb t\u1ea3i t\u1ed1i \u0111a t\u1eeb d\u1ef1 tr\u1eef net",
+      "B\u1eb1ng c\u00e1ch l\u1ea5y gi\u00e1 tr\u1ecb d\u1ef1 tr\u1eef net th\u1ea5p nh\u1ea5t"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "M\u1ee5c \u0111\u00edch c\u1ee7a to\u00e1n t\u1eed giao thoa trong thu\u1eadt to\u00e1n di truy\u1ec1n l\u00e0 g\u00ec?",
+    "question": "\u0110i\u1ec1u g\u00ec x\u1ea3y ra n\u1ebfu d\u1ef1 tr\u1eef net t\u1ea1i b\u1ea5t k\u1ef3 kho\u1ea3ng th\u1eddi gian n\u00e0o l\u00e0 \u00e2m?",
     "options": [
-      "Ng\u1eabu nhi\u00ean ch\u1ecdn gene t\u1eeb c\u00e1c nh\u00f3m t\u01b0\u01a1ng \u1ee9ng",
-      "\u0110\u00e1nh gi\u00e1 hi\u1ec7u su\u1ea5t c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3",
-      "Trao \u0111\u1ed5i gene cha m\u1eb9 sau khi c\u1eaft",
-      "Thay th\u1ebf m\u1ed9t gene b\u1eb1ng m\u1ed9t gene \u0111\u01b0\u1ee3c ch\u1ecdn ng\u1eabu nhi\u00ean"
+      "Nhi\u1ec5m s\u1eafc th\u1ec3 \u0111\u01b0\u1ee3c coi l\u00e0 kh\u00f4ng h\u1ee3p l\u1ec7",
+      "Th\u00edch nghi c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3 kh\u00f4ng thay \u0111\u1ed5i",
+      "Nhi\u1ec5m s\u1eafc th\u1ec3 \u0111\u01b0\u1ee3c ch\u1ecdn \u0111\u1ec3 giao ph\u1ed1i",
+      "Nhi\u1ec5m s\u1eafc th\u1ec3 b\u1ecb \u0111\u1ed9t bi\u1ebfn"
     ],
-    "answer": "C"
+    "answer": "A"
+  },
+  {
+    "question": "M\u1ee5c \u0111\u00edch c\u1ee7a to\u00e1n t\u1eed giao ph\u1ed1i trong thu\u1eadt to\u00e1n di truy\u1ec1n l\u00e0 g\u00ec?",
+    "options": [
+      "Ng\u1eabu nhi\u00ean ch\u1ecdn gen t\u1eeb c\u00e1c b\u1ec3 t\u01b0\u01a1ng \u1ee9ng",
+      "\u0110\u00e1nh gi\u00e1 hi\u1ec7u su\u1ea5t c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3",
+      "T\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3",
+      "Trao \u0111\u1ed5i gen c\u1ee7a cha m\u1eb9 v\u00e0 t\u1ea1o ra con"
+    ],
+    "answer": "D"
   },
   {
     "question": "M\u1ee5c \u0111\u00edch c\u1ee7a to\u00e1n t\u1eed \u0111\u1ed9t bi\u1ebfn trong thu\u1eadt to\u00e1n di truy\u1ec1n l\u00e0 g\u00ec?",
     "options": [
-      "X\u00e1c \u0111\u1ecbnh s\u1ed1 kho\u1ea3ng th\u1eddi gian c\u1ea7n thi\u1ebft cho b\u1ea3o tr\u00ec",
+      "Ng\u1eabu nhi\u00ean ch\u1ecdn gen t\u1eeb c\u00e1c b\u1ec3 t\u01b0\u01a1ng \u1ee9ng",
       "\u0110\u00e1nh gi\u00e1 hi\u1ec7u su\u1ea5t c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3",
-      "Ch\u1ecdn c\u00e1c gene cho m\u1ed7i \u0111\u01a1n v\u1ecb",
-      "Ng\u1eabu nhi\u00ean thay th\u1ebf m\u1ed9t gene b\u1eb1ng m\u1ed9t gene t\u1eeb nh\u00f3m t\u01b0\u01a1ng \u1ee9ng"
+      "T\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u c\u1ee7a nhi\u1ec5m s\u1eafc th\u1ec3",
+      "Ng\u1eabu nhi\u00ean thay \u0111\u1ed5i m\u1ed9t gen trong m\u1ed9t nhi\u1ec5m s\u1eafc th\u1ec3"
     ],
     "answer": "D"
+  },
+  {
+    "question": "Nh\u1eefng y\u1ebfu t\u1ed1 n\u00e0o n\u00ean \u0111\u01b0\u1ee3c xem x\u00e9t khi ch\u1ecdn k\u00edch th\u01b0\u1edbc qu\u1ea7n th\u1ec3 v\u00e0 s\u1ed1 th\u1ebf h\u1ec7 trong thu\u1eadt to\u00e1n di truy\u1ec1n?",
+    "options": [
+      "V\u1ea5n \u0111\u1ec1 \u0111ang \u0111\u01b0\u1ee3c gi\u1ea3i quy\u1ebft v\u00e0 h\u1ec7 th\u1ed1ng m\u00e3 h\u00f3a v\u1ea5n \u0111\u1ec1",
+      "S\u1ed1 l\u01b0\u1ee3ng \u0111\u01a1n v\u1ecb v\u00e0 kho\u1ea3ng th\u1eddi gian trong l\u1ecbch b\u1ea3o d\u01b0\u1ee1ng",
+      "H\u00e0m th\u00edch nghi v\u00e0 to\u00e1n t\u1eed giao ph\u1ed1i",
+      "T\u1ef7 l\u1ec7 \u0111\u1ed9t bi\u1ebfn v\u00e0 c\u00e1c b\u1ec3 gen"
+    ],
+    "answer": "A"
   },
   {
     "question": "T\u1ed5ng d\u1ef1 tr\u1eef t\u1ed1i thi\u1ec3u l\u00e0 bao nhi\u00eau cho l\u1ecbch tr\u00ecnh t\u1ed1t nh\u1ea5t \u0111\u01b0\u1ee3c t\u1ea1o ra b\u1edfi 50 th\u1ebf h\u1ec7 c\u1ee7a 20 nhi\u1ec5m s\u1eafc th\u1ec3?",
@@ -452,15 +472,15 @@
   {
     "question": "T\u1ed5ng d\u1ef1 tr\u1eef t\u1ed1i thi\u1ec3u l\u00e0 bao nhi\u00eau cho l\u1ecbch tr\u00ecnh t\u1ed1t nh\u1ea5t sau khi t\u0103ng t\u1ef7 l\u1ec7 \u0111\u1ed9t bi\u1ebfn l\u00ean 0.01?",
     "options": [
+      "10 MW",
       "15 MW",
       "20 MW",
-      "25 MW",
-      "30 MW"
+      "25 MW"
     ],
-    "answer": "C"
+    "answer": "D"
   },
   {
-    "question": "Ph\u01b0\u01a1ng ph\u00e1p n\u00e0o \u0111\u01b0\u1ee3c \u0111\u1ec1 xu\u1ea5t t\u1ea1i \u0110\u1ee9c v\u00e0o \u0111\u1ea7u nh\u1eefng n\u0103m 1960 \u0111\u1ec3 m\u00f4 ph\u1ecfng ti\u1ebfn h\u00f3a t\u1ef1 nhi\u00ean?",
+    "question": "Ph\u01b0\u01a1ng ph\u00e1p n\u00e0o \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111\u1ec1 xu\u1ea5t t\u1ea1i \u0110\u1ee9c v\u00e0o \u0111\u1ea7u nh\u1eefng n\u0103m 1960 \u0111\u1ec3 m\u00f4 ph\u1ecfng ti\u1ebfn h\u00f3a t\u1ef1 nhi\u00ean?",
     "options": [
       "Gi\u1ea3i thu\u1eadt di truy\u1ec1n",
       "Chi\u1ebfn l\u01b0\u1ee3c ti\u1ebfn h\u00f3a",
@@ -530,12 +550,22 @@
     "answer": "A"
   },
   {
-    "question": "Bi\u1ec3u di\u1ec5n \u0111\u1ed3 h\u1ecda c\u1ee7a m\u1ed9t S-expression trong LISP l\u00e0 g\u00ec?",
+    "question": "S-expressions trong LISP \u0111\u01b0\u1ee3c mi\u00eau t\u1ea3 nh\u01b0 th\u1ebf n\u00e0o?",
     "options": [
-      "M\u1ed9t c\u00e2y c\u00f3 g\u1ed1c, c\u00f3 nh\u00e3n \u0111i\u1ec3m v\u00e0 c\u00e1c nh\u00e1nh \u0111\u01b0\u1ee3c s\u1eafp x\u1ebfp",
-      "M\u1ed9t chu\u1ed7i c\u00e1c ph\u00e9p to\u00e1n \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng cho c\u00e1c gi\u00e1 tr\u1ecb",
-      "M\u1ed9t t\u1eadp h\u1ee3p c\u00e1c m\u1ee5c n\u1eb1m trong c\u1eb7p d\u1ea5u ngo\u1eb7c \u0111\u01a1n",
-      "M\u1ed9t chu\u1ed7i c\u00e1c s\u1ed1 nh\u1ecb ph\u00e2n"
+      "D\u01b0\u1edbi d\u1ea1ng m\u1ed9t chu\u1ed7i c\u00e1c ph\u00e9p to\u00e1n v\u00e0 gi\u00e1 tr\u1ecb",
+      "D\u01b0\u1edbi d\u1ea1ng m\u1ed9t c\u00e2y c\u00f3 g\u1ed1c, c\u00e1c nh\u00e1nh \u0111\u01b0\u1ee3c \u0111\u00e1nh s\u1ed1 v\u00e0 c\u00f3 th\u1ee9 t\u1ef1",
+      "D\u01b0\u1edbi d\u1ea1ng m\u1ed9t t\u1eadp h\u1ee3p c\u00e1c ph\u1ea7n t\u1eed n\u1eb1m trong m\u1ed9t c\u1eb7p d\u1ea5u ngo\u1eb7c \u0111\u01a1n",
+      "D\u01b0\u1edbi d\u1ea1ng s\u1ef1 k\u1ebft h\u1ee3p c\u1ee7a c\u00e1c h\u00e0m v\u00e0 c\u00e1c terminal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "C\u00e1c b\u01b0\u1edbc chu\u1ea9n b\u1ecb tr\u01b0\u1edbc khi \u00e1p d\u1ee5ng l\u1eadp tr\u00ecnh di truy\u1ec1n cho m\u1ed9t v\u1ea5n \u0111\u1ec1 l\u00e0 g\u00ec?",
+    "options": [
+      "X\u00e1c \u0111\u1ecbnh t\u1eadp terminal, ch\u1ecdn t\u1eadp h\u00e0m nguy\u00ean th\u1ee7y, \u0111\u1ecbnh ngh\u0129a h\u00e0m th\u00edch nghi, quy\u1ebft \u0111\u1ecbnh c\u00e1c tham s\u1ed1 \u0111\u1ec3 \u0111i\u1ec1u khi\u1ec3n qu\u00e1 tr\u00ecnh ch\u1ea1y, ch\u1ecdn ph\u01b0\u01a1ng ph\u00e1p \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh k\u1ebft qu\u1ea3 c\u1ee7a qu\u00e1 tr\u00ecnh ch\u1ea1y",
+      "Ch\u1ecdn ph\u01b0\u01a1ng ph\u00e1p \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh k\u1ebft qu\u1ea3 c\u1ee7a qu\u00e1 tr\u00ecnh ch\u1ea1y, \u0111\u1ecbnh ngh\u0129a h\u00e0m th\u00edch nghi, ch\u1ecdn t\u1eadp h\u00e0m nguy\u00ean th\u1ee7y, x\u00e1c \u0111\u1ecbnh t\u1eadp terminal, quy\u1ebft \u0111\u1ecbnh c\u00e1c tham s\u1ed1 \u0111\u1ec3 \u0111i\u1ec1u khi\u1ec3n qu\u00e1 tr\u00ecnh ch\u1ea1y",
+      "Quy\u1ebft \u0111\u1ecbnh c\u00e1c tham s\u1ed1 \u0111\u1ec3 \u0111i\u1ec1u khi\u1ec3n qu\u00e1 tr\u00ecnh ch\u1ea1y, x\u00e1c \u0111\u1ecbnh t\u1eadp terminal, \u0111\u1ecbnh ngh\u0129a h\u00e0m th\u00edch nghi, ch\u1ecdn t\u1eadp h\u00e0m nguy\u00ean th\u1ee7y, ch\u1ecdn ph\u01b0\u01a1ng ph\u00e1p \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh k\u1ebft qu\u1ea3 c\u1ee7a qu\u00e1 tr\u00ecnh ch\u1ea1y",
+      "Ch\u1ecdn t\u1eadp h\u00e0m nguy\u00ean th\u1ee7y, x\u00e1c \u0111\u1ecbnh t\u1eadp terminal, \u0111\u1ecbnh ngh\u0129a h\u00e0m th\u00edch nghi, quy\u1ebft \u0111\u1ecbnh c\u00e1c tham s\u1ed1 \u0111\u1ec3 \u0111i\u1ec1u khi\u1ec3n qu\u00e1 tr\u00ecnh ch\u1ea1y, ch\u1ecdn ph\u01b0\u01a1ng ph\u00e1p \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh k\u1ebft qu\u1ea3 c\u1ee7a qu\u00e1 tr\u00ecnh ch\u1ea1y"
     ],
     "answer": "A"
   },
@@ -543,7 +573,7 @@
     "question": "C\u00e1c tham s\u1ed1 ch\u00ednh \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 \u0111i\u1ec1u khi\u1ec3n m\u1ed9t qu\u00e1 tr\u00ecnh ch\u1ea1y trong l\u1eadp tr\u00ecnh di truy\u1ec1n l\u00e0 g\u00ec?",
     "options": [
       "K\u00edch th\u01b0\u1edbc qu\u1ea7n th\u1ec3 v\u00e0 s\u1ed1 th\u1ebf h\u1ec7 t\u1ed1i \u0111a",
-      "H\u00e0m th\u00edch nghi v\u00e0 to\u00e1n t\u1eed giao ph\u1ed1i",
+      "H\u00e0m th\u00edch nghi v\u00e0 to\u00e1n t\u1eed giao ho\u00e1n",
       "To\u00e1n t\u1eed \u0111\u1ed9t bi\u1ebfn v\u00e0 qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u",
       "To\u00e1n t\u1eed nh\u00e2n b\u1ea3n v\u00e0 ti\u00eau ch\u00ed k\u1ebft th\u00fac"
     ],
@@ -560,7 +590,7 @@
     "answer": "A"
   },
   {
-    "question": "C\u00e1c h\u00e0m v\u00e0 bi\u1ebfn terminal \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh trong l\u1eadp tr\u00ecnh di truy\u1ec1n l\u00e0 g\u00ec?",
+    "question": "C\u00e1c h\u00e0m v\u00e0 bi\u1ebfn terminal \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh trong l\u1eadp tr\u00ecnh di truy\u1ec1n l\u00e0 g\u00ec?",
     "options": [
       "+, -, *, /, sqrt, a, b",
       "sin, cos, tan, log, x, y",
@@ -570,22 +600,22 @@
     "answer": "A"
   },
   {
-    "question": "To\u00e1n t\u1eed giao ph\u1ed1i c\u00f3 th\u1ec3 ho\u1ea1t \u0111\u1ed9ng tr\u00ean ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh kh\u00f4ng?",
+    "question": "To\u00e1n t\u1eed giao ho\u00e1n c\u00f3 th\u1ec3 ho\u1ea1t \u0111\u1ed9ng tr\u00ean c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh kh\u00f4ng?",
     "options": [
       "C\u00f3",
       "Kh\u00f4ng",
-      "T\u00f9y thu\u1ed9c v\u00e0o k\u00edch th\u01b0\u1edbc c\u1ee7a ch\u01b0\u01a1ng tr\u00ecnh",
+      "T\u00f9y thu\u1ed9c v\u00e0o k\u00edch th\u01b0\u1edbc c\u1ee7a c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh",
       "Ch\u1ec9 khi c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh c\u00f3 c\u00f9ng \u0111\u1ed9 th\u00edch nghi"
     ],
     "answer": "A"
   },
   {
-    "question": "To\u00e1n t\u1eed giao ph\u1ed1i trong l\u1eadp tr\u00ecnh di truy\u1ec1n l\u00e0m g\u00ec?",
+    "question": "To\u00e1n t\u1eed giao ho\u00e1n trong l\u1eadp tr\u00ecnh di truy\u1ec1n l\u00e0m g\u00ec?",
     "options": [
-      "N\u00f3 k\u1ebft h\u1ee3p ng\u1eabu nhi\u00ean c\u00e1c ph\u1ea7n c\u1ee7a hai cha m\u1eb9 \u0111\u1ec3 t\u1ea1o ra hai con",
-      "N\u00f3 ng\u1eabu nhi\u00ean thay \u0111\u1ed5i b\u1ea5t k\u1ef3 h\u00e0m ho\u1eb7c bi\u1ebfn terminal n\u00e0o trong ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh",
-      "N\u00f3 ch\u1ecdn c\u00e1 th\u1ec3 th\u00edch nghi nh\u1ea5t l\u00e0 k\u1ebft qu\u1ea3 c\u1ee7a m\u1ed9t qu\u00e1 tr\u00ecnh ch\u1ea1y",
-      "N\u00f3 g\u00e1n s\u1ed1 th\u1ebf h\u1ec7 t\u1ed1i \u0111a \u0111\u1ec3 ch\u1ea1y"
+      "Trao \u0111\u1ed5i ng\u1eabu nhi\u00ean c\u00e1c ph\u1ea7n c\u1ee7a hai cha m\u1eb9 \u0111\u1ec3 t\u1ea1o ra hai con",
+      "Thay th\u1ebf m\u1ed9t h\u00e0m b\u1eb1ng m\u1ed9t bi\u1ebfn terminal trong m\u1ed9t ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh",
+      "Ng\u1eabu nhi\u00ean thay \u0111\u1ed5i b\u1ea5t k\u1ef3 h\u00e0m ho\u1eb7c bi\u1ebfn terminal n\u00e0o trong m\u1ed9t ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh",
+      "Ch\u1ecdn c\u00e1 th\u1ec3 th\u00edch nghi nh\u1ea5t \u0111\u1ec3 sinh s\u1ea3n"
     ],
     "answer": "A"
   },
@@ -600,12 +630,22 @@
     "answer": "A"
   },
   {
-    "question": "C\u00f3 th\u1ec3 thay th\u1ebf g\u00ec d\u01b0\u1edbi \u0111\u1ed9t bi\u1ebfn trong l\u1eadp tr\u00ecnh di truy\u1ec1n?",
+    "question": "C\u00f3 th\u1ec3 thay \u0111\u1ed5i g\u00ec trong qu\u00e1 tr\u00ecnh \u0111\u1ed9t bi\u1ebfn trong l\u1eadp tr\u00ecnh di truy\u1ec1n?",
     "options": [
-      "M\u1ed9t h\u00e0m ch\u1ec9 c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng m\u1ed9t h\u00e0m v\u00e0 m\u1ed9t bi\u1ebfn terminal ch\u1ec9 c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng m\u1ed9t bi\u1ebfn terminal",
-      "M\u1ed9t h\u00e0m c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng m\u1ed9t bi\u1ebfn terminal v\u00e0 m\u1ed9t bi\u1ebfn terminal c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng m\u1ed9t h\u00e0m",
-      "M\u1ed9t h\u00e0m c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng m\u1ed9t h\u00e0m ho\u1eb7c m\u1ed9t bi\u1ebfn terminal, v\u00e0 m\u1ed9t bi\u1ebfn terminal c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng m\u1ed9t bi\u1ebfn terminal ho\u1eb7c m\u1ed9t h\u00e0m",
-      "M\u1ed9t h\u00e0m c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng b\u1ea5t k\u1ef3 h\u00e0m ho\u1eb7c bi\u1ebfn terminal n\u00e0o kh\u00e1c, v\u00e0 m\u1ed9t bi\u1ebfn terminal c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c thay th\u1ebf b\u1eb1ng b\u1ea5t k\u1ef3 bi\u1ebfn terminal ho\u1eb7c h\u00e0m n\u00e0o kh\u00e1c"
+      "B\u1ea5t k\u1ef3 h\u00e0m ho\u1eb7c bi\u1ebfn terminal n\u00e0o",
+      "Ch\u1ec9 c\u00e1c h\u00e0m",
+      "Ch\u1ec9 c\u00e1c bi\u1ebfn terminal",
+      "Ch\u1ec9 h\u00e0m th\u00edch nghi"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "B\u01b0\u1edbc \u0111\u1ea7u ti\u00ean trong l\u1eadp tr\u00ecnh di truy\u1ec1n l\u00e0 g\u00ec?",
+    "options": [
+      "G\u00e1n s\u1ed1 th\u1ebf h\u1ec7 t\u1ed1i \u0111a v\u00e0 x\u00e1c su\u1ea5t",
+      "T\u1ea1o ra m\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u c\u1ee7a c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh",
+      "Th\u1ef1c thi m\u1ed7i ch\u01b0\u01a1ng tr\u00ecnh m\u00e1y t\u00ednh v\u00e0 t\u00ednh to\u00e1n \u0111\u1ed9 th\u00edch nghi c\u1ee7a n\u00f3",
+      "Ch\u1ecdn m\u1ed9t to\u00e1n t\u1eed di truy\u1ec1n \u0111\u1ec3 th\u1ef1c hi\u1ec7n nh\u00e2n b\u1ea3n, giao ho\u00e1n ho\u1eb7c \u0111\u1ed9t bi\u1ebfn"
     ],
     "answer": "A"
   },
@@ -680,42 +720,172 @@
     "answer": "A"
   },
   {
-    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o KH\u00d4NG \u0111\u01b0\u1ee3c li\u1ec7t k\u00ea trong danh m\u1ee5c t\u00e0i li\u1ec7u tham kh\u1ea3o?",
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Whitley?",
     "options": [
       "Foundations of Genetic Algorithms 2",
       "The Theory of Evolution Strategies",
-      "Genetic Algorithms and Robotics",
+      "Designing Efficient Parallel Genetic Algorithms",
       "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi J.R. Koza?",
+    "question": "Th\u00e0nh ph\u1ed1 n\u00e0o \u0111\u00e3 t\u1ed5 ch\u1ee9c H\u1ed9i ngh\u1ecb Qu\u1ed1c t\u1ebf v\u1ec1 Di truy\u1ec1n l\u1ea7n th\u1ee9 6?",
     "options": [
-      "Genetic Algorithms and Engineering Design",
-      "Genetic Programming: On the Programming of Computers by Means of Natural Selection",
-      "Genetic Algorithms for Control and Signal Processing",
-      "Genetic Algorithms: Concepts and Designs"
+      "San Francisco, CA",
+      "Ithaca, NY",
+      "Boston",
+      "Heidelberg"
     ],
     "answer": "B"
   },
   {
-    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o KH\u00d4NG \u0111\u01b0\u1ee3c xu\u1ea5t b\u1ea3n b\u1edfi Kluwer Academic Publishers?",
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Beyer?",
     "options": [
       "Noisy Optimization with Evolution Strategies",
+      "The Theory of Evolution Strategies",
       "Designing Efficient Parallel Genetic Algorithms",
-      "Genetic Programming IV: Routine Human-Competitive Machine Intelligence",
-      "Grammatical Evolution: Evolutionary Automatic Programming in an Arbitrary Language"
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Cantu-Paz?",
+    "options": [
+      "Foundations of Genetic Algorithms 2",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
     ],
     "answer": "C"
   },
   {
-    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi D.A. Coley?",
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Christian?",
+    "options": [
+      "Illustrating Evolutionary Computation with Mathematica",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Coley?",
     "options": [
       "An Introduction to Genetic Algorithms for Scientists and Engineers",
-      "Genetic Algorithms and Engineering Optimization",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Davidor?",
+    "options": [
+      "Genetic Algorithms and Robotics",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Gen v\u00e0 Cheng?",
+    "options": [
+      "Genetic Algorithms and Engineering Design",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Goldberg?",
+    "options": [
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Haupt v\u00e0 Haupt?",
+    "options": [
+      "Practical Genetic Algorithms",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Koza?",
+    "options": [
+      "Genetic Programming: On the Programming of Computers by Means of Natural Selection",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Koza, Bennett III, Andre, v\u00e0 Keane?",
+    "options": [
       "Genetic Programming III: Darwinian Invention and Problem Solving",
-      "Genetic Programming and Data Structures: Genetic Programming + Data Structures = Automatic Programming!"
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Koza, Keane, Streeter, Mydlowec, Yu, v\u00e0 Lanza?",
+    "options": [
+      "Genetic Programming IV: Routine Human-Competitive Machine Intelligence",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Langdon?",
+    "options": [
+      "Genetic Programming and Data Structures: Genetic Programming + Data Structures = Automatic Programming!",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Langdon v\u00e0 Poli?",
+    "options": [
+      "Foundations of Genetic Programming",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Man, Tang, Kwong, v\u00e0 Halang?",
+    "options": [
+      "Genetic Algorithms for Control and Signal Processing",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Cu\u1ed1n s\u00e1ch n\u00e0o \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Man, Tang, v\u00e0 Kwong?",
+    "options": [
+      "Genetic Algorithms: Concepts and Designs",
+      "The Theory of Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
     ],
     "answer": "A"
   }
