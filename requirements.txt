@@ -1,0 +1,7 @@
+tensorflow==2.15.0
+transformers==4.36.2
+langchain==0.0.353
+torch==2.1.2
+flask==3.0.0
+pypdf==3.17.4
+openai==1.6.1

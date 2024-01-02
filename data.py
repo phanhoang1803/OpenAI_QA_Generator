@@ -95,7 +95,6 @@ def save_to_json(markdown_text, path):
                     json.dump(python_list, json_file, indent=2)        
 
             print("Saved.") 
-            
         except:
             print("An exception occurred")
             # raise
@@ -107,8 +106,11 @@ def format_questions(path):
     
     import json
     # Load existing JSON data
-    with open(path, 'r') as json_file:
-        data = json.load(json_file)
+    try:
+        with open(path, 'r') as json_file:
+            data = json.load(json_file)
+    except Exception as e:
+        return
     
     # Create a dictionary to store unique questions
     unique_questions = {}

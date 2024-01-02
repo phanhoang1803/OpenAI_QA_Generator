@@ -1,0 +1,3366 @@
+{
+  "en_res": [
+    {
+      "answer": "D",
+      "options": [
+        "Statistics tools",
+        "Machine learning tools",
+        "Deep learning tools",
+        "Both A and C"
+      ],
+      "question": "What are the tools used to process the data in the context of neural networks?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To represent the price of a stock over time",
+        "To demonstrate the use of statistical tools",
+        "To show the correlation between two variables",
+        "To explain the autoregressive model"
+      ],
+      "question": "What is the purpose of using the FTSE100 index in Figure 9.1.1?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "It reduces the computational complexity",
+        "It allows for easier training of a deep network",
+        "It provides more accurate predictions",
+        "It eliminates the need for statistical tools"
+      ],
+      "question": "What is the main advantage of using a simplified time series instead of the entire sequence?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Autoregressive model",
+        "Markov model",
+        "Latent autoregressive model",
+        "Recurrent neural network"
+      ],
+      "question": "What is the term used to describe a model that relies on its own past values?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To predict future values based on past observations",
+        "To update the hidden state based on predictions",
+        "To estimate the probability distribution of future values",
+        "To model the relationship between cause and effect"
+      ],
+      "question": "What is the purpose of using the latent autoregressive model in Figure 9.1.2?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The number of input variables",
+        "The type of data they can handle",
+        "The way they estimate probabilities",
+        "The order of the model"
+      ],
+      "question": "What is the main difference between an autoregressive model and a Markov model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Causal relationship",
+        "Temporal relationship",
+        "Correlation",
+        "Regression"
+      ],
+      "question": "What is the term used to describe the relationship between cause and effect in a time series?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To increase the length of the sequence",
+        "To align the sequence with the labels",
+        "To reduce the computational complexity",
+        "To eliminate the need for statistical tools"
+      ],
+      "question": "What is the purpose of padding the sequence with zeros?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To measure the difference between predicted and actual values",
+        "To regularize the weights of the model",
+        "To update the hidden state based on predictions",
+        "To estimate the probability distribution of future values"
+      ],
+      "question": "What is the purpose of using the L2 loss in the training process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To update the weights of the model",
+        "To compute the gradients of the loss function",
+        "To regularize the weights of the model",
+        "To estimate the probability distribution of future values"
+      ],
+      "question": "What is the purpose of using the Adam optimizer in the training process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. To load the time machine dataset into a list of text lines.",
+        "B. To convert the text lines into lowercase and remove non-alphabetic characters.",
+        "C. To download the time machine dataset from the internet.",
+        "D. To count the number of text lines in the time machine dataset."
+      ],
+      "question": "What is the purpose of the 'read_time_machine' function?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To generate natural language text",
+        "To classify text into categories",
+        "To tokenize text into words",
+        "To count token frequencies"
+      ],
+      "question": "What is the purpose of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To calculate the probability of a sequence of tokens",
+        "To tokenize text into words",
+        "To classify text into categories",
+        "To count token frequencies"
+      ],
+      "question": "What is the goal of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It can generate natural language text",
+        "It can tokenize text into words",
+        "It can classify text into categories",
+        "It can count token frequencies"
+      ],
+      "question": "What is the main advantage of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It can generate ambiguous text",
+        "It can tokenize text into words",
+        "It can classify text into categories",
+        "It can count token frequencies"
+      ],
+      "question": "What is the main limitation of a language model?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A sequence of tokens",
+        "A single token",
+        "A probability distribution",
+        "A classification label"
+      ],
+      "question": "What is the output of a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To split text into individual tokens",
+        "To calculate token frequencies",
+        "To generate natural language text",
+        "To classify text into categories"
+      ],
+      "question": "What is the purpose of tokenization in language processing?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To map tokens to indices",
+        "To calculate token frequencies",
+        "To generate natural language text",
+        "To classify text into categories"
+      ],
+      "question": "What is the purpose of a vocabulary in language processing?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To represent tokens that are not in the vocabulary",
+        "To represent the most frequent token",
+        "To represent the least frequent token",
+        "To represent the token with the highest index"
+      ],
+      "question": "What is the role of the unknown token in a vocabulary?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To determine the most frequent tokens",
+        "To determine the least frequent tokens",
+        "To determine the token with the highest index",
+        "To determine the token with the lowest index"
+      ],
+      "question": "What is the purpose of counting token frequencies?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To generate natural language text",
+        "To classify text into categories",
+        "To tokenize text into words",
+        "To count token frequencies"
+      ],
+      "question": "What is the purpose of a language model in natural language processing?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To receive a message",
+        "To analyze a beautiful beach",
+        "To create a language model",
+        "To solve a translation problem"
+      ],
+      "question": "What is the purpose of modeling a document?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-2; x t-1)"
+      ],
+      "question": "What is the formula for calculating the probability of a sequence of words in a language model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To estimate the probability of a word given the previous word",
+        "To estimate the probability of a word given the previous two words",
+        "To estimate the probability of a word given the previous three words",
+        "To estimate the probability of a word given the previous four words"
+      ],
+      "question": "What is the purpose of Laplace smoothing in language modeling?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To estimate the probability of a word given the previous word",
+        "To estimate the probability of a word given the previous two words",
+        "To estimate the probability of a word given the previous three words",
+        "To estimate the probability of a word given the previous four words"
+      ],
+      "question": "What is the purpose of using n-grams in language modeling?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. To generate a minibatch of subsequences using random sampling.",
+        "B. To generate a minibatch of subsequences using sequential partitioning.",
+        "C. To generate a minibatch of subsequences using random sampling and sequential partitioning.",
+        "D. To generate a minibatch of subsequences using a fixed offset."
+      ],
+      "question": "What is the purpose of the `seq_data_iter_random` function?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "A. To generate a minibatch of subsequences using random sampling.",
+        "B. To generate a minibatch of subsequences using sequential partitioning.",
+        "C. To generate a minibatch of subsequences using random sampling and sequential partitioning.",
+        "D. To generate a minibatch of subsequences using a fixed offset."
+      ],
+      "question": "What is the purpose of the `seq_data_iter_sequential` function?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A. To load sequence data and iterate over it using random sampling.",
+        "B. To load sequence data and iterate over it using sequential partitioning.",
+        "C. To load sequence data and iterate over it using random sampling and sequential partitioning.",
+        "D. To load sequence data and iterate over it using a fixed offset."
+      ],
+      "question": "What is the purpose of the `SeqDataLoader` class?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The iterator and vocabulary of the time machine dataset",
+        "The iterator and vocabulary of the fashion mnist dataset",
+        "The iterator and vocabulary of the time machine dataset and the fashion mnist dataset",
+        "The iterator and vocabulary of the fashion mnist dataset and the time machine dataset"
+      ],
+      "question": "What does the function load_data_time_machine return?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Processing natural language",
+        "Processing images",
+        "Processing numerical data",
+        "Processing audio data"
+      ],
+      "question": "What is an n-gram model used for?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Unigrams",
+        "Bigrams",
+        "Trigrams",
+        "All of the above"
+      ],
+      "question": "What is the Zipf's law applicable to?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Random sampling and sequential partitioning",
+        "Random sampling and random partitioning",
+        "Sequential partitioning and random partitioning",
+        "Sequential partitioning and sequential sampling"
+      ],
+      "question": "What are the main options for reading long sequences of data?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Random sampling",
+        "Sequential partitioning",
+        "Random partitioning",
+        "Sequential sampling"
+      ],
+      "question": "What is a good idea to have as a backup plan?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To predict the next token based on the current and past tokens",
+        "To concatenate matrices",
+        "To calculate the dot product of matrices",
+        "To create a hidden state"
+      ],
+      "question": "What is the purpose of the RNN in language modeling?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(3, 4)",
+        "(4, 3)",
+        "(3, 1)",
+        "(1, 4)"
+      ],
+      "question": "What is the shape of the matrix obtained by multiplying X with W_xh and H with W_hh?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To create a matrix of shape (3, 4)",
+        "To create a matrix of shape (4, 3)",
+        "To create a matrix of shape (3, 5)",
+        "To create a matrix of shape (5, 4)"
+      ],
+      "question": "What is the purpose of concatenating X and H with W_xh and W_hh?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "By calculating the perplexity",
+        "By calculating the dot product",
+        "By calculating the cross-entropy",
+        "By calculating the softmax"
+      ],
+      "question": "How can the quality of a language model be evaluated?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To make it easier to read the data",
+        "To represent each token as a feature vector",
+        "To reduce the dimensionality of the data",
+        "To improve the accuracy of the model"
+      ],
+      "question": "What is the purpose of encoding tokens as one-hot vectors?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "(batch_size, num_steps, vocab_size)",
+        "(num_steps, batch_size, vocab_size)",
+        "(vocab_size, num_steps, batch_size)",
+        "(vocab_size, batch_size, num_steps)"
+      ],
+      "question": "What is the shape of the tensor after applying the one_hot function to a minibatch?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To initialize the hidden layer parameters of the RNN model",
+        "To initialize the output layer parameters of the RNN model",
+        "To initialize the state of the RNN model at the beginning of each time step",
+        "To initialize the state of the RNN model at the end of each time step"
+      ],
+      "question": "What is the purpose of the init_rnn_state function?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(batch_size, num_hiddens)",
+        "(num_hiddens, batch_size)",
+        "(batch_size, vocab_size)",
+        "(vocab_size, batch_size)"
+      ],
+      "question": "What is the shape of the hidden state in the RNN model?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To generate new characters following a given prefix",
+        "To calculate the gradient of the RNN model",
+        "To update the parameters of the RNN model",
+        "To evaluate the performance of the RNN model"
+      ],
+      "question": "What is the purpose of the predict_ch8 function?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To make it easier to calculate the gradient",
+        "To prevent the gradient from exploding or vanishing",
+        "To reduce the dimensionality of the gradient",
+        "To improve the accuracy of the model"
+      ],
+      "question": "Why is gradient clipping necessary in RNN models?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To stabilize the training process",
+        "To increase the learning rate",
+        "To reduce the number of parameters",
+        "To improve the model's accuracy"
+      ],
+      "question": "What is the purpose of gradient clipping in RNN models?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To limit the magnitude of the gradients during training",
+        "To increase the learning rate during training",
+        "To reduce the number of parameters in the model",
+        "To improve the model's accuracy during training"
+      ],
+      "question": "What is the purpose of gradient clipping?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It introduces randomness and improves the model's generalization",
+        "It reduces the training time",
+        "It increases the model's capacity",
+        "It improves the model's accuracy"
+      ],
+      "question": "What is the benefit of using random sampling in training RNN models?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To reduce computational cost",
+        "To prevent gradient explosion",
+        "To improve model performance",
+        "To speed up training"
+      ],
+      "question": "What is the purpose of using gradient clipping?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Improved model performance",
+        "Reduced computational cost",
+        "Faster training time",
+        "Better generalization"
+      ],
+      "question": "What is the benefit of replacing one-hot encoding with learned embeddings?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "The code runs without any issues",
+        "The code produces incorrect results",
+        "The code runs slower",
+        "The code throws an error"
+      ],
+      "question": "What happens when running the code in this section without gradient clipping?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To improve model performance",
+        "To reduce computational cost",
+        "To prevent gradient explosion",
+        "To speed up training"
+      ],
+      "question": "What is the purpose of using the ReLU activation function in this section?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To improve model performance",
+        "To reduce computational cost",
+        "To prevent gradient explosion",
+        "To speed up training"
+      ],
+      "question": "What is the purpose of using the `detach` function in this section?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To provide an introduction to the publication process",
+        "To explain the importance of peer review",
+        "To teach undergraduates how to conduct scientific research",
+        "To discuss the role of advisors in writing scientific manuscripts"
+      ],
+      "question": "What is the purpose of this guide?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Graduate students",
+        "Practicing scientists",
+        "Undergraduate science researchers",
+        "Journal editors"
+      ],
+      "question": "Who is the target audience of this guide?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Writing scientific manuscripts",
+        "Conducting scientific research",
+        "Analyzing scientific literature",
+        "Reviewing scientific articles"
+      ],
+      "question": "What is the main focus of this guide?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Conducting scientific research",
+        "Peer review and publication",
+        "Improving undergraduate science education",
+        "Communicating research to the scientific community"
+      ],
+      "question": "What is the Journal of Young Investigators (JYI) committed to?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To judge the quality of scientific work",
+        "To allocate funding for research",
+        "To review colleagues' work for tenure",
+        "To publish research reports"
+      ],
+      "question": "What is the purpose of peer review in the scientific community?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To write and review scientific manuscripts",
+        "To manage the publication process",
+        "To work with professional scientists",
+        "To submit research papers"
+      ],
+      "question": "What is the role of undergraduates at the Journal of Young Investigators (JYI)?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Deciding to publish",
+        "Choosing a journal",
+        "Submitting the paper",
+        "Revising the paper"
+      ],
+      "question": "What is the first step in the publication process?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "The undergraduate researcher",
+        "The mentor",
+        "The journal editor",
+        "The peer reviewers"
+      ],
+      "question": "Who decides when it is the right time to publish a research paper?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Top-tier journals like Science",
+        "Field-specific top-tier journals",
+        "Small, highly specialized journals",
+        "General-audience journals"
+      ],
+      "question": "What type of journals do most undergraduates publish in?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To determine which papers report 'good' science",
+        "To provide researchers with perspective",
+        "To filter what is published as 'science'",
+        "To catch all the flaws in a study"
+      ],
+      "question": "What are the two major purposes of peer review in the scientific community?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "To determine which manuscripts should be published",
+        "To offer constructive criticism for the author",
+        "To make the final decision on publication",
+        "To provide feedback to the editor"
+      ],
+      "question": "What is the role of referees in the peer review process?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "The referees know who the author is",
+        "The referees act as a group",
+        "The referees are influenced by factors other than the work itself",
+        "The referees do not know who the other referees are"
+      ],
+      "question": "What is one of the key features of the peer review system?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To make the final decision on publication",
+        "To offer constructive criticism for the author",
+        "To provide feedback to the referees",
+        "To determine which manuscripts should be published"
+      ],
+      "question": "What is the role of the editor in the peer review process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It is slow",
+        "It is biased",
+        "It is easily fixed",
+        "It catches all instances of scientific fraud"
+      ],
+      "question": "What is one of the limitations of the peer review process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It is too open to personal issues",
+        "It is too objective",
+        "It is too fast",
+        "It is too complete"
+      ],
+      "question": "What is one of the common complaints about the peer review process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To provide a summary of the major results and conclusions",
+        "To explain the background information of the research",
+        "To discuss the methods used in the research",
+        "To cite references used in the research"
+      ],
+      "question": "What is the purpose of an abstract in a research article?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "A full history of the topic being researched",
+        "A clear statement of the hypothesis",
+        "A detailed description of the results",
+        "A discussion of potential sources of error"
+      ],
+      "question": "What should be included in the introduction of a research article?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Background information and results",
+        "Methods and materials used",
+        "Interpretation and discussion of the results",
+        "Acknowledgments and references"
+      ],
+      "question": "What should the body of the article in a research paper contain?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Interpretation and discussion of the results",
+        "A summary of the methods used",
+        "A description of the materials used",
+        "Figures and tables to supplement the results"
+      ],
+      "question": "What should be included in the results section of a research article?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "The background information of the research",
+        "The significance of the results and their interpretation",
+        "The methods used in the research",
+        "The acknowledgments and thanks for help received"
+      ],
+      "question": "What should be discussed in the discussion and conclusions section of a research article?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Copying data from other authors",
+        "Inventing or faking results",
+        "Discussing another researcher's idea",
+        "Publishing the same material in different places"
+      ],
+      "question": "What is considered scientific misconduct?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "'Examine' is to gain knowledge, 'analyze' is to describe an activity",
+        "'Examine' is to describe an activity, 'analyze' is to gain knowledge",
+        "'Examine' is to analyze facts, 'analyze' is to find facts",
+        "'Examine' is to find facts, 'analyze' is to draw conclusions"
+      ],
+      "question": "What is the difference between 'examine' and 'analyze'?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Knowledge",
+        "Comprehension",
+        "Application",
+        "Analysis"
+      ],
+      "question": "Which level of Bloom's Taxonomy involves pure recitation of fact?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Comprehend, explain, interpret",
+        "Analyze, distinguish, examine",
+        "Create, invent, compose",
+        "Evaluate, judge, select"
+      ],
+      "question": "Which words should be used when explaining patterns and meaning?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To summarize the major aspects of a paper",
+        "To provide background information",
+        "To discuss the methods used in the study",
+        "To present the author's interpretations"
+      ],
+      "question": "What is the purpose of an Abstract?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "50-100 words",
+        "100-200 words",
+        "200-300 words",
+        "300-400 words"
+      ],
+      "question": "How long is an Abstract typically?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Introduction",
+        "Methods",
+        "Results",
+        "Conclusions"
+      ],
+      "question": "Which section of a scientific manuscript should not be included in the Abstract?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Content and Structure",
+        "Length and Clarity",
+        "Background and References",
+        "Figures and Images"
+      ],
+      "question": "What are the criteria used to judge Abstracts at JYI?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Not including an Abstract",
+        "Including lengthy background information",
+        "Using abbreviations or acronyms",
+        "Including figures or images"
+      ],
+      "question": "What is one common mistake in writing an Abstract?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The purpose of the study",
+        "The major results",
+        "The methods used",
+        "The implications of the study"
+      ],
+      "question": "What information is often missing from an Abstract?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "1-2 sentences for each major section",
+        "10 sentences of background information",
+        "Several pages of detailed information",
+        "No information should be included"
+      ],
+      "question": "How much information should be included in an Abstract?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "To provide background information",
+        "To summarize the whole paper",
+        "To discuss previous research",
+        "To provide information for the reader to understand the rest of the paper"
+      ],
+      "question": "What is the purpose of an Introduction?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "300-500 words",
+        "Several pages",
+        "1-2 sentences",
+        "Depends on the journal and topic"
+      ],
+      "question": "How long is an Introduction typically?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "The clear statement of hypothesis",
+        "The motivation for research",
+        "The broad topic and problem",
+        "The explanation of concepts"
+      ],
+      "question": "What should be included in the first paragraph of an Introduction?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The clear statement of hypothesis",
+        "The motivation for research",
+        "The broad topic and problem",
+        "The explanation of concepts"
+      ],
+      "question": "What should be included in the second paragraph of an Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "The clear statement of hypothesis",
+        "The motivation for research",
+        "The broad topic and problem",
+        "The explanation of concepts"
+      ],
+      "question": "What should be included in the third paragraph of an Introduction?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "The clear statement of hypothesis",
+        "The motivation for research",
+        "The broad topic and problem",
+        "The explanation of concepts"
+      ],
+      "question": "What should be included in the fourth paragraph of an Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Background information, previous studies described, statement of problem, motivation for research",
+        "Enough information, relevant information, clearly stated problem, clearly stated motivation",
+        "Enough information, relevant information, clearly stated problem, significance of research",
+        "Background information, previous studies described, clearly stated problem, clearly stated motivation"
+      ],
+      "question": "What criteria are used to judge Introductions?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To provide background information on the topic",
+        "To explain the methodology used in the study",
+        "To present the results and findings of the study",
+        "To describe the materials and equipment used in the study"
+      ],
+      "question": "What is the purpose of the Introduction section in a scientific manuscript?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Including too much information unrelated to the subject",
+        "Not providing enough background information",
+        "Using first-person anecdotes",
+        "Listing material in bullet format"
+      ],
+      "question": "What is a common mistake authors make in the Introduction section?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Detailed description of the author's hypothesis",
+        "Explanation of the statistical analysis techniques used",
+        "Background information on previous studies",
+        "Step-by-step description of the experiment and materials used"
+      ],
+      "question": "What should be included in the Methods & Materials section of a research manuscript?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Present tense",
+        "Future tense",
+        "Past tense",
+        "Conditional tense"
+      ],
+      "question": "What tense should be used in the Methods & Materials section?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Including every single detail of the experiment",
+        "Providing enough detail for readers to reproduce the study",
+        "Using technical jargon to impress readers",
+        "Including personal anecdotes"
+      ],
+      "question": "What should authors consider when determining the level of detail in the Methods & Materials section?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Enough Detail and Relevant Information",
+        "Appropriate Positive and Negative Controls",
+        "Adequate and Appropriate Tests of Hypothesis",
+        "Succinct and Clear"
+      ],
+      "question": "What criteria are used to judge the Materials section?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Including background material or explanations of concepts",
+        "Not reporting results",
+        "Discussing sources of error",
+        "Including too much information"
+      ],
+      "question": "What is a common mistake in the Methods & Materials section?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Raw data",
+        "Interpretation of the results",
+        "Key results summarized with text and tables",
+        "Long lists of numbers"
+      ],
+      "question": "What should be included in the Results section?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Sufficient Detail and Appropriate Detail",
+        "Sufficient to Test the Hypothesis",
+        "Performed when Appropriate",
+        "Believable"
+      ],
+      "question": "What criteria are used to judge the Results section?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Including raw data",
+        "Presenting results in a table",
+        "Including interpretation or discussion",
+        "Including figures or tables"
+      ],
+      "question": "What is a common mistake in the Results section?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To present the results of the experiment",
+        "To interpret the results and relate them to previous studies",
+        "To discuss the methods and materials used in the experiment",
+        "To restate the hypothesis being tested"
+      ],
+      "question": "What is the purpose of a Discussion section in a scientific paper?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Introduction",
+        "Results",
+        "Discussion",
+        "Abstract"
+      ],
+      "question": "Which section of a scientific paper should not include new methods or materials?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Possible sources of error in the experiment",
+        "The design flaw in the experiment",
+        "The factors that influenced the results",
+        "The take-home message of the paper"
+      ],
+      "question": "What should the author address in the Discussion section?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Combine the Results and Discussion sections",
+        "Include new results not reported in the Results section",
+        "Draw sweeping conclusions based on a small study",
+        "Synthesize the entire paper and re-interpret the major issues"
+      ],
+      "question": "What should the author do in the Discussion section?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Combining the Results and Discussion sections",
+        "Including new results not reported in the Results section",
+        "Drawing sweeping conclusions based on a small study",
+        "All of the above"
+      ],
+      "question": "What is a common mistake in a Discussion section?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "To illustrate differences",
+        "To represent relationships",
+        "To convey detailed information",
+        "To summarize the main findings"
+      ],
+      "question": "What is the purpose of a table in a scientific manuscript?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A figure presents visual results or illustrations, while a table presents lists of numbers or text",
+        "A figure represents relationships, while a table illustrates differences",
+        "A figure is used to summarize the main findings, while a table conveys detailed information",
+        "A figure is labeled with numbers, while a table is labeled with letters"
+      ],
+      "question": "What is the difference between a figure and a table in a scientific manuscript?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "By directing the reader to the figure or table without providing any additional information",
+        "By avoiding sentences that only direct the reader to the figure or table",
+        "By numbering the figures and tables in the order they are called",
+        "By referencing figures before referencing tables"
+      ],
+      "question": "How should authors reference figures and tables in a scientific manuscript?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "High resolution, neat and legible labels, simple, and clearly formatted",
+        "Low resolution, ambiguous labels, complex, and poorly formatted",
+        "Low resolution, illegible labels, simple, and clearly formatted",
+        "High resolution, illegible labels, complex, and poorly formatted"
+      ],
+      "question": "What are the characteristics of a good figure or table in a scientific manuscript?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "To provide a detailed explanation of the figure or table",
+        "To summarize the main findings of the manuscript",
+        "To direct the reader to the figure or table without providing any additional information",
+        "To convey the meaning of the figure or table"
+      ],
+      "question": "What is the purpose of a caption in a scientific manuscript?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Typed directly into the manuscript",
+        "Saved as JPEG or GIF files and imported into the document",
+        "Written in Word's Equation Editor function",
+        "All of the above"
+      ],
+      "question": "How should equations be included in a scientific manuscript?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Textbooks and personal communications",
+        "Peer-reviewed journal articles, abstracts, books, and personal communications",
+        "Non-peer-reviewed works and personal communications",
+        "Peer-reviewed journal articles and textbooks"
+      ],
+      "question": "What types of references are appropriate for a scientific manuscript?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "In-text formatting style: author's last name and year of publication",
+        "In-text formatting style: author's first name and year of publication",
+        "In-text formatting style: author's last name and page number",
+        "In-text formatting style: author's first name and page number"
+      ],
+      "question": "What is the recommended referencing style for a scientific manuscript?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "To summarize research studies",
+        "To evaluate research studies",
+        "To conduct new research",
+        "To report research findings"
+      ],
+      "question": "What is the purpose of a literature review?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A list of studies",
+        "A summary of studies",
+        "A synthesis of studies",
+        "A book report"
+      ],
+      "question": "What should a literature review be based on?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "A literature review presents new research, while a research article evaluates existing research",
+        "A literature review evaluates existing research, while a research article presents new research",
+        "A literature review and a research article are the same thing",
+        "A literature review and a research article have different formatting requirements"
+      ],
+      "question": "What is the difference between a literature review and a research article?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Select a topic",
+        "Conduct a new study",
+        "Write a research article",
+        "Evaluate existing research"
+      ],
+      "question": "What should an author do before writing a literature review?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "A summary of research studies",
+        "An evaluation of research studies",
+        "A list of research studies",
+        "A book report"
+      ],
+      "question": "What should a literature review include?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The topic should be controversial or diverse",
+        "The topic should be widely agreed upon",
+        "The topic should be unrelated to other studies",
+        "The topic should be based on personal opinion"
+      ],
+      "question": "What is one important factor to consider when selecting a topic for a literature review?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Ask professors for recommendations",
+        "Avoid scanning the references of relevant articles",
+        "Focus only on recent review articles",
+        "Search for articles using unrelated keywords"
+      ],
+      "question": "Which of the following is a helpful tip for finding relevant articles for a literature review?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Include all studies found, regardless of relevance",
+        "Exclude all studies found, regardless of relevance",
+        "Include only certain portions of each study",
+        "Exclude only certain portions of each study"
+      ],
+      "question": "What should be done with irrelevant studies when conducting a literature review?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "To summarize the main points of the review",
+        "To organize the studies in chronological order",
+        "To identify the weaknesses of each study",
+        "To structure the overall paper"
+      ],
+      "question": "What is the purpose of drafting an outline for a literature review?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Has the author evaluated the literature relevant to the problem/issue?",
+        "Has the author formulated a thesis?",
+        "Is the problem clearly stated?",
+        "Is the analysis of the data accurate and relevant?"
+      ],
+      "question": "What is one question to ask when analyzing a research study for a literature review?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A summary of the major studies investigated",
+        "A discussion of the conclusions drawn",
+        "A definition of the thesis",
+        "A comparison of different methodologies"
+      ],
+      "question": "What should be included in the introduction section of a literature review?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Based on the number of studies included",
+        "Based on the order of publication dates",
+        "Based on the relevance of the studies",
+        "Based on the length of each study"
+      ],
+      "question": "How should the body of a literature review be structured?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "The background information needed to understand the coming sections",
+        "The implications of the study and future research directions",
+        "The major studies investigated and their implications",
+        "The strengths and limitations of the way the problem was formulated"
+      ],
+      "question": "What should be discussed in the discussion and conclusions section of a literature review?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Less than 10",
+        "Around 20",
+        "Around 50",
+        "More than 100"
+      ],
+      "question": "How many studies are usually cited in a literature review published in professional journals?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "1 to 3 pages",
+        "3 to 5 pages",
+        "5 to 7 pages",
+        "7 to 10 pages"
+      ],
+      "question": "What is the typical length of a short literature review?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Quantity",
+        "Quality",
+        "Length",
+        "Logic"
+      ],
+      "question": "What is the main focus when writing a good review?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Include it",
+        "Weed it out",
+        "Summarize it",
+        "Discuss it"
+      ],
+      "question": "What should be done to the unimportant material in a review?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Research assumptions",
+        "Research conclusions",
+        "Research participants",
+        "Research funding"
+      ],
+      "question": "What should be discussed when evaluating studies?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Ignore them",
+        "Discuss them",
+        "Summarize them",
+        "Exclude them"
+      ],
+      "question": "What should be done when identifying the strengths and weaknesses of studies?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Other studies",
+        "Personal opinions",
+        "Popular media",
+        "Government documents"
+      ],
+      "question": "What should be compared with the study being evaluated?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Theory",
+        "Methodology",
+        "Policy",
+        "All of the above"
+      ],
+      "question": "What should be clear in the review regarding the type of research being addressed?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Less than 5",
+        "Less than 10",
+        "Less than 15",
+        "Less than 20"
+      ],
+      "question": "How many sources are usually considered too few for a literature review?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Exclude them",
+        "Summarize them",
+        "Criticize them",
+        "Cite and discuss them"
+      ],
+      "question": "What should be done to studies that contradict the perspective of the review?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Informative sections",
+        "Descriptive summaries",
+        "Contradictory ideas",
+        "Persuasive arguments"
+      ],
+      "question": "What should a review be organized into?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To receive funding",
+        "To improve professional reputations",
+        "To communicate research to the scientific community",
+        "To obtain tenures"
+      ],
+      "question": "What is the main purpose of publishing scientific research?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Listen to your advisor",
+        "Read other manuscripts",
+        "Practice writing your own",
+        "All of the above"
+      ],
+      "question": "What is the advice given to undergraduates in this guide?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "To write and review scientific manuscripts",
+        "To manage the publication process",
+        "To work with undergraduate editors",
+        "To review research manuscripts"
+      ],
+      "question": "What is the role of professional scientists at JYI?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "It is too open to personal issues",
+        "It is too objective",
+        "It is too fast",
+        "It is too complete"
+      ],
+      "question": "What is one of the most common complaints about the peer review process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Editors and referees assume papers are honestly written",
+        "Editors and referees know the identities of each other",
+        "Editors and referees always catch instances of scientific fraud",
+        "Editors and referees base their decisions solely on personal views"
+      ],
+      "question": "What is one of the potential issues with the peer review process?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Watson and Crick's paper on the discovery of DNA",
+        "Schon's paper on producing a transistor on the molecular scale",
+        "Horton's paper on the flaws of the peer review process",
+        "The editor's paper on the role of referees"
+      ],
+      "question": "What is one example of a paper that was not peer reviewed but had a significant impact?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Check the journal's formatting instructions",
+        "Submit the manuscript to multiple journals",
+        "Include personal views in the manuscript",
+        "Skip the review process"
+      ],
+      "question": "What should authors do before writing a scientific manuscript?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Professionals only",
+        "Undergraduate science majors only",
+        "Both professionals and undergraduate science majors",
+        "Graduate students only"
+      ],
+      "question": "Who is the target audience for the Journal of Young Investigators (JYI)?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Background information and results",
+        "Methods and materials used",
+        "Interpretation and discussion of results",
+        "Introduction and conclusion"
+      ],
+      "question": "What should be included in the body of a research article?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Methods and materials used",
+        "Interpretation and discussion of results",
+        "Background information",
+        "Introduction and conclusion"
+      ],
+      "question": "What should be included in the discussion and conclusions section of a research article?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "To provide a summary of the major results and conclusions",
+        "To discuss the methods used in the research",
+        "To thank individuals who provided help or support",
+        "To cite references used in the research"
+      ],
+      "question": "What is the purpose of an acknowledgements section in a research article?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Personal anecdotes and stories",
+        "References from textbooks",
+        "References from personal communication",
+        "References from professional journals"
+      ],
+      "question": "What should be included in the references section of a research article?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Contain misspellings and grammatical errors",
+        "Use personal anecdotes and stories",
+        "Be clever and entertaining",
+        "Be grammatically correct and avoid personal anecdotes"
+      ],
+      "question": "What should be the writing style of a research article?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Professionals only",
+        "Undergraduate science majors only",
+        "Both professionals and undergraduate science majors",
+        "Graduate students only"
+      ],
+      "question": "Who is the target audience for a research article published by JYI?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Explain",
+        "Identify",
+        "Construct",
+        "Evaluate"
+      ],
+      "question": "Which of the following words is appropriate to use in the Methods & Materials section?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Knowledge",
+        "Comprehension",
+        "Evaluation",
+        "Synthesis"
+      ],
+      "question": "Which level of Bloom's Taxonomy involves making judgments about the value of ideas or material?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "All research done on the topic",
+        "Only the most recent research",
+        "Only the research that influenced the current study",
+        "No previous research should be discussed"
+      ],
+      "question": "What should be included in the discussion of previous research in an Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "All basic theories",
+        "Only concepts unfamiliar to undergraduate science majors",
+        "Only concepts familiar to undergraduate science majors",
+        "No concepts should be explained"
+      ],
+      "question": "What concepts should be explained in an Introduction?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "The broad topic and problem",
+        "The clear statement of hypothesis",
+        "The motivation for research",
+        "The explanation of concepts"
+      ],
+      "question": "What should be included in the final paragraph of an Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Including every single step of the experiment",
+        "Providing enough detail for the reader to reproduce the study",
+        "Including personal anecdotes",
+        "Using the second person perspective"
+      ],
+      "question": "What should an author consider when determining the level of detail in the Methods & Materials section?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "In a well-studied field",
+        "Of historical interest",
+        "Of no interest to the author",
+        "Broad"
+      ],
+      "question": "What should a topic for a literature review be?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "The implications of the study and future research directions",
+        "The limitations of the studies analyzed",
+        "The background information needed to understand the topic",
+        "The order in which the studies were discussed"
+      ],
+      "question": "What should be discussed in the conclusion section of a literature review?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Ignore them",
+        "Discuss them",
+        "Summarize them",
+        "Exclude them"
+      ],
+      "question": "What should be done when identifying strengths and weaknesses of studies?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "The thesis",
+        "The methodology",
+        "The policy",
+        "The research question"
+      ],
+      "question": "What should be clear in a review?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Relevant to the thesis",
+        "Relevant to the author",
+        "Relevant to the audience",
+        "Relevant to the field of study"
+      ],
+      "question": "What should be the relevance of the literature chosen for a review?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Summarize them",
+        "Analyze them",
+        "Exclude them",
+        "Contradict them"
+      ],
+      "question": "What should be done to the studies in a review?"
+    }
+  ],
+  "vi_res": [
+    {
+      "answer": "D",
+      "options": [
+        "C\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea",
+        "C\u00f4ng c\u1ee5 h\u1ecdc m\u00e1y",
+        "C\u00f4ng c\u1ee5 h\u1ecdc s\u00e2u",
+        "C\u1ea3 A v\u00e0 C"
+      ],
+      "question": "C\u00e1c c\u00f4ng c\u1ee5 n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 x\u1eed l\u00fd d\u1eef li\u1ec7u trong ng\u1eef c\u1ea3nh c\u1ee7a m\u1ea1ng neural?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u0110\u1ea1i di\u1ec7n cho gi\u00e1 c\u1ed5 phi\u1ebfu theo th\u1eddi gian",
+        "Ch\u1ee9ng minh vi\u1ec7c s\u1eed d\u1ee5ng c\u00e1c c\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea",
+        "Hi\u1ec3n th\u1ecb m\u1ed1i t\u01b0\u01a1ng quan gi\u1eefa hai bi\u1ebfn s\u1ed1",
+        "Gi\u1ea3i th\u00edch m\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng ch\u1ec9 s\u1ed1 FTSE100 trong H\u00ecnh 9.1.1 l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Gi\u1ea3m \u0111\u1ed9 ph\u1ee9c t\u1ea1p t\u00ednh to\u00e1n",
+        "D\u1ec5 d\u00e0ng hu\u1ea5n luy\u1ec7n m\u1ea1ng s\u00e2u h\u01a1n",
+        "Cung c\u1ea5p d\u1ef1 \u0111o\u00e1n ch\u00ednh x\u00e1c h\u01a1n",
+        "Lo\u1ea1i b\u1ecf nhu c\u1ea7u s\u1eed d\u1ee5ng c\u00e1c c\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea"
+      ],
+      "question": "L\u1ee3i \u00edch ch\u00ednh c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng chu\u1ed7i th\u1eddi gian \u0111\u01a1n gi\u1ea3n thay v\u00ec to\u00e0n b\u1ed9 chu\u1ed7i l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "M\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy",
+        "M\u00f4 h\u00ecnh Markov",
+        "M\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy \u1ea9n",
+        "M\u1ea1ng neural t\u00e1i ph\u00e1t"
+      ],
+      "question": "Thu\u1eadt ng\u1eef n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 m\u00f4 t\u1ea3 m\u1ed9t m\u00f4 h\u00ecnh d\u1ef1a v\u00e0o c\u00e1c gi\u00e1 tr\u1ecb qu\u00e1 kh\u1ee9 c\u1ee7a n\u00f3?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "D\u1ef1 \u0111o\u00e1n gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai d\u1ef1a tr\u00ean quan s\u00e1t qu\u00e1 kh\u1ee9",
+        "C\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i \u1ea9n d\u1ef1a tr\u00ean d\u1ef1 \u0111o\u00e1n",
+        "\u01af\u1edbc l\u01b0\u1ee3ng ph\u00e2n b\u1ed1 x\u00e1c su\u1ea5t c\u1ee7a c\u00e1c gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai",
+        "M\u00f4 h\u00ecnh quan h\u1ec7 gi\u1eefa nguy\u00ean nh\u00e2n v\u00e0 k\u1ebft qu\u1ea3"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng m\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy \u1ea9n trong H\u00ecnh 9.1.2 l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "S\u1ed1 bi\u1ebfn \u0111\u1ea7u v\u00e0o",
+        "Lo\u1ea1i d\u1eef li\u1ec7u m\u00e0 ch\u00fang c\u00f3 th\u1ec3 x\u1eed l\u00fd",
+        "C\u00e1ch ch\u00fang \u01b0\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t",
+        "Th\u1ee9 t\u1ef1 c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "S\u1ef1 kh\u00e1c bi\u1ec7t ch\u00ednh gi\u1eefa m\u00f4 h\u00ecnh t\u1ef1 h\u1ed3i quy v\u00e0 m\u00f4 h\u00ecnh Markov l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "M\u1ed1i quan h\u1ec7 nh\u00e2n qu\u1ea3",
+        "M\u1ed1i quan h\u1ec7 th\u1eddi gian",
+        "T\u01b0\u01a1ng quan",
+        "H\u1ed3i quy"
+      ],
+      "question": "Thu\u1eadt ng\u1eef n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 m\u00f4 t\u1ea3 m\u1ed1i quan h\u1ec7 gi\u1eefa nguy\u00ean nh\u00e2n v\u00e0 k\u1ebft qu\u1ea3 trong chu\u1ed7i th\u1eddi gian?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "T\u0103ng \u0111\u1ed9 d\u00e0i c\u1ee7a chu\u1ed7i",
+        "C\u0103n ch\u1ec9nh chu\u1ed7i v\u1edbi nh\u00e3n",
+        "Gi\u1ea3m \u0111\u1ed9 ph\u1ee9c t\u1ea1p t\u00ednh to\u00e1n",
+        "Lo\u1ea1i b\u1ecf nhu c\u1ea7u s\u1eed d\u1ee5ng c\u00e1c c\u00f4ng c\u1ee5 th\u1ed1ng k\u00ea"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c th\u00eam c\u00e1c gi\u00e1 tr\u1ecb 0 v\u00e0o chu\u1ed7i l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110o l\u01b0\u1eddng s\u1ef1 kh\u00e1c bi\u1ec7t gi\u1eefa gi\u00e1 tr\u1ecb d\u1ef1 \u0111o\u00e1n v\u00e0 gi\u00e1 tr\u1ecb th\u1ef1c t\u1ebf",
+        "Ch\u00ednh quy h\u00f3a tr\u1ecdng s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh",
+        "C\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i \u1ea9n d\u1ef1a tr\u00ean d\u1ef1 \u0111o\u00e1n",
+        "\u01af\u1edbc l\u01b0\u1ee3ng ph\u00e2n b\u1ed1 x\u00e1c su\u1ea5t c\u1ee7a c\u00e1c gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng h\u00e0m m\u1ea5t m\u00e1t L2 trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "C\u1eadp nh\u1eadt tr\u1ecdng s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh",
+        "T\u00ednh to\u00e1n \u0111\u1ed9 d\u1ed1c c\u1ee7a h\u00e0m m\u1ea5t m\u00e1t",
+        "Ch\u00ednh quy h\u00f3a tr\u1ecdng s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh",
+        "\u01af\u1edbc l\u01b0\u1ee3ng ph\u00e2n b\u1ed1 x\u00e1c su\u1ea5t c\u1ee7a c\u00e1c gi\u00e1 tr\u1ecb t\u01b0\u01a1ng lai"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng b\u1ed9 t\u1ed1i \u01b0u h\u00f3a Adam trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. \u0110\u1ec3 t\u1ea3i t\u1eadp d\u1eef li\u1ec7u m\u00e1y th\u1eddi gian v\u00e0o m\u1ed9t danh s\u00e1ch c\u00e1c d\u00f2ng v\u0103n b\u1ea3n.",
+        "B. \u0110\u1ec3 chuy\u1ec3n \u0111\u1ed5i c\u00e1c d\u00f2ng v\u0103n b\u1ea3n th\u00e0nh ch\u1eef th\u01b0\u1eddng v\u00e0 lo\u1ea1i b\u1ecf c\u00e1c k\u00fd t\u1ef1 kh\u00f4ng ph\u1ea3i ch\u1eef c\u00e1i.",
+        "C. \u0110\u1ec3 t\u1ea3i xu\u1ed1ng t\u1eadp d\u1eef li\u1ec7u m\u00e1y th\u1eddi gian t\u1eeb internet.",
+        "D. \u0110\u1ec3 \u0111\u1ebfm s\u1ed1 d\u00f2ng v\u0103n b\u1ea3n trong t\u1eadp d\u1eef li\u1ec7u m\u00e1y th\u1eddi gian."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m 'read_time_machine' l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "T\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "\u0110\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u00ednh x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t chu\u1ed7i c\u00e1c t\u1eeb",
+        "T\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "\u0110\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "M\u1ee5c ti\u00eau c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "N\u00f3 c\u00f3 th\u1ec3 t\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "N\u00f3 c\u00f3 th\u1ec3 t\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "N\u00f3 c\u00f3 th\u1ec3 ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "N\u00f3 c\u00f3 th\u1ec3 \u0111\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "L\u1ee3i \u00edch ch\u00ednh c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "N\u00f3 c\u00f3 th\u1ec3 t\u1ea1o ra v\u0103n b\u1ea3n kh\u00f4ng r\u00f5 r\u00e0ng",
+        "N\u00f3 c\u00f3 th\u1ec3 t\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "N\u00f3 c\u00f3 th\u1ec3 ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "N\u00f3 c\u00f3 th\u1ec3 \u0111\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "H\u1ea1n ch\u1ebf ch\u00ednh c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "M\u1ed9t chu\u1ed7i c\u00e1c t\u1eeb",
+        "M\u1ed9t t\u1eeb duy nh\u1ea5t",
+        "M\u1ed9t ph\u00e2n ph\u1ed1i x\u00e1c su\u1ea5t",
+        "M\u1ed9t nh\u00e3n ph\u00e2n lo\u1ea1i"
+      ],
+      "question": "\u0110\u1ea7u ra c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Chia v\u0103n b\u1ea3n th\u00e0nh c\u00e1c t\u1eeb ri\u00eang l\u1ebb",
+        "T\u00ednh t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb",
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c t\u00e1ch t\u1eeb trong x\u1eed l\u00fd ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u00c1nh x\u1ea1 c\u00e1c t\u1eeb th\u00e0nh ch\u1ec9 s\u1ed1",
+        "T\u00ednh t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb",
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a t\u1eeb v\u1ef1ng trong x\u1eed l\u00fd ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ea1i di\u1ec7n cho c\u00e1c t\u1eeb kh\u00f4ng c\u00f3 trong t\u1eeb v\u1ef1ng",
+        "\u0110\u1ea1i di\u1ec7n cho t\u1eeb ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "\u0110\u1ea1i di\u1ec7n cho t\u1eeb \u00edt ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "\u0110\u1ea1i di\u1ec7n cho t\u1eeb c\u00f3 ch\u1ec9 s\u1ed1 cao nh\u1ea5t"
+      ],
+      "question": "Vai tr\u00f2 c\u1ee7a t\u1eeb kh\u00f4ng x\u00e1c \u0111\u1ecbnh trong t\u1eeb v\u1ef1ng l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "X\u00e1c \u0111\u1ecbnh c\u00e1c t\u1eeb ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "X\u00e1c \u0111\u1ecbnh c\u00e1c t\u1eeb \u00edt ph\u1ed5 bi\u1ebfn nh\u1ea5t",
+        "X\u00e1c \u0111\u1ecbnh t\u1eeb c\u00f3 ch\u1ec9 s\u1ed1 cao nh\u1ea5t",
+        "X\u00e1c \u0111\u1ecbnh t\u1eeb c\u00f3 ch\u1ec9 s\u1ed1 th\u1ea5p nh\u1ea5t"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c \u0111\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u1ea1o ra v\u0103n b\u1ea3n t\u1ef1 nhi\u00ean",
+        "Ph\u00e2n lo\u1ea1i v\u0103n b\u1ea3n v\u00e0o c\u00e1c danh m\u1ee5c",
+        "T\u00e1ch t\u1eeb trong v\u0103n b\u1ea3n",
+        "\u0110\u1ebfm t\u1ea7n su\u1ea5t c\u1ee7a c\u00e1c t\u1eeb"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef trong x\u1eed l\u00fd ng\u00f4n ng\u1eef t\u1ef1 nhi\u00ean l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Nh\u1eadn m\u1ed9t tin nh\u1eafn",
+        "Ph\u00e2n t\u00edch m\u1ed9t b\u00e3i bi\u1ec3n \u0111\u1eb9p",
+        "T\u1ea1o m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef",
+        "Gi\u1ea3i quy\u1ebft m\u1ed9t v\u1ea5n \u0111\u1ec1 d\u1ecbch thu\u1eadt"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c m\u00f4 h\u00ecnh h\u00f3a m\u1ed9t t\u00e0i li\u1ec7u l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-1; x t+1)",
+        "P(x1; x2; : : : ; x T) = T\u220f t=1 P(xtjx1; : : : ; x t-2; x t-1)"
+      ],
+      "question": "C\u00f4ng th\u1ee9c t\u00ednh x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t chu\u1ed7i t\u1eeb trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean hai t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean ba t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean b\u1ed1n t\u1eeb tr\u01b0\u1edbc \u0111\u00f3"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng Laplace smoothing trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean hai t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean ba t\u1eeb tr\u01b0\u1edbc \u0111\u00f3",
+        "\u01af\u1edbc l\u01b0\u1ee3ng x\u00e1c su\u1ea5t c\u1ee7a m\u1ed9t t\u1eeb d\u1ef1a tr\u00ean b\u1ed1n t\u1eeb tr\u01b0\u1edbc \u0111\u00f3"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng n-grams trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "A. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean.",
+        "B. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "C. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "D. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch s\u1eed d\u1ee5ng m\u1ed9t \u0111\u1ed9 l\u1ec7ch c\u1ed1 \u0111\u1ecbnh."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m `seq_data_iter_random` l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "A. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean.",
+        "B. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "C. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "D. T\u1ea1o ra m\u1ed9t minibatch c\u00e1c ph\u00e2n \u0111o\u1ea1n con b\u1eb1ng c\u00e1ch s\u1eed d\u1ee5ng m\u1ed9t \u0111\u1ed9 l\u1ec7ch c\u1ed1 \u0111\u1ecbnh."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m `seq_data_iter_sequential` l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "A. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean.",
+        "B. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "C. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch l\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 chia nh\u1ecf tu\u1ea7n t\u1ef1.",
+        "D. T\u1ea3i d\u1eef li\u1ec7u chu\u1ed7i v\u00e0 l\u1eb7p qua n\u00f3 b\u1eb1ng c\u00e1ch s\u1eed d\u1ee5ng m\u1ed9t \u0111\u1ed9 l\u1ec7ch c\u1ed1 \u0111\u1ecbnh."
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a l\u1edbp `SeqDataLoader` l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u time machine",
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u fashion mnist",
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u time machine v\u00e0 fashion mnist",
+        "B\u1ed9 l\u1eb7p v\u00e0 t\u1eeb v\u1ef1ng c\u1ee7a t\u1eadp d\u1eef li\u1ec7u fashion mnist v\u00e0 time machine"
+      ],
+      "question": "H\u00e0m load_data_time_machine tr\u1ea3 v\u1ec1 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "X\u1eed l\u00fd ng\u00f4n ng\u1eef t\u1ef1 nhi\u00ean",
+        "X\u1eed l\u00fd h\u00ecnh \u1ea3nh",
+        "X\u1eed l\u00fd d\u1eef li\u1ec7u s\u1ed1",
+        "X\u1eed l\u00fd d\u1eef li\u1ec7u \u00e2m thanh"
+      ],
+      "question": "M\u00f4 h\u00ecnh n-gram \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 l\u00e0m g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Unigrams",
+        "Bigrams",
+        "Trigrams",
+        "T\u1ea5t c\u1ea3 c\u00e1c tr\u01b0\u1eddng h\u1ee3p tr\u00ean"
+      ],
+      "question": "\u0110\u1ecbnh lu\u1eadt Zipf \u00e1p d\u1ee5ng cho \u0111i\u1ec1u g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "L\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 ph\u00e2n chia tu\u1ea7n t\u1ef1",
+        "L\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean v\u00e0 ph\u00e2n chia ng\u1eabu nhi\u00ean",
+        "Ph\u00e2n chia tu\u1ea7n t\u1ef1 v\u00e0 ph\u00e2n chia ng\u1eabu nhi\u00ean",
+        "Ph\u00e2n chia tu\u1ea7n t\u1ef1 v\u00e0 l\u1ea5y m\u1eabu tu\u1ea7n t\u1ef1"
+      ],
+      "question": "C\u00e1c t\u00f9y ch\u1ecdn ch\u00ednh \u0111\u1ec3 \u0111\u1ecdc c\u00e1c chu\u1ed7i d\u1eef li\u1ec7u d\u00e0i l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "L\u1ea5y m\u1eabu ng\u1eabu nhi\u00ean",
+        "Ph\u00e2n chia tu\u1ea7n t\u1ef1",
+        "Ph\u00e2n chia ng\u1eabu nhi\u00ean",
+        "L\u1ea5y m\u1eabu tu\u1ea7n t\u1ef1"
+      ],
+      "question": "\u00dd t\u01b0\u1edfng t\u1ed1t \u0111\u1ec3 c\u00f3 l\u00e0m k\u1ebf ho\u1ea1ch d\u1ef1 ph\u00f2ng l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "D\u1ef1 \u0111o\u00e1n m\u00e3 th\u00f4ng b\u00e1o ti\u1ebfp theo d\u1ef1a tr\u00ean m\u00e3 th\u00f4ng b\u00e1o hi\u1ec7n t\u1ea1i v\u00e0 qu\u00e1 kh\u1ee9",
+        "N\u1ed1i c\u00e1c ma tr\u1eadn",
+        "T\u00ednh t\u00edch v\u00f4 h\u01b0\u1edbng c\u1ee7a c\u00e1c ma tr\u1eadn",
+        "T\u1ea1o ra tr\u1ea1ng th\u00e1i \u1ea9n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a RNN trong m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(3, 4)",
+        "(4, 3)",
+        "(3, 1)",
+        "(1, 4)"
+      ],
+      "question": "H\u00ecnh d\u1ea1ng c\u1ee7a ma tr\u1eadn thu \u0111\u01b0\u1ee3c b\u1eb1ng c\u00e1ch nh\u00e2n X v\u1edbi W_xh v\u00e0 H v\u1edbi W_hh l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (3, 4)",
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (4, 3)",
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (3, 5)",
+        "T\u1ea1o ra m\u1ed9t ma tr\u1eadn c\u00f3 h\u00ecnh d\u1ea1ng (5, 4)"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c n\u1ed1i X v\u00e0 H v\u1edbi W_xh v\u00e0 W_hh l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "B\u1eb1ng c\u00e1ch t\u00ednh perplexity",
+        "B\u1eb1ng c\u00e1ch t\u00ednh t\u00edch v\u00f4 h\u01b0\u1edbng",
+        "B\u1eb1ng c\u00e1ch t\u00ednh cross-entropy",
+        "B\u1eb1ng c\u00e1ch t\u00ednh softmax"
+      ],
+      "question": "L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 ch\u1ea5t l\u01b0\u1ee3ng c\u1ee7a m\u1ed9t m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u0110\u1ec3 d\u1ec5 d\u00e0ng \u0111\u1ecdc d\u1eef li\u1ec7u",
+        "\u0110\u1ec3 bi\u1ec3u di\u1ec5n m\u1ed7i token d\u01b0\u1edbi d\u1ea1ng vector \u0111\u1eb7c tr\u01b0ng",
+        "\u0110\u1ec3 gi\u1ea3m s\u1ed1 chi\u1ec1u c\u1ee7a d\u1eef li\u1ec7u",
+        "\u0110\u1ec3 c\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c m\u00e3 h\u00f3a c\u00e1c token th\u00e0nh c\u00e1c vector one-hot l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "(batch_size, num_steps, vocab_size)",
+        "(num_steps, batch_size, vocab_size)",
+        "(vocab_size, num_steps, batch_size)",
+        "(vocab_size, batch_size, num_steps)"
+      ],
+      "question": "H\u00ecnh d\u1ea1ng c\u1ee7a tensor sau khi \u00e1p d\u1ee5ng h\u00e0m one_hot cho m\u1ed9t minibatch l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Kh\u1edfi t\u1ea1o c\u00e1c tham s\u1ed1 c\u1ee7a hidden layer trong m\u00f4 h\u00ecnh RNN",
+        "Kh\u1edfi t\u1ea1o c\u00e1c tham s\u1ed1 c\u1ee7a output layer trong m\u00f4 h\u00ecnh RNN",
+        "Kh\u1edfi t\u1ea1o tr\u1ea1ng th\u00e1i c\u1ee7a m\u00f4 h\u00ecnh RNN \u1edf \u0111\u1ea7u m\u1ed7i b\u01b0\u1edbc th\u1eddi gian",
+        "Kh\u1edfi t\u1ea1o tr\u1ea1ng th\u00e1i c\u1ee7a m\u00f4 h\u00ecnh RNN \u1edf cu\u1ed1i m\u1ed7i b\u01b0\u1edbc th\u1eddi gian"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m init_rnn_state l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "(batch_size, num_hiddens)",
+        "(num_hiddens, batch_size)",
+        "(batch_size, vocab_size)",
+        "(vocab_size, batch_size)"
+      ],
+      "question": "H\u00ecnh d\u1ea1ng c\u1ee7a hidden state trong m\u00f4 h\u00ecnh RNN l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u1ea1o ra c\u00e1c k\u00fd t\u1ef1 m\u1edbi theo m\u1ed9t ti\u1ec1n t\u1ed1 cho tr\u01b0\u1edbc",
+        "T\u00ednh to\u00e1n gradient c\u1ee7a m\u00f4 h\u00ecnh RNN",
+        "C\u1eadp nh\u1eadt c\u00e1c tham s\u1ed1 c\u1ee7a m\u00f4 h\u00ecnh RNN",
+        "\u0110\u00e1nh gi\u00e1 hi\u1ec7u su\u1ea5t c\u1ee7a m\u00f4 h\u00ecnh RNN"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u00e0m predict_ch8 l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u0110\u1ec3 d\u1ec5 d\u00e0ng t\u00ednh to\u00e1n gradient",
+        "Ng\u0103n ch\u1eb7n gradient b\u1ecb ph\u00ecnh to ho\u1eb7c bi\u1ebfn m\u1ea5t",
+        "Gi\u1ea3m s\u1ed1 chi\u1ec1u c\u1ee7a gradient",
+        "C\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "T\u1ea1i sao c\u1ea7n c\u1eaft gradient trong c\u00e1c m\u00f4 h\u00ecnh RNN?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ec3 \u1ed5n \u0111\u1ecbnh qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n",
+        "\u0110\u1ec3 t\u0103ng t\u1ef7 l\u1ec7 h\u1ecdc",
+        "\u0110\u1ec3 gi\u1ea3m s\u1ed1 l\u01b0\u1ee3ng tham s\u1ed1",
+        "\u0110\u1ec3 c\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c c\u1eaft gradient trong m\u00f4 h\u00ecnh RNN l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Gi\u1edbi h\u1ea1n \u0111\u1ed9 l\u1edbn c\u1ee7a gradient trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n",
+        "T\u0103ng t\u1ef7 l\u1ec7 h\u1ecdc trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n",
+        "Gi\u1ea3m s\u1ed1 l\u01b0\u1ee3ng tham s\u1ed1 trong m\u00f4 h\u00ecnh",
+        "C\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh trong qu\u00e1 tr\u00ecnh hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c c\u1eaft gradient l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "N\u00f3 gi\u1edbi thi\u1ec7u s\u1ef1 ng\u1eabu nhi\u00ean v\u00e0 c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng t\u1ed5ng qu\u00e1t h\u00f3a c\u1ee7a m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m th\u1eddi gian hu\u1ea5n luy\u1ec7n",
+        "T\u0103ng kh\u1ea3 n\u0103ng c\u1ee7a m\u00f4 h\u00ecnh",
+        "C\u1ea3i thi\u1ec7n \u0111\u1ed9 ch\u00ednh x\u00e1c c\u1ee7a m\u00f4 h\u00ecnh"
+      ],
+      "question": "L\u1ee3i \u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng m\u1eabu ng\u1eabu nhi\u00ean trong hu\u1ea5n luy\u1ec7n m\u00f4 h\u00ecnh RNN l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "Ng\u0103n ch\u1eb7n s\u1ef1 ph\u00ecnh to c\u1ee7a gradient",
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "L\u00e0m t\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng gradient clipping l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "T\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n",
+        "C\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng t\u1ed5ng qu\u00e1t h\u00f3a"
+      ],
+      "question": "L\u1ee3i \u00edch c\u1ee7a vi\u1ec7c thay th\u1ebf m\u00e3 h\u00f3a one-hot b\u1eb1ng vi\u1ec7c h\u1ecdc nh\u00fang l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "M\u00e3 ch\u1ea1y m\u00e0 kh\u00f4ng g\u1eb7p v\u1ea5n \u0111\u1ec1 g\u00ec",
+        "M\u00e3 t\u1ea1o ra k\u1ebft qu\u1ea3 kh\u00f4ng ch\u00ednh x\u00e1c",
+        "M\u00e3 ch\u1ea1y ch\u1eadm h\u01a1n",
+        "M\u00e3 g\u00e2y ra l\u1ed7i"
+      ],
+      "question": "\u0110i\u1ec1u g\u00ec x\u1ea3y ra khi ch\u1ea1y m\u00e3 trong ph\u1ea7n n\u00e0y m\u00e0 kh\u00f4ng s\u1eed d\u1ee5ng gradient clipping?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "Ng\u0103n ch\u1eb7n s\u1ef1 ph\u00ecnh to c\u1ee7a gradient",
+        "L\u00e0m t\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng h\u00e0m k\u00edch ho\u1ea1t ReLU trong ph\u1ea7n n\u00e0y l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "C\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t m\u00f4 h\u00ecnh",
+        "Gi\u1ea3m chi ph\u00ed t\u00ednh to\u00e1n",
+        "Ng\u0103n ch\u1eb7n s\u1ef1 ph\u00ecnh to c\u1ee7a gradient",
+        "L\u00e0m t\u0103ng t\u1ed1c \u0111\u1ed9 hu\u1ea5n luy\u1ec7n"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c s\u1eed d\u1ee5ng h\u00e0m `detach` trong ph\u1ea7n n\u00e0y l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Cung c\u1ea5p m\u1ed9t gi\u1edbi thi\u1ec7u v\u1ec1 quy tr\u00ecnh xu\u1ea5t b\u1ea3n",
+        "Gi\u1ea3i th\u00edch t\u1ea7m quan tr\u1ecdng c\u1ee7a \u0111\u00e1nh gi\u00e1 b\u1eb1ng c\u00f9ng ngh\u1ec1",
+        "D\u1ea1y sinh vi\u00ean c\u00e1ch ti\u1ebfn h\u00e0nh nghi\u00ean c\u1ee9u khoa h\u1ecdc",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 vai tr\u00f2 c\u1ee7a ng\u01b0\u1eddi h\u01b0\u1edbng d\u1eabn trong vi\u1ebft b\u00e0i khoa h\u1ecdc"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a h\u01b0\u1edbng d\u1eabn n\u00e0y l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Sinh vi\u00ean sau \u0111\u1ea1i h\u1ecdc",
+        "C\u00e1c nh\u00e0 khoa h\u1ecdc \u0111ang l\u00e0m vi\u1ec7c",
+        "Nh\u1eefng nghi\u00ean c\u1ee9u sinh \u0111\u1ea1i h\u1ecdc",
+        "Bi\u00ean t\u1eadp vi\u00ean t\u1ea1p ch\u00ed"
+      ],
+      "question": "\u0110\u1ed1i t\u01b0\u1ee3ng \u0111\u1ecdc c\u1ee7a h\u01b0\u1edbng d\u1eabn n\u00e0y l\u00e0 ai?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Vi\u1ebft b\u00e0i khoa h\u1ecdc",
+        "Ti\u1ebfn h\u00e0nh nghi\u00ean c\u1ee9u khoa h\u1ecdc",
+        "Ph\u00e2n t\u00edch t\u00e0i li\u1ec7u khoa h\u1ecdc",
+        "\u0110\u00e1nh gi\u00e1 b\u00e0i vi\u1ebft khoa h\u1ecdc"
+      ],
+      "question": "Tr\u1ecdng t\u00e2m ch\u00ednh c\u1ee7a h\u01b0\u1edbng d\u1eabn n\u00e0y l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Ti\u1ebfn h\u00e0nh nghi\u00ean c\u1ee9u khoa h\u1ecdc",
+        "\u0110\u00e1nh gi\u00e1 b\u1eb1ng c\u00f9ng ngh\u1ec1 v\u00e0 xu\u1ea5t b\u1ea3n",
+        "C\u1ea3i thi\u1ec7n gi\u00e1o d\u1ee5c khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "Truy\u1ec1n \u0111\u1ea1t nghi\u00ean c\u1ee9u cho c\u1ed9ng \u0111\u1ed3ng khoa h\u1ecdc"
+      ],
+      "question": "T\u1ea1p ch\u00ed Young Investigators (JYI) cam k\u1ebft v\u00e0o \u0111i\u1ec1u g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u00e1nh gi\u00e1 ch\u1ea5t l\u01b0\u1ee3ng c\u00f4ng vi\u1ec7c khoa h\u1ecdc",
+        "Ph\u00e2n b\u1ed5 ngu\u1ed3n kinh ph\u00ed cho nghi\u00ean c\u1ee9u",
+        "Xem x\u00e9t c\u00f4ng vi\u1ec7c c\u1ee7a \u0111\u1ed3ng nghi\u1ec7p \u0111\u1ec3 x\u00e9t tuy\u1ec3n",
+        "Xu\u1ea5t b\u1ea3n b\u00e1o c\u00e1o nghi\u00ean c\u1ee9u"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c xem x\u00e9t b\u1edfi \u0111\u1ed3ng nghi\u1ec7p trong c\u1ed9ng \u0111\u1ed3ng khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Vi\u1ebft v\u00e0 xem x\u00e9t b\u00e0i b\u00e1o khoa h\u1ecdc",
+        "Qu\u1ea3n l\u00fd qu\u00e1 tr\u00ecnh xu\u1ea5t b\u1ea3n",
+        "L\u00e0m vi\u1ec7c v\u1edbi c\u00e1c nh\u00e0 khoa h\u1ecdc chuy\u00ean nghi\u1ec7p",
+        "N\u1ed9p b\u00e0i nghi\u00ean c\u1ee9u"
+      ],
+      "question": "Vai tr\u00f2 c\u1ee7a sinh vi\u00ean \u0111\u1ea1i h\u1ecdc t\u1ea1i T\u1ea1p ch\u00ed Nh\u00e0 nghi\u00ean c\u1ee9u tr\u1ebb (JYI) l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Quy\u1ebft \u0111\u1ecbnh xu\u1ea5t b\u1ea3n",
+        "Ch\u1ecdn m\u1ed9t t\u1ea1p ch\u00ed",
+        "N\u1ed9p b\u00e0i b\u00e1o",
+        "S\u1eeda \u0111\u1ed5i b\u00e0i b\u00e1o"
+      ],
+      "question": "B\u01b0\u1edbc \u0111\u1ea7u ti\u00ean trong qu\u00e1 tr\u00ecnh xu\u1ea5t b\u1ea3n l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Sinh vi\u00ean \u0111\u1ea1i h\u1ecdc nghi\u00ean c\u1ee9u",
+        "Ng\u01b0\u1eddi h\u01b0\u1edbng d\u1eabn",
+        "Bi\u00ean t\u1eadp vi\u00ean t\u1ea1p ch\u00ed",
+        "Ng\u01b0\u1eddi xem x\u00e9t \u0111\u1ed3ng nghi\u1ec7p"
+      ],
+      "question": "Ai quy\u1ebft \u0111\u1ecbnh khi n\u00e0o l\u00e0 th\u1eddi \u0111i\u1ec3m th\u00edch h\u1ee3p \u0111\u1ec3 xu\u1ea5t b\u1ea3n m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "C\u00e1c t\u1ea1p ch\u00ed h\u00e0ng \u0111\u1ea7u nh\u01b0 Science",
+        "C\u00e1c t\u1ea1p ch\u00ed h\u00e0ng \u0111\u1ea7u trong l\u0129nh v\u1ef1c c\u1ee5 th\u1ec3",
+        "C\u00e1c t\u1ea1p ch\u00ed nh\u1ecf, chuy\u00ean ng\u00e0nh cao c\u1ea5p",
+        "C\u00e1c t\u1ea1p ch\u00ed d\u00e0nh cho c\u00f4ng ch\u00fang chung"
+      ],
+      "question": "Lo\u1ea1i t\u1ea1p ch\u00ed n\u00e0o m\u00e0 h\u1ea7u h\u1ebft sinh vi\u00ean \u0111\u1ea1i h\u1ecdc xu\u1ea5t b\u1ea3n?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "X\u00e1c \u0111\u1ecbnh nh\u1eefng b\u00e0i b\u00e1o b\u00e1o c\u00e1o khoa h\u1ecdc t\u1ed1t",
+        "Cung c\u1ea5p cho c\u00e1c nh\u00e0 nghi\u00ean c\u1ee9u c\u00e1i nh\u00ecn t\u1ed5ng quan",
+        "L\u1ecdc nh\u1eefng g\u00ec \u0111\u01b0\u1ee3c xu\u1ea5t b\u1ea3n l\u00e0 'khoa h\u1ecdc'",
+        "Ph\u00e1t hi\u1ec7n t\u1ea5t c\u1ea3 nh\u01b0\u1ee3c \u0111i\u1ec3m trong m\u1ed9t nghi\u00ean c\u1ee9u"
+      ],
+      "question": "Hai m\u1ee5c \u0111\u00edch ch\u00ednh c\u1ee7a vi\u1ec7c xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p trong c\u1ed9ng \u0111\u1ed3ng khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "X\u00e1c \u0111\u1ecbnh nh\u1eefng b\u00e0i vi\u1ebft n\u00ean \u0111\u01b0\u1ee3c xu\u1ea5t b\u1ea3n",
+        "\u0110\u01b0a ra nh\u1eadn x\u00e9t x\u00e2y d\u1ef1ng cho t\u00e1c gi\u1ea3",
+        "\u0110\u01b0a ra quy\u1ebft \u0111\u1ecbnh cu\u1ed1i c\u00f9ng v\u1ec1 vi\u1ec7c xu\u1ea5t b\u1ea3n",
+        "Cung c\u1ea5p ph\u1ea3n h\u1ed3i cho bi\u00ean t\u1eadp vi\u00ean"
+      ],
+      "question": "Vai tr\u00f2 c\u1ee7a c\u00e1c tr\u1ecdng t\u00e0i trong qu\u00e1 tr\u00ecnh xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "C\u00e1c tr\u1ecdng t\u00e0i bi\u1ebft t\u00e1c gi\u1ea3 l\u00e0 ai",
+        "C\u00e1c tr\u1ecdng t\u00e0i ho\u1ea1t \u0111\u1ed9ng nh\u01b0 m\u1ed9t nh\u00f3m",
+        "C\u00e1c tr\u1ecdng t\u00e0i b\u1ecb \u1ea3nh h\u01b0\u1edfng b\u1edfi c\u00e1c y\u1ebfu t\u1ed1 kh\u00e1c ngo\u00e0i c\u00f4ng tr\u00ecnh nghi\u00ean c\u1ee9u",
+        "C\u00e1c tr\u1ecdng t\u00e0i kh\u00f4ng bi\u1ebft c\u00e1c tr\u1ecdng t\u00e0i kh\u00e1c l\u00e0 ai"
+      ],
+      "question": "M\u1ed9t trong nh\u1eefng \u0111\u1eb7c \u0111i\u1ec3m quan tr\u1ecdng c\u1ee7a h\u1ec7 th\u1ed1ng xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u01b0a ra quy\u1ebft \u0111\u1ecbnh cu\u1ed1i c\u00f9ng v\u1ec1 vi\u1ec7c xu\u1ea5t b\u1ea3n",
+        "\u0110\u01b0a ra nh\u1eadn x\u00e9t x\u00e2y d\u1ef1ng cho t\u00e1c gi\u1ea3",
+        "Cung c\u1ea5p ph\u1ea3n h\u1ed3i cho c\u00e1c tr\u1ecdng t\u00e0i",
+        "X\u00e1c \u0111\u1ecbnh nh\u1eefng b\u00e0i vi\u1ebft n\u00ean \u0111\u01b0\u1ee3c xu\u1ea5t b\u1ea3n"
+      ],
+      "question": "Vai tr\u00f2 c\u1ee7a bi\u00ean t\u1eadp vi\u00ean trong qu\u00e1 tr\u00ecnh xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Qu\u00e1 ch\u1eadm",
+        "C\u00f3 thi\u00ean v\u1ecb",
+        "D\u1ec5 d\u00e0ng s\u1eeda ch\u1eefa",
+        "Ph\u00e1t hi\u1ec7n t\u1ea5t c\u1ea3 c\u00e1c tr\u01b0\u1eddng h\u1ee3p gian l\u1eadn khoa h\u1ecdc"
+      ],
+      "question": "M\u1ed9t trong nh\u1eefng h\u1ea1n ch\u1ebf c\u1ee7a qu\u00e1 tr\u00ecnh xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Qu\u00e1 d\u1ec5 b\u1ecb \u1ea3nh h\u01b0\u1edfng b\u1edfi v\u1ea5n \u0111\u1ec1 c\u00e1 nh\u00e2n",
+        "Qu\u00e1 kh\u00e1ch quan",
+        "Qu\u00e1 nhanh",
+        "Qu\u00e1 \u0111\u1ea7y \u0111\u1ee7"
+      ],
+      "question": "M\u1ed9t trong nh\u1eefng khi\u1ebfu n\u1ea1i ph\u1ed5 bi\u1ebfn v\u1ec1 qu\u00e1 tr\u00ecnh xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Cung c\u1ea5p m\u1ed9t t\u00f3m t\u1eaft v\u1ec1 c\u00e1c k\u1ebft qu\u1ea3 v\u00e0 k\u1ebft lu\u1eadn ch\u00ednh",
+        "Gi\u1ea3i th\u00edch th\u00f4ng tin n\u1ec1n v\u1ec1 nghi\u00ean c\u1ee9u",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u",
+        "Tr\u00edch d\u1eabn c\u00e1c t\u00e0i li\u1ec7u tham kh\u1ea3o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t b\u00e0i t\u00f3m t\u1eaft trong m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "L\u1ecbch s\u1eed \u0111\u1ea7y \u0111\u1ee7 v\u1ec1 ch\u1ee7 \u0111\u1ec1 \u0111\u01b0\u1ee3c nghi\u00ean c\u1ee9u",
+        "M\u1ed9t tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "M\u00f4 t\u1ea3 chi ti\u1ebft v\u1ec1 k\u1ebft qu\u1ea3",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 c\u00e1c ngu\u1ed3n g\u1ed1c ti\u1ec1m n\u0103ng c\u1ee7a sai s\u1ed1"
+      ],
+      "question": "Nh\u1eefng g\u00ec n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong ph\u1ea7n gi\u1edbi thi\u1ec7u c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Th\u00f4ng tin n\u1ec1n v\u00e0 k\u1ebft qu\u1ea3",
+        "Ph\u01b0\u01a1ng ph\u00e1p v\u00e0 v\u1eadt li\u1ec7u \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng",
+        "Di\u1ec5n gi\u1ea3i v\u00e0 th\u1ea3o lu\u1eadn v\u1ec1 k\u1ebft qu\u1ea3",
+        "C\u1ea3m \u01a1n v\u00e0 tham kh\u1ea3o"
+      ],
+      "question": "Ph\u1ea7n th\u00e2n c\u1ee7a b\u00e0i b\u00e1o trong m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u n\u00ean ch\u1ee9a nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Di\u1ec5n gi\u1ea3i v\u00e0 th\u1ea3o lu\u1eadn v\u1ec1 k\u1ebft qu\u1ea3",
+        "T\u00f3m t\u1eaft v\u1ec1 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng",
+        "M\u00f4 t\u1ea3 v\u1ec1 c\u00e1c v\u1eadt li\u1ec7u \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng",
+        "H\u00ecnh \u1ea3nh v\u00e0 b\u1ea3ng bi\u1ec3u b\u1ed5 sung cho k\u1ebft qu\u1ea3"
+      ],
+      "question": "Nh\u1eefng g\u00ec n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong ph\u1ea7n k\u1ebft qu\u1ea3 c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Th\u00f4ng tin n\u1ec1n v\u1ec1 nghi\u00ean c\u1ee9u",
+        "\u00dd ngh\u0129a c\u1ee7a k\u1ebft qu\u1ea3 v\u00e0 c\u00e1ch hi\u1ec3u c\u1ee7a ch\u00fang",
+        "C\u00e1c ph\u01b0\u01a1ng ph\u00e1p \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u",
+        "L\u1eddi c\u1ea3m \u01a1n v\u00e0 c\u1ea3m \u01a1n s\u1ef1 gi\u00fap \u0111\u1ee1 nh\u1eadn \u0111\u01b0\u1ee3c"
+      ],
+      "question": "Nh\u1eefng g\u00ec n\u00ean \u0111\u01b0\u1ee3c th\u1ea3o lu\u1eadn trong ph\u1ea7n th\u1ea3o lu\u1eadn v\u00e0 k\u1ebft lu\u1eadn c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Sao ch\u00e9p d\u1eef li\u1ec7u t\u1eeb c\u00e1c t\u00e1c gi\u1ea3 kh\u00e1c",
+        "T\u1ea1o ra ho\u1eb7c gi\u1ea3 m\u1ea1o k\u1ebft qu\u1ea3",
+        "Th\u1ea3o lu\u1eadn \u00fd t\u01b0\u1edfng c\u1ee7a m\u1ed9t nh\u00e0 nghi\u00ean c\u1ee9u kh\u00e1c",
+        "Xu\u1ea5t b\u1ea3n c\u00f9ng m\u1ed9t n\u1ed9i dung \u1edf nhi\u1ec1u n\u01a1i kh\u00e1c nhau"
+      ],
+      "question": "Vi\u1ec7c g\u00ec \u0111\u01b0\u1ee3c coi l\u00e0 vi ph\u1ea1m khoa h\u1ecdc?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "'Xem x\u00e9t' l\u00e0 \u0111\u1ec3 c\u00f3 ki\u1ebfn th\u1ee9c, 'ph\u00e2n t\u00edch' l\u00e0 \u0111\u1ec3 m\u00f4 t\u1ea3 m\u1ed9t ho\u1ea1t \u0111\u1ed9ng",
+        "'Xem x\u00e9t' l\u00e0 \u0111\u1ec3 m\u00f4 t\u1ea3 m\u1ed9t ho\u1ea1t \u0111\u1ed9ng, 'ph\u00e2n t\u00edch' l\u00e0 \u0111\u1ec3 c\u00f3 ki\u1ebfn th\u1ee9c",
+        "'Xem x\u00e9t' l\u00e0 \u0111\u1ec3 ph\u00e2n t\u00edch c\u00e1c s\u1ef1 th\u1eadt, 'ph\u00e2n t\u00edch' l\u00e0 \u0111\u1ec3 t\u00ecm ra s\u1ef1 th\u1eadt",
+        "'Xem x\u00e9t' l\u00e0 \u0111\u1ec3 t\u00ecm ra s\u1ef1 th\u1eadt, 'ph\u00e2n t\u00edch' l\u00e0 \u0111\u1ec3 r\u00fat ra k\u1ebft lu\u1eadn"
+      ],
+      "question": "S\u1ef1 kh\u00e1c bi\u1ec7t gi\u1eefa 'xem x\u00e9t' v\u00e0 'ph\u00e2n t\u00edch' l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Ki\u1ebfn th\u1ee9c",
+        "Hi\u1ec3u bi\u1ebft",
+        "\u1ee8ng d\u1ee5ng",
+        "Ph\u00e2n t\u00edch"
+      ],
+      "question": "M\u1ee9c n\u00e0o c\u1ee7a L\u00fd thuy\u1ebft Bloom li\u00ean quan \u0111\u1ebfn vi\u1ec7c thu\u1ed9c l\u00f2ng s\u1ef1 th\u1eadt?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Hi\u1ec3u, gi\u1ea3i th\u00edch, di\u1ec5n gi\u1ea3i",
+        "Ph\u00e2n t\u00edch, ph\u00e2n bi\u1ec7t, xem x\u00e9t",
+        "T\u1ea1o ra, ph\u00e1t minh, s\u00e1ng t\u1ea1o",
+        "\u0110\u00e1nh gi\u00e1, ph\u00ea ph\u00e1n, l\u1ef1a ch\u1ecdn"
+      ],
+      "question": "Nh\u1eefng t\u1eeb n\u00e0o n\u00ean \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng khi gi\u1ea3i th\u00edch m\u00f4 h\u00ecnh v\u00e0 \u00fd ngh\u0129a?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "T\u00f3m t\u1eaft c\u00e1c kh\u00eda c\u1ea1nh ch\u00ednh c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o",
+        "Cung c\u1ea5p th\u00f4ng tin n\u1ec1n",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u",
+        "Tr\u00ecnh b\u00e0y c\u00e1c di\u1ec5n gi\u1ea3i c\u1ee7a t\u00e1c gi\u1ea3"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t T\u00f3m t\u1eaft l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "50-100 t\u1eeb",
+        "100-200 t\u1eeb",
+        "200-300 t\u1eeb",
+        "300-400 t\u1eeb"
+      ],
+      "question": "M\u1ed9t T\u00f3m t\u1eaft th\u01b0\u1eddng c\u00f3 \u0111\u1ed9 d\u00e0i bao nhi\u00eau?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Gi\u1edbi thi\u1ec7u",
+        "Ph\u01b0\u01a1ng ph\u00e1p",
+        "K\u1ebft qu\u1ea3",
+        "K\u1ebft lu\u1eadn"
+      ],
+      "question": "Ph\u1ea7n n\u00e0o c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc kh\u00f4ng n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong T\u00f3m t\u1eaft?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "N\u1ed9i dung v\u00e0 c\u1ea5u tr\u00fac",
+        "\u0110\u1ed9 d\u00e0i v\u00e0 r\u00f5 r\u00e0ng",
+        "N\u1ec1n t\u1ea3ng v\u00e0 t\u00e0i li\u1ec7u tham kh\u1ea3o",
+        "H\u00ecnh \u1ea3nh v\u00e0 h\u00ecnh v\u1ebd"
+      ],
+      "question": "Ti\u00eau ch\u00ed n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 T\u00f3m t\u1eaft t\u1ea1i JYI?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Kh\u00f4ng bao g\u1ed3m T\u00f3m t\u1eaft",
+        "Bao g\u1ed3m th\u00f4ng tin n\u1ec1n d\u00e0i",
+        "S\u1eed d\u1ee5ng vi\u1ebft t\u1eaft ho\u1eb7c t\u1eeb vi\u1ebft t\u1eaft",
+        "Bao g\u1ed3m h\u00ecnh \u1ea3nh ho\u1eb7c h\u00ecnh v\u1ebd"
+      ],
+      "question": "M\u1ed9t sai l\u1ea7m ph\u1ed5 bi\u1ebfn khi vi\u1ebft T\u00f3m t\u1eaft l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Cung c\u1ea5p th\u00f4ng tin n\u1ec1n t\u1ea3ng",
+        "T\u00f3m t\u1eaft to\u00e0n b\u1ed9 b\u00e0i b\u00e1o",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3",
+        "Gi\u1ea3i th\u00edch c\u00e1c ph\u01b0\u01a1ng ph\u00e1p \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t Abstract l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "M\u1ee5c \u0111\u00edch c\u1ee7a nghi\u00ean c\u1ee9u",
+        "K\u1ebft qu\u1ea3 ch\u00ednh",
+        "C\u00e1c ph\u01b0\u01a1ng ph\u00e1p \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng",
+        "Nh\u1eefng h\u1ec7 qu\u1ea3 c\u1ee7a nghi\u00ean c\u1ee9u"
+      ],
+      "question": "Th\u00f4ng tin n\u00e0o th\u01b0\u1eddng b\u1ecb thi\u1ebfu trong m\u1ed9t Abstract?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "1-2 c\u00e2u cho m\u1ed7i ph\u1ea7n ch\u00ednh",
+        "10 c\u00e2u v\u1ec1 th\u00f4ng tin n\u1ec1n t\u1ea3ng",
+        "M\u1ed9t s\u1ed1 trang th\u00f4ng tin chi ti\u1ebft",
+        "Kh\u00f4ng n\u00ean bao g\u1ed3m th\u00f4ng tin n\u00e0o"
+      ],
+      "question": "C\u1ea7n bao nhi\u00eau th\u00f4ng tin n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong m\u1ed9t Abstract?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Cung c\u1ea5p th\u00f4ng tin n\u1ec1n t\u1ea3ng",
+        "T\u00f3m t\u1eaft to\u00e0n b\u1ed9 b\u00e0i b\u00e1o",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3",
+        "Cung c\u1ea5p th\u00f4ng tin \u0111\u1ec3 ng\u01b0\u1eddi \u0111\u1ecdc hi\u1ec3u ph\u1ea7n c\u00f2n l\u1ea1i c\u1ee7a b\u00e0i b\u00e1o"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t Introduction l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "300-500 t\u1eeb",
+        "M\u1ed9t s\u1ed1 trang",
+        "1-2 c\u00e2u",
+        "T\u00f9y thu\u1ed9c v\u00e0o t\u1ea1p ch\u00ed v\u00e0 ch\u1ee7 \u0111\u1ec1"
+      ],
+      "question": "M\u1ed9t Introduction th\u01b0\u1eddng c\u00f3 \u0111\u1ed9 d\u00e0i bao nhi\u00eau?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "\u0110\u1ed9ng l\u1ef1c cho nghi\u00ean c\u1ee9u",
+        "Ch\u1ee7 \u0111\u1ec1 v\u00e0 v\u1ea5n \u0111\u1ec1 r\u1ed9ng",
+        "Gi\u1ea3i th\u00edch c\u00e1c kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "N\u00ean bao g\u1ed3m nh\u1eefng g\u00ec trong \u0111o\u1ea1n v\u0103n \u0111\u1ea7u ti\u00ean c\u1ee7a m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "\u0110\u1ed9ng l\u1ef1c cho nghi\u00ean c\u1ee9u",
+        "Ch\u1ee7 \u0111\u1ec1 v\u00e0 v\u1ea5n \u0111\u1ec1 r\u1ed9ng",
+        "Gi\u1ea3i th\u00edch c\u00e1c kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "N\u00ean bao g\u1ed3m nh\u1eefng g\u00ec trong \u0111o\u1ea1n v\u0103n th\u1ee9 hai c\u1ee7a m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "\u0110\u1ed9ng l\u1ef1c cho nghi\u00ean c\u1ee9u",
+        "Ch\u1ee7 \u0111\u1ec1 v\u00e0 v\u1ea5n \u0111\u1ec1 r\u1ed9ng",
+        "Gi\u1ea3i th\u00edch c\u00e1c kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "N\u00ean bao g\u1ed3m nh\u1eefng g\u00ec trong \u0111o\u1ea1n v\u0103n th\u1ee9 ba c\u1ee7a m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "\u0110\u1ed9ng l\u1ef1c cho nghi\u00ean c\u1ee9u",
+        "Ch\u1ee7 \u0111\u1ec1 v\u00e0 v\u1ea5n \u0111\u1ec1 r\u1ed9ng",
+        "Gi\u1ea3i th\u00edch c\u00e1c kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "N\u00ean bao g\u1ed3m nh\u1eefng g\u00ec trong \u0111o\u1ea1n v\u0103n th\u1ee9 t\u01b0 c\u1ee7a m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Th\u00f4ng tin n\u1ec1n t\u1ea3ng, m\u00f4 t\u1ea3 c\u00e1c nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1, \u0111\u1ed9ng l\u1ef1c cho nghi\u00ean c\u1ee9u",
+        "\u0110\u1ee7 th\u00f4ng tin, th\u00f4ng tin li\u00ean quan, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1 r\u00f5 r\u00e0ng, \u0111\u1ed9ng l\u1ef1c \u0111\u01b0\u1ee3c n\u00eau r\u00f5",
+        "\u0110\u1ee7 th\u00f4ng tin, th\u00f4ng tin li\u00ean quan, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1 r\u00f5 r\u00e0ng, \u00fd ngh\u0129a c\u1ee7a nghi\u00ean c\u1ee9u",
+        "Th\u00f4ng tin n\u1ec1n t\u1ea3ng, m\u00f4 t\u1ea3 c\u00e1c nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1 r\u00f5 r\u00e0ng, \u0111\u1ed9ng l\u1ef1c \u0111\u01b0\u1ee3c n\u00eau r\u00f5"
+      ],
+      "question": "Ti\u00eau ch\u00ed n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 c\u00e1c Introduction?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Cung c\u1ea5p th\u00f4ng tin n\u1ec1n v\u1ec1 ch\u1ee7 \u0111\u1ec1",
+        "Gi\u1ea3i th\u00edch ph\u01b0\u01a1ng ph\u00e1p s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u",
+        "Tr\u00ecnh b\u00e0y k\u1ebft qu\u1ea3 v\u00e0 ph\u00e1t hi\u1ec7n c\u1ee7a nghi\u00ean c\u1ee9u",
+        "M\u00f4 t\u1ea3 v\u1eadt li\u1ec7u v\u00e0 thi\u1ebft b\u1ecb \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a ph\u1ea7n Gi\u1edbi thi\u1ec7u trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Bao g\u1ed3m qu\u00e1 nhi\u1ec1u th\u00f4ng tin kh\u00f4ng li\u00ean quan \u0111\u1ebfn ch\u1ee7 \u0111\u1ec1",
+        "Kh\u00f4ng cung c\u1ea5p \u0111\u1ee7 th\u00f4ng tin n\u1ec1n",
+        "S\u1eed d\u1ee5ng c\u00e2u chuy\u1ec7n c\u00e1 nh\u00e2n",
+        "Li\u1ec7t k\u00ea v\u1eadt li\u1ec7u theo \u0111\u1ecbnh d\u1ea1ng d\u1ea5u \u0111\u1ea7u d\u00f2ng"
+      ],
+      "question": "L\u1ed7i ph\u1ed5 bi\u1ebfn m\u00e0 c\u00e1c t\u00e1c gi\u1ea3 th\u01b0\u1eddng m\u1eafc ph\u1ea3i trong ph\u1ea7n Gi\u1edbi thi\u1ec7u l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "M\u00f4 t\u1ea3 chi ti\u1ebft gi\u1ea3 thuy\u1ebft c\u1ee7a t\u00e1c gi\u1ea3",
+        "Gi\u1ea3i th\u00edch c\u00e1c k\u1ef9 thu\u1eadt ph\u00e2n t\u00edch th\u1ed1ng k\u00ea \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng",
+        "Th\u00f4ng tin n\u1ec1n v\u1ec1 c\u00e1c nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3",
+        "M\u00f4 t\u1ea3 t\u1eebng b\u01b0\u1edbc th\u1ef1c hi\u1ec7n th\u00ed nghi\u1ec7m v\u00e0 v\u1eadt li\u1ec7u \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng"
+      ],
+      "question": "Ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p & V\u1eadt li\u1ec7u c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u n\u00ean bao g\u1ed3m nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Th\u00ec hi\u1ec7n t\u1ea1i",
+        "Th\u00ec t\u01b0\u01a1ng lai",
+        "Th\u00ec qu\u00e1 kh\u1ee9",
+        "Th\u00ec \u0111i\u1ec1u ki\u1ec7n"
+      ],
+      "question": "Th\u00ec n\u00e0o n\u00ean \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p & V\u1eadt li\u1ec7u?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Bao g\u1ed3m m\u1ecdi chi ti\u1ebft c\u1ee7a th\u00ed nghi\u1ec7m",
+        "Cung c\u1ea5p \u0111\u1ee7 chi ti\u1ebft \u0111\u1ec3 ng\u01b0\u1eddi \u0111\u1ecdc c\u00f3 th\u1ec3 t\u00e1i hi\u1ec7n nghi\u00ean c\u1ee9u",
+        "S\u1eed d\u1ee5ng thu\u1eadt ng\u1eef chuy\u00ean ng\u00e0nh \u0111\u1ec3 g\u00e2y \u1ea5n t\u01b0\u1ee3ng cho ng\u01b0\u1eddi \u0111\u1ecdc",
+        "Bao g\u1ed3m c\u00e2u chuy\u1ec7n c\u00e1 nh\u00e2n"
+      ],
+      "question": "C\u00e1c t\u00e1c gi\u1ea3 n\u00ean xem x\u00e9t \u0111i\u1ec1u g\u00ec khi x\u00e1c \u0111\u1ecbnh m\u1ee9c \u0111\u1ed9 chi ti\u1ebft trong ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p & V\u1eadt li\u1ec7u?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ee7 chi ti\u1ebft v\u00e0 th\u00f4ng tin li\u00ean quan",
+        "Ki\u1ec3m so\u00e1t t\u00edch c\u1ef1c v\u00e0 ti\u00eau c\u1ef1c ph\u00f9 h\u1ee3p",
+        "Ki\u1ec3m tra gi\u1ea3 thuy\u1ebft \u0111\u1ee7 v\u00e0 ph\u00f9 h\u1ee3p",
+        "Ng\u1eafn g\u1ecdn v\u00e0 r\u00f5 r\u00e0ng"
+      ],
+      "question": "Ti\u00eau ch\u00ed n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 ph\u1ea7n V\u1eadt li\u1ec7u?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Bao g\u1ed3m t\u00e0i li\u1ec7u n\u1ec1n ho\u1eb7c gi\u1ea3i th\u00edch v\u1ec1 kh\u00e1i ni\u1ec7m",
+        "Kh\u00f4ng b\u00e1o c\u00e1o k\u1ebft qu\u1ea3",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 ngu\u1ed3n g\u1ed1c l\u1ed7i",
+        "Bao g\u1ed3m qu\u00e1 nhi\u1ec1u th\u00f4ng tin"
+      ],
+      "question": "L\u1ed7i ph\u1ed5 bi\u1ebfn n\u00e0o trong ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p & V\u1eadt li\u1ec7u?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "D\u1eef li\u1ec7u th\u00f4",
+        "Di\u1ec5n gi\u1ea3i k\u1ebft qu\u1ea3",
+        "K\u1ebft qu\u1ea3 ch\u00ednh \u0111\u01b0\u1ee3c t\u00f3m t\u1eaft b\u1eb1ng v\u0103n b\u1ea3n v\u00e0 b\u1ea3ng",
+        "Danh s\u00e1ch d\u00e0i c\u00e1c con s\u1ed1"
+      ],
+      "question": "Ph\u1ea7n K\u1ebft qu\u1ea3 n\u00ean bao g\u1ed3m nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ee7 chi ti\u1ebft v\u00e0 chi ti\u1ebft ph\u00f9 h\u1ee3p",
+        "\u0110\u1ee7 \u0111\u1ec3 ki\u1ec3m tra gi\u1ea3 thuy\u1ebft",
+        "Th\u1ef1c hi\u1ec7n khi ph\u00f9 h\u1ee3p",
+        "\u0110\u00e1ng tin c\u1eady"
+      ],
+      "question": "Ti\u00eau ch\u00ed n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 ph\u1ea7n K\u1ebft qu\u1ea3?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Bao g\u1ed3m d\u1eef li\u1ec7u th\u00f4",
+        "Tr\u00ecnh b\u00e0y k\u1ebft qu\u1ea3 trong m\u1ed9t b\u1ea3ng",
+        "Bao g\u1ed3m di\u1ec5n gi\u1ea3i ho\u1eb7c th\u1ea3o lu\u1eadn",
+        "Bao g\u1ed3m h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng"
+      ],
+      "question": "L\u1ed7i ph\u1ed5 bi\u1ebfn n\u00e0o trong ph\u1ea7n K\u1ebft qu\u1ea3?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Tr\u00ecnh b\u00e0y k\u1ebft qu\u1ea3 c\u1ee7a th\u00ed nghi\u1ec7m",
+        "Di\u1ec5n gi\u1ea3i k\u1ebft qu\u1ea3 v\u00e0 li\u00ean k\u1ebft ch\u00fang v\u1edbi c\u00e1c nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p v\u00e0 v\u1eadt li\u1ec7u \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong th\u00ed nghi\u1ec7m",
+        "T\u00e1i n\u00eau gi\u1ea3 thuy\u1ebft \u0111ang \u0111\u01b0\u1ee3c ki\u1ec3m tra"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a ph\u1ea7n Th\u1ea3o lu\u1eadn trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Gi\u1edbi thi\u1ec7u",
+        "K\u1ebft qu\u1ea3",
+        "Th\u1ea3o lu\u1eadn",
+        "T\u00f3m t\u1eaft"
+      ],
+      "question": "Ph\u1ea7n n\u00e0o trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc kh\u00f4ng n\u00ean bao g\u1ed3m c\u00e1c ph\u01b0\u01a1ng ph\u00e1p ho\u1eb7c v\u1eadt li\u1ec7u m\u1edbi?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "C\u00e1c ngu\u1ed3n g\u1ed1c c\u00f3 th\u1ec3 g\u00e2y ra sai s\u00f3t trong th\u00ed nghi\u1ec7m",
+        "Nh\u01b0\u1ee3c \u0111i\u1ec3m thi\u1ebft k\u1ebf trong th\u00ed nghi\u1ec7m",
+        "C\u00e1c y\u1ebfu t\u1ed1 \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn k\u1ebft qu\u1ea3",
+        "Th\u00f4ng \u0111i\u1ec7p ch\u00ednh c\u1ee7a b\u00e0i b\u00e1o"
+      ],
+      "question": "T\u00e1c gi\u1ea3 n\u00ean \u0111\u1ec1 c\u1eadp \u0111\u1ebfn \u0111i\u1ec1u g\u00ec trong ph\u1ea7n Th\u1ea3o lu\u1eadn?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "K\u1ebft h\u1ee3p ph\u1ea7n K\u1ebft qu\u1ea3 v\u00e0 Th\u1ea3o lu\u1eadn",
+        "Bao g\u1ed3m k\u1ebft qu\u1ea3 m\u1edbi kh\u00f4ng \u0111\u01b0\u1ee3c b\u00e1o c\u00e1o trong ph\u1ea7n K\u1ebft qu\u1ea3",
+        "R\u00fat ra k\u1ebft lu\u1eadn to\u00e0n di\u1ec7n d\u1ef1a tr\u00ean m\u1ed9t nghi\u00ean c\u1ee9u nh\u1ecf",
+        "T\u1ed5ng h\u1ee3p to\u00e0n b\u1ed9 b\u00e0i b\u00e1o v\u00e0 t\u00e1i di\u1ec5n gi\u1ea3i c\u00e1c v\u1ea5n \u0111\u1ec1 ch\u00ednh"
+      ],
+      "question": "T\u00e1c gi\u1ea3 n\u00ean l\u00e0m g\u00ec trong ph\u1ea7n Th\u1ea3o lu\u1eadn?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "K\u1ebft h\u1ee3p ph\u1ea7n K\u1ebft qu\u1ea3 v\u00e0 Th\u1ea3o lu\u1eadn",
+        "Bao g\u1ed3m k\u1ebft qu\u1ea3 m\u1edbi kh\u00f4ng \u0111\u01b0\u1ee3c b\u00e1o c\u00e1o trong ph\u1ea7n K\u1ebft qu\u1ea3",
+        "R\u00fat ra k\u1ebft lu\u1eadn to\u00e0n di\u1ec7n d\u1ef1a tr\u00ean m\u1ed9t nghi\u00ean c\u1ee9u nh\u1ecf",
+        "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng \u00e1n tr\u00ean"
+      ],
+      "question": "L\u1ed7i ph\u1ed5 bi\u1ebfn n\u00e0o trong ph\u1ea7n Th\u1ea3o lu\u1eadn?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ec3 minh h\u1ecda s\u1ef1 kh\u00e1c bi\u1ec7t",
+        "\u0110\u1ec3 bi\u1ec3u di\u1ec5n m\u1ed1i quan h\u1ec7",
+        "\u0110\u1ec3 truy\u1ec1n \u0111\u1ea1t th\u00f4ng tin chi ti\u1ebft",
+        "\u0110\u1ec3 t\u00f3m t\u1eaft c\u00e1c k\u1ebft qu\u1ea3 ch\u00ednh"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t b\u1ea3ng trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "M\u1ed9t h\u00ecnh \u1ea3nh tr\u00ecnh b\u00e0y k\u1ebft qu\u1ea3 h\u00ecnh \u1ea3nh ho\u1eb7c minh h\u1ecda, trong khi m\u1ed9t b\u1ea3ng tr\u00ecnh b\u00e0y danh s\u00e1ch s\u1ed1 ho\u1eb7c v\u0103n b\u1ea3n",
+        "M\u1ed9t h\u00ecnh \u1ea3nh bi\u1ec3u di\u1ec5n m\u1ed1i quan h\u1ec7, trong khi m\u1ed9t b\u1ea3ng minh h\u1ecda s\u1ef1 kh\u00e1c bi\u1ec7t",
+        "M\u1ed9t h\u00ecnh \u1ea3nh \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 t\u00f3m t\u1eaft c\u00e1c k\u1ebft qu\u1ea3 ch\u00ednh, trong khi m\u1ed9t b\u1ea3ng truy\u1ec1n \u0111\u1ea1t th\u00f4ng tin chi ti\u1ebft",
+        "M\u1ed9t h\u00ecnh \u1ea3nh \u0111\u01b0\u1ee3c \u0111\u00e1nh s\u1ed1 b\u1eb1ng s\u1ed1, trong khi m\u1ed9t b\u1ea3ng \u0111\u01b0\u1ee3c \u0111\u00e1nh s\u1ed1 b\u1eb1ng ch\u1eef c\u00e1i"
+      ],
+      "question": "S\u1ef1 kh\u00e1c bi\u1ec7t gi\u1eefa m\u1ed9t h\u00ecnh \u1ea3nh v\u00e0 m\u1ed9t b\u1ea3ng trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "B\u1eb1ng c\u00e1ch ch\u1ec9 d\u1eabn ng\u01b0\u1eddi \u0111\u1ecdc \u0111\u1ebfn h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng m\u00e0 kh\u00f4ng cung c\u1ea5p b\u1ea5t k\u1ef3 th\u00f4ng tin b\u1ed5 sung n\u00e0o",
+        "B\u1eb1ng c\u00e1ch tr\u00e1nh c\u00e1c c\u00e2u ch\u1ec9 d\u1eabn ng\u01b0\u1eddi \u0111\u1ecdc \u0111\u1ebfn h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng m\u00e0 kh\u00f4ng cung c\u1ea5p b\u1ea5t k\u1ef3 th\u00f4ng tin b\u1ed5 sung n\u00e0o",
+        "B\u1eb1ng c\u00e1ch \u0111\u00e1nh s\u1ed1 c\u00e1c h\u00ecnh \u1ea3nh v\u00e0 b\u1ea3ng theo th\u1ee9 t\u1ef1 m\u00e0 ch\u00fang \u0111\u01b0\u1ee3c g\u1ecdi",
+        "B\u1eb1ng c\u00e1ch tham chi\u1ebfu \u0111\u1ebfn h\u00ecnh \u1ea3nh tr\u01b0\u1edbc khi tham chi\u1ebfu \u0111\u1ebfn b\u1ea3ng"
+      ],
+      "question": "T\u00e1c gi\u1ea3 n\u00ean tham chi\u1ebfu \u0111\u1ebfn h\u00ecnh \u1ea3nh v\u00e0 b\u1ea3ng trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc nh\u01b0 th\u1ebf n\u00e0o?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i cao, nh\u00e3n g\u1ecdn g\u00e0ng v\u00e0 d\u1ec5 \u0111\u1ecdc, \u0111\u01a1n gi\u1ea3n v\u00e0 \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng r\u00f5 r\u00e0ng",
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i th\u1ea5p, nh\u00e3n m\u01a1 h\u1ed3, ph\u1ee9c t\u1ea1p v\u00e0 \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng k\u00e9m",
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i th\u1ea5p, nh\u00e3n kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c, \u0111\u01a1n gi\u1ea3n v\u00e0 \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng r\u00f5 r\u00e0ng",
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i cao, nh\u00e3n kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c, ph\u1ee9c t\u1ea1p v\u00e0 \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng k\u00e9m"
+      ],
+      "question": "C\u00e1c \u0111\u1eb7c \u0111i\u1ec3m c\u1ee7a m\u1ed9t h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng t\u1ed1t trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "\u0110\u1ec3 cung c\u1ea5p m\u1ed9t gi\u1ea3i th\u00edch chi ti\u1ebft v\u1ec1 h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng",
+        "\u0110\u1ec3 t\u00f3m t\u1eaft c\u00e1c k\u1ebft qu\u1ea3 ch\u00ednh c\u1ee7a b\u00e0i b\u00e1o",
+        "\u0110\u1ec3 ch\u1ec9 d\u1eabn ng\u01b0\u1eddi \u0111\u1ecdc \u0111\u1ebfn h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng m\u00e0 kh\u00f4ng cung c\u1ea5p b\u1ea5t k\u1ef3 th\u00f4ng tin b\u1ed5 sung n\u00e0o",
+        "\u0110\u1ec3 truy\u1ec1n \u0111\u1ea1t \u00fd ngh\u0129a c\u1ee7a h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t ch\u00fa th\u00edch trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "G\u00f5 tr\u1ef1c ti\u1ebfp v\u00e0o b\u00e0i b\u00e1o",
+        "L\u01b0u d\u01b0\u1edbi d\u1ea1ng t\u1ec7p JPEG ho\u1eb7c GIF v\u00e0 nh\u1eadp v\u00e0o t\u00e0i li\u1ec7u",
+        "Vi\u1ebft trong ch\u1ee9c n\u0103ng Tr\u00ecnh so\u1ea1n th\u1ea3o C\u00f4ng th\u1ee9c c\u1ee7a Word",
+        "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng \u00e1n tr\u00ean"
+      ],
+      "question": "C\u00f4ng th\u1ee9c n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc nh\u01b0 th\u1ebf n\u00e0o?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "S\u00e1ch gi\u00e1o tr\u00ecnh v\u00e0 th\u00f4ng tin c\u00e1 nh\u00e2n",
+        "B\u00e0i b\u00e1o trong c\u00e1c t\u1ea1p ch\u00ed \u0111\u01b0\u1ee3c \u0111\u1ed3ng nghi\u1ec7p \u0111\u00e1nh gi\u00e1, t\u00f3m t\u1eaft, s\u00e1ch v\u00e0 th\u00f4ng tin c\u00e1 nh\u00e2n",
+        "C\u00e1c t\u00e1c ph\u1ea9m kh\u00f4ng \u0111\u01b0\u1ee3c \u0111\u1ed3ng nghi\u1ec7p \u0111\u00e1nh gi\u00e1 v\u00e0 th\u00f4ng tin c\u00e1 nh\u00e2n",
+        "B\u00e0i b\u00e1o trong c\u00e1c t\u1ea1p ch\u00ed \u0111\u01b0\u1ee3c \u0111\u1ed3ng nghi\u1ec7p \u0111\u00e1nh gi\u00e1 v\u00e0 s\u00e1ch gi\u00e1o tr\u00ecnh"
+      ],
+      "question": "Lo\u1ea1i t\u00e0i li\u1ec7u tham kh\u1ea3o n\u00e0o ph\u00f9 h\u1ee3p cho m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Phong c\u00e1ch \u0111\u1ecbnh d\u1ea1ng trong v\u0103n b\u1ea3n: h\u1ecd c\u1ee7a t\u00e1c gi\u1ea3 v\u00e0 n\u0103m xu\u1ea5t b\u1ea3n",
+        "Phong c\u00e1ch \u0111\u1ecbnh d\u1ea1ng trong v\u0103n b\u1ea3n: t\u00ean \u0111\u1ea7u ti\u00ean c\u1ee7a t\u00e1c gi\u1ea3 v\u00e0 n\u0103m xu\u1ea5t b\u1ea3n",
+        "Phong c\u00e1ch \u0111\u1ecbnh d\u1ea1ng trong v\u0103n b\u1ea3n: h\u1ecd c\u1ee7a t\u00e1c gi\u1ea3 v\u00e0 s\u1ed1 trang",
+        "Phong c\u00e1ch \u0111\u1ecbnh d\u1ea1ng trong v\u0103n b\u1ea3n: t\u00ean \u0111\u1ea7u ti\u00ean c\u1ee7a t\u00e1c gi\u1ea3 v\u00e0 s\u1ed1 trang"
+      ],
+      "question": "Phong c\u00e1ch tham chi\u1ebfu \u0111\u01b0\u1ee3c khuy\u1ebfn ngh\u1ecb cho m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "T\u00f3m t\u1eaft c\u00e1c nghi\u00ean c\u1ee9u nghi\u00ean c\u1ee9u",
+        "\u0110\u00e1nh gi\u00e1 c\u00e1c nghi\u00ean c\u1ee9u nghi\u00ean c\u1ee9u",
+        "Ti\u1ebfn h\u00e0nh nghi\u00ean c\u1ee9u m\u1edbi",
+        "B\u00e1o c\u00e1o k\u1ebft qu\u1ea3 nghi\u00ean c\u1ee9u"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "M\u1ed9t danh s\u00e1ch c\u00e1c nghi\u00ean c\u1ee9u",
+        "M\u1ed9t t\u00f3m t\u1eaft c\u00e1c nghi\u00ean c\u1ee9u",
+        "M\u1ed9t t\u1ed5ng h\u1ee3p c\u00e1c nghi\u00ean c\u1ee9u",
+        "M\u1ed9t b\u00e0i b\u00e1o c\u00e1o v\u1ec1 s\u00e1ch"
+      ],
+      "question": "M\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc n\u00ean d\u1ef1a tr\u00ean c\u00e1i g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "M\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc tr\u00ecnh b\u00e0y nghi\u00ean c\u1ee9u m\u1edbi, trong khi m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u \u0111\u00e1nh gi\u00e1 nghi\u00ean c\u1ee9u hi\u1ec7n c\u00f3",
+        "M\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc \u0111\u00e1nh gi\u00e1 nghi\u00ean c\u1ee9u hi\u1ec7n c\u00f3, trong khi m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u tr\u00ecnh b\u00e0y nghi\u00ean c\u1ee9u m\u1edbi",
+        "M\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc v\u00e0 m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u l\u00e0 c\u00f9ng m\u1ed9t th\u1ee9",
+        "M\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc v\u00e0 m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u c\u00f3 y\u00eau c\u1ea7u \u0111\u1ecbnh d\u1ea1ng kh\u00e1c nhau"
+      ],
+      "question": "S\u1ef1 kh\u00e1c bi\u1ec7t gi\u1eefa m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc v\u00e0 m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Ch\u1ecdn m\u1ed9t ch\u1ee7 \u0111\u1ec1",
+        "Ti\u1ebfn h\u00e0nh m\u1ed9t nghi\u00ean c\u1ee9u m\u1edbi",
+        "Vi\u1ebft m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u",
+        "\u0110\u00e1nh gi\u00e1 nghi\u00ean c\u1ee9u hi\u1ec7n c\u00f3"
+      ],
+      "question": "M\u1ed9t t\u00e1c gi\u1ea3 n\u00ean l\u00e0m g\u00ec tr\u01b0\u1edbc khi vi\u1ebft m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "M\u1ed9t t\u00f3m t\u1eaft c\u00e1c nghi\u00ean c\u1ee9u",
+        "M\u1ed9t \u0111\u00e1nh gi\u00e1 v\u1ec1 c\u00e1c nghi\u00ean c\u1ee9u",
+        "M\u1ed9t danh s\u00e1ch c\u00e1c nghi\u00ean c\u1ee9u",
+        "M\u1ed9t b\u00e0i b\u00e1o c\u00e1o v\u1ec1 s\u00e1ch"
+      ],
+      "question": "M\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc n\u00ean bao g\u1ed3m nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "S\u1ed1 l\u01b0\u1ee3ng",
+        "Ch\u1ea5t l\u01b0\u1ee3ng",
+        "\u0110\u1ed9 d\u00e0i",
+        "Logic"
+      ],
+      "question": "Tr\u1ecdng t\u00e2m ch\u00ednh khi vi\u1ebft m\u1ed9t b\u00e0i \u0111\u00e1nh gi\u00e1 t\u1ed1t l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Bao g\u1ed3m ch\u00fang",
+        "L\u1ecdc ch\u00fang ra",
+        "T\u00f3m t\u1eaft ch\u00fang",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 ch\u00fang"
+      ],
+      "question": "C\u1ea7n l\u00e0m g\u00ec v\u1edbi nh\u1eefng th\u00f4ng tin kh\u00f4ng quan tr\u1ecdng trong m\u1ed9t b\u00e0i \u0111\u00e1nh gi\u00e1?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Gi\u1ea3 \u0111\u1ecbnh nghi\u00ean c\u1ee9u",
+        "K\u1ebft lu\u1eadn nghi\u00ean c\u1ee9u",
+        "Ng\u01b0\u1eddi tham gia nghi\u00ean c\u1ee9u",
+        "Qu\u1ef9 t\u00e0i tr\u1ee3 nghi\u00ean c\u1ee9u"
+      ],
+      "question": "C\u1ea7n th\u1ea3o lu\u1eadn v\u1ec1 \u0111i\u1ec1u g\u00ec khi \u0111\u00e1nh gi\u00e1 c\u00e1c nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "B\u1ecf qua ch\u00fang",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 ch\u00fang",
+        "T\u00f3m t\u1eaft ch\u00fang",
+        "Lo\u1ea1i b\u1ecf ch\u00fang"
+      ],
+      "question": "C\u1ea7n l\u00e0m g\u00ec khi x\u00e1c \u0111\u1ecbnh \u0111i\u1ec3m m\u1ea1nh v\u00e0 \u0111i\u1ec3m y\u1ebfu c\u1ee7a c\u00e1c nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "C\u00e1c nghi\u00ean c\u1ee9u kh\u00e1c",
+        "\u00dd ki\u1ebfn c\u00e1 nh\u00e2n",
+        "Ph\u01b0\u01a1ng ti\u1ec7n truy\u1ec1n th\u00f4ng ph\u1ed5 bi\u1ebfn",
+        "T\u00e0i li\u1ec7u ch\u00ednh ph\u1ee7"
+      ],
+      "question": "C\u1ea7n so s\u00e1nh v\u1edbi nghi\u00ean c\u1ee9u \u0111ang \u0111\u01b0\u1ee3c \u0111\u00e1nh gi\u00e1 v\u1edbi \u0111i\u1ec1u g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "L\u00fd thuy\u1ebft",
+        "Ph\u01b0\u01a1ng ph\u00e1p lu\u1eadn",
+        "Ch\u00ednh s\u00e1ch",
+        "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng \u00e1n tr\u00ean"
+      ],
+      "question": "C\u1ea7n r\u00f5 r\u00e0ng v\u1ec1 lo\u1ea1i nghi\u00ean c\u1ee9u \u0111ang \u0111\u01b0\u1ee3c \u0111\u1ec1 c\u1eadp trong b\u00e0i \u0111\u00e1nh gi\u00e1?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "\u00cdt h\u01a1n 5 ngu\u1ed3n",
+        "\u00cdt h\u01a1n 10 ngu\u1ed3n",
+        "\u00cdt h\u01a1n 15 ngu\u1ed3n",
+        "\u00cdt h\u01a1n 20 ngu\u1ed3n"
+      ],
+      "question": "Bao nhi\u00eau ngu\u1ed3n th\u00f4ng tin th\u01b0\u1eddng \u0111\u01b0\u1ee3c coi l\u00e0 qu\u00e1 \u00edt cho m\u1ed9t b\u00e0i \u0111\u00e1nh gi\u00e1 v\u0103n h\u1ecdc?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Lo\u1ea1i b\u1ecf ch\u00fang",
+        "T\u00f3m t\u1eaft ch\u00fang",
+        "Ph\u00ea ph\u00e1n ch\u00fang",
+        "Tr\u00edch d\u1eabn v\u00e0 th\u1ea3o lu\u1eadn v\u1ec1 ch\u00fang"
+      ],
+      "question": "C\u1ea7n l\u00e0m g\u00ec v\u1edbi c\u00e1c nghi\u00ean c\u1ee9u m\u00e2u thu\u1eabn v\u1edbi quan \u0111i\u1ec3m c\u1ee7a b\u00e0i \u0111\u00e1nh gi\u00e1?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "C\u00e1c ph\u1ea7n th\u00f4ng tin",
+        "T\u00f3m t\u1eaft m\u00f4 t\u1ea3",
+        "\u00dd ki\u1ebfn tr\u00e1i ng\u01b0\u1ee3c",
+        "Lu\u1eadn \u0111i\u1ec3m thuy\u1ebft ph\u1ee5c"
+      ],
+      "question": "M\u1ed9t b\u00e0i \u0111\u00e1nh gi\u00e1 n\u00ean \u0111\u01b0\u1ee3c t\u1ed5 ch\u1ee9c th\u00e0nh nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Sinh vi\u00ean sau \u0111\u1ea1i h\u1ecdc",
+        "C\u00e1c nh\u00e0 khoa h\u1ecdc \u0111ang l\u00e0m vi\u1ec7c",
+        "Nh\u1eefng nghi\u00ean c\u1ee9u sinh \u0111\u1ea1i h\u1ecdc",
+        "Bi\u00ean t\u1eadp vi\u00ean t\u1ea1p ch\u00ed"
+      ],
+      "question": "\u0110\u1ed1i t\u01b0\u1ee3ng \u0111\u1ecdc h\u01b0\u1edbng d\u1eabn n\u00e0y l\u00e0 ai?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Ti\u1ebfn h\u00e0nh nghi\u00ean c\u1ee9u khoa h\u1ecdc",
+        "\u0110\u00e1nh gi\u00e1 b\u1eb1ng \u0111\u1ed3ng nghi\u1ec7p v\u00e0 xu\u1ea5t b\u1ea3n",
+        "C\u1ea3i thi\u1ec7n gi\u00e1o d\u1ee5c khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "Truy\u1ec1n \u0111\u1ea1t nghi\u00ean c\u1ee9u cho c\u1ed9ng \u0111\u1ed3ng khoa h\u1ecdc"
+      ],
+      "question": "T\u1ea1p ch\u00ed Young Investigators (JYI) cam k\u1ebft v\u00e0o vi\u1ec7c g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Nh\u1eadn \u0111\u01b0\u1ee3c ngu\u1ed3n t\u00e0i tr\u1ee3",
+        "N\u00e2ng cao danh ti\u1ebfng chuy\u00ean m\u00f4n",
+        "Truy\u1ec1n \u0111\u1ea1t nghi\u00ean c\u1ee9u cho c\u1ed9ng \u0111\u1ed3ng khoa h\u1ecdc",
+        "\u0110\u1ea1t \u0111\u01b0\u1ee3c v\u1ecb tr\u00ed c\u00f4ng vi\u1ec7c \u1ed5n \u0111\u1ecbnh"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch ch\u00ednh c\u1ee7a vi\u1ec7c xu\u1ea5t b\u1ea3n nghi\u00ean c\u1ee9u khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "L\u1eafng nghe ng\u01b0\u1eddi h\u01b0\u1edbng d\u1eabn c\u1ee7a b\u1ea1n",
+        "\u0110\u1ecdc c\u00e1c b\u00e0i vi\u1ebft kh\u00e1c",
+        "Luy\u1ec7n t\u1eadp vi\u1ebft b\u00e0i c\u1ee7a ri\u00eang b\u1ea1n",
+        "T\u1ea5t c\u1ea3 c\u00e1c ph\u01b0\u01a1ng \u00e1n tr\u00ean"
+      ],
+      "question": "L\u1eddi khuy\u00ean d\u00e0nh cho sinh vi\u00ean \u0111\u1ea1i h\u1ecdc trong h\u01b0\u1edbng d\u1eabn n\u00e0y l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u00e1nh gi\u00e1 ch\u1ea5t l\u01b0\u1ee3ng c\u00f4ng vi\u1ec7c khoa h\u1ecdc",
+        "Ph\u00e2n b\u1ed5 ngu\u1ed3n kinh ph\u00ed cho nghi\u00ean c\u1ee9u",
+        "Xem x\u00e9t c\u00f4ng vi\u1ec7c c\u1ee7a \u0111\u1ed3ng nghi\u1ec7p \u0111\u1ec3 \u0111\u01b0\u1ee3c b\u1ed5 nhi\u1ec7m",
+        "Xu\u1ea5t b\u1ea3n b\u00e1o c\u00e1o nghi\u00ean c\u1ee9u"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c \u0111\u00e1nh gi\u00e1 b\u1eb1ng \u0111\u1ed3ng nghi\u1ec7p trong c\u1ed9ng \u0111\u1ed3ng khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Vi\u1ebft v\u00e0 xem x\u00e9t b\u00e0i b\u00e1o khoa h\u1ecdc",
+        "Qu\u1ea3n l\u00fd qu\u00e1 tr\u00ecnh xu\u1ea5t b\u1ea3n",
+        "L\u00e0m vi\u1ec7c v\u1edbi bi\u00ean t\u1eadp vi\u00ean sinh vi\u00ean",
+        "Xem x\u00e9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u"
+      ],
+      "question": "Vai tr\u00f2 c\u1ee7a c\u00e1c nh\u00e0 khoa h\u1ecdc chuy\u00ean nghi\u1ec7p t\u1ea1i JYI l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "C\u00e1c tr\u1ecdng t\u00e0i bi\u1ebft t\u00e1c gi\u1ea3 l\u00e0 ai",
+        "T\u00e1c gi\u1ea3 bi\u1ebft tr\u1ecdng t\u00e0i l\u00e0 ai",
+        "C\u00e1c tr\u1ecdng t\u00e0i ho\u1ea1t \u0111\u1ed9ng nh\u01b0 m\u1ed9t nh\u00f3m",
+        "Thi\u1ebft k\u1ebf khuy\u1ebfn kh\u00edch ph\u1ea3n h\u1ed3i ch\u00e2n th\u00e0nh"
+      ],
+      "question": "M\u1ed9t trong nh\u1eefng \u0111\u1eb7c \u0111i\u1ec3m ch\u00ednh c\u1ee7a h\u1ec7 th\u1ed1ng xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Bi\u00ean t\u1eadp vi\u00ean v\u00e0 tr\u1ecdng t\u00e0i cho r\u1eb1ng c\u00e1c b\u00e0i b\u00e1o \u0111\u01b0\u1ee3c vi\u1ebft m\u1ed9t c\u00e1ch trung th\u1ef1c",
+        "Bi\u00ean t\u1eadp vi\u00ean v\u00e0 tr\u1ecdng t\u00e0i bi\u1ebft danh t\u00ednh c\u1ee7a nhau",
+        "Bi\u00ean t\u1eadp vi\u00ean v\u00e0 tr\u1ecdng t\u00e0i lu\u00f4n ph\u00e1t hi\u1ec7n c\u00e1c tr\u01b0\u1eddng h\u1ee3p gian l\u1eadn khoa h\u1ecdc",
+        "Bi\u00ean t\u1eadp vi\u00ean v\u00e0 tr\u1ecdng t\u00e0i \u0111\u01b0a ra quy\u1ebft \u0111\u1ecbnh d\u1ef1a tr\u00ean quan \u0111i\u1ec3m c\u00e1 nh\u00e2n"
+      ],
+      "question": "M\u1ed9t trong nh\u1eefng v\u1ea5n \u0111\u1ec1 ti\u1ec1m n\u0103ng v\u1edbi qu\u00e1 tr\u00ecnh xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "B\u00e0i b\u00e1o c\u1ee7a Watson v\u00e0 Crick v\u1ec1 ph\u00e1t hi\u1ec7n DNA",
+        "B\u00e0i b\u00e1o c\u1ee7a Schon v\u1ec1 vi\u1ec7c s\u1ea3n xu\u1ea5t b\u00e1n d\u1eabn tr\u00ean t\u1ef7 l\u1ec7 ph\u00e2n t\u1eed",
+        "B\u00e0i b\u00e1o c\u1ee7a Horton v\u1ec1 nh\u01b0\u1ee3c \u0111i\u1ec3m c\u1ee7a qu\u00e1 tr\u00ecnh xem x\u00e9t b\u00e0i b\u00e1o b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p",
+        "B\u00e0i b\u00e1o c\u1ee7a bi\u00ean t\u1eadp vi\u00ean v\u1ec1 vai tr\u00f2 c\u1ee7a tr\u1ecdng t\u00e0i"
+      ],
+      "question": "M\u1ed9t v\u00ed d\u1ee5 v\u1ec1 m\u1ed9t b\u00e0i b\u00e1o kh\u00f4ng \u0111\u01b0\u1ee3c xem x\u00e9t b\u1edfi c\u00e1c \u0111\u1ed3ng nghi\u1ec7p nh\u01b0ng c\u00f3 t\u00e1c \u0111\u1ed9ng quan tr\u1ecdng l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Ki\u1ec3m tra h\u01b0\u1edbng d\u1eabn \u0111\u1ecbnh d\u1ea1ng c\u1ee7a t\u1ea1p ch\u00ed",
+        "N\u1ed9p b\u00e0i b\u00e1o cho nhi\u1ec1u t\u1ea1p ch\u00ed",
+        "Bao g\u1ed3m quan \u0111i\u1ec3m c\u00e1 nh\u00e2n trong b\u00e0i b\u00e1o",
+        "B\u1ecf qua qu\u00e1 tr\u00ecnh xem x\u00e9t"
+      ],
+      "question": "T\u00e1c gi\u1ea3 n\u00ean l\u00e0m g\u00ec tr\u01b0\u1edbc khi vi\u1ebft m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Ch\u1ec9 d\u00e0nh cho c\u00e1c chuy\u00ean gia",
+        "Ch\u1ec9 d\u00e0nh cho sinh vi\u00ean chuy\u00ean ng\u00e0nh khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "C\u1ea3 chuy\u00ean gia v\u00e0 sinh vi\u00ean chuy\u00ean ng\u00e0nh khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "Ch\u1ec9 d\u00e0nh cho sinh vi\u00ean sau \u0111\u1ea1i h\u1ecdc"
+      ],
+      "question": "\u0110\u1ed1i t\u01b0\u1ee3ng \u0111\u1ecdc gi\u1ea3 m\u1ee5c ti\u00eau c\u1ee7a T\u1ea1p ch\u00ed C\u00e1c Nh\u00e0 Nghi\u00ean c\u1ee9u Tr\u1ebb (JYI) l\u00e0 ai?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Th\u00f4ng tin n\u1ec1n v\u00e0 k\u1ebft qu\u1ea3",
+        "Ph\u01b0\u01a1ng ph\u00e1p v\u00e0 v\u1eadt li\u1ec7u \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng",
+        "Di\u1ec5n gi\u1ea3i v\u00e0 th\u1ea3o lu\u1eadn v\u1ec1 k\u1ebft qu\u1ea3",
+        "Gi\u1edbi thi\u1ec7u v\u00e0 k\u1ebft lu\u1eadn"
+      ],
+      "question": "Nh\u1eefng g\u00ec n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong ph\u1ea7n th\u00e2n c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Ph\u01b0\u01a1ng ph\u00e1p v\u00e0 v\u1eadt li\u1ec7u \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng",
+        "Di\u1ec5n gi\u1ea3i v\u00e0 th\u1ea3o lu\u1eadn v\u1ec1 k\u1ebft qu\u1ea3",
+        "Th\u00f4ng tin n\u1ec1n",
+        "Gi\u1edbi thi\u1ec7u v\u00e0 k\u1ebft lu\u1eadn"
+      ],
+      "question": "Nh\u1eefng g\u00ec n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong ph\u1ea7n th\u1ea3o lu\u1eadn v\u00e0 k\u1ebft lu\u1eadn c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Cung c\u1ea5p m\u1ed9t b\u1ea3n t\u00f3m t\u1eaft v\u1ec1 c\u00e1c k\u1ebft qu\u1ea3 ch\u00ednh v\u00e0 k\u1ebft lu\u1eadn",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 c\u00e1c ph\u01b0\u01a1ng ph\u00e1p \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u",
+        "C\u1ea3m \u01a1n nh\u1eefng ng\u01b0\u1eddi \u0111\u00e3 cung c\u1ea5p s\u1ef1 gi\u00fap \u0111\u1ee1 ho\u1eb7c h\u1ed7 tr\u1ee3",
+        "Tr\u00edch d\u1eabn c\u00e1c t\u00e0i li\u1ec7u tham kh\u1ea3o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong nghi\u00ean c\u1ee9u"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a m\u1ed9t ph\u1ea7n c\u1ea3m \u01a1n trong m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "C\u00e2u chuy\u1ec7n c\u00e1 nh\u00e2n v\u00e0 truy\u1ec7n",
+        "Tham kh\u1ea3o t\u1eeb s\u00e1ch gi\u00e1o tr\u00ecnh",
+        "Tham kh\u1ea3o t\u1eeb giao ti\u1ebfp c\u00e1 nh\u00e2n",
+        "Tham kh\u1ea3o t\u1eeb c\u00e1c t\u1ea1p ch\u00ed chuy\u00ean ng\u00e0nh"
+      ],
+      "question": "Nh\u1eefng g\u00ec n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong ph\u1ea7n t\u00e0i li\u1ec7u tham kh\u1ea3o c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Ch\u1ee9a l\u1ed7i ch\u00ednh t\u1ea3 v\u00e0 ng\u1eef ph\u00e1p",
+        "S\u1eed d\u1ee5ng c\u00e2u chuy\u1ec7n c\u00e1 nh\u00e2n v\u00e0 truy\u1ec7n",
+        "Th\u00fa v\u1ecb v\u00e0 gi\u1ea3i tr\u00ed",
+        "Ng\u1eef ph\u00e1p ch\u00ednh x\u00e1c v\u00e0 tr\u00e1nh c\u00e2u chuy\u1ec7n c\u00e1 nh\u00e2n"
+      ],
+      "question": "Phong c\u00e1ch vi\u1ebft c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u n\u00ean nh\u01b0 th\u1ebf n\u00e0o?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Ch\u1ec9 d\u00e0nh cho c\u00e1c chuy\u00ean gia",
+        "Ch\u1ec9 d\u00e0nh cho sinh vi\u00ean chuy\u00ean ng\u00e0nh khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "C\u1ea3 chuy\u00ean gia v\u00e0 sinh vi\u00ean chuy\u00ean ng\u00e0nh khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "Ch\u1ec9 d\u00e0nh cho sinh vi\u00ean sau \u0111\u1ea1i h\u1ecdc"
+      ],
+      "question": "\u0110\u1ed1i t\u01b0\u1ee3ng \u0111\u1ecdc gi\u1ea3 m\u1ee5c ti\u00eau c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u \u0111\u01b0\u1ee3c xu\u1ea5t b\u1ea3n b\u1edfi JYI l\u00e0 ai?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Sao ch\u00e9p d\u1eef li\u1ec7u t\u1eeb c\u00e1c t\u00e1c gi\u1ea3 kh\u00e1c",
+        "T\u1ea1o ra ho\u1eb7c gi\u1ea3 m\u1ea1o k\u1ebft qu\u1ea3",
+        "Th\u1ea3o lu\u1eadn \u00fd t\u01b0\u1edfng c\u1ee7a m\u1ed9t nh\u00e0 nghi\u00ean c\u1ee9u kh\u00e1c",
+        "Xu\u1ea5t b\u1ea3n c\u00f9ng m\u1ed9t n\u1ed9i dung \u1edf nhi\u1ec1u n\u01a1i kh\u00e1c nhau"
+      ],
+      "question": "Vi\u1ec7c n\u00e0o \u0111\u01b0\u1ee3c coi l\u00e0 vi ph\u1ea1m khoa h\u1ecdc?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "'Examine' l\u00e0 \u0111\u1ec3 c\u00f3 ki\u1ebfn th\u1ee9c, 'analyze' l\u00e0 \u0111\u1ec3 r\u00fat ra k\u1ebft lu\u1eadn",
+        "'Examine' l\u00e0 \u0111\u1ec3 r\u00fat ra k\u1ebft lu\u1eadn, 'analyze' l\u00e0 \u0111\u1ec3 c\u00f3 ki\u1ebfn th\u1ee9c",
+        "'Examine' l\u00e0 \u0111\u1ec3 m\u00f4 t\u1ea3 m\u1ed9t ho\u1ea1t \u0111\u1ed9ng, 'analyze' l\u00e0 \u0111\u1ec3 m\u00f4 t\u1ea3 ph\u00e2n t\u00edch c\u1ee7a ho\u1ea1t \u0111\u1ed9ng \u0111\u00f3",
+        "'Examine' l\u00e0 \u0111\u1ec3 ph\u00e2n t\u00edch c\u00e1c s\u1ef1 ki\u1ec7n, 'analyze' l\u00e0 \u0111\u1ec3 t\u00ecm ra s\u1ef1 ki\u1ec7n"
+      ],
+      "question": "S\u1ef1 kh\u00e1c bi\u1ec7t gi\u1eefa 'examine' v\u00e0 'analyze' l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Gi\u1ea3i th\u00edch",
+        "X\u00e1c \u0111\u1ecbnh",
+        "X\u00e2y d\u1ef1ng",
+        "\u0110\u00e1nh gi\u00e1"
+      ],
+      "question": "T\u1eeb n\u00e0o sau \u0111\u00e2y th\u00edch h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p & V\u1eadt li\u1ec7u?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Ki\u1ebfn th\u1ee9c",
+        "Hi\u1ec3u bi\u1ebft",
+        "\u0110\u00e1nh gi\u00e1",
+        "T\u1ed5ng h\u1ee3p"
+      ],
+      "question": "C\u1ea5p \u0111\u1ed9 n\u00e0o c\u1ee7a Bloom's Taxonomy li\u00ean quan \u0111\u1ebfn vi\u1ec7c \u0111\u00e1nh gi\u00e1 gi\u00e1 tr\u1ecb c\u1ee7a \u00fd t\u01b0\u1edfng ho\u1eb7c t\u00e0i li\u1ec7u?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "1-2 c\u00e2u cho m\u1ed7i ph\u1ea7n ch\u00ednh",
+        "V\u00e0i trang th\u00f4ng tin",
+        "10 c\u00e2u th\u00f4ng tin n\u1ec1n t\u1ea3ng",
+        "Kh\u00f4ng n\u00ean bao g\u1ed3m th\u00f4ng tin"
+      ],
+      "question": "C\u1ea7n bao nhi\u00eau th\u00f4ng tin \u0111\u01b0\u1ee3c bao g\u1ed3m trong m\u1ed9t Abstract?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "V\u1ea5n \u0111\u1ec1 v\u00e0 v\u1ea5n \u0111\u1ec1 r\u1ed9ng",
+        "Tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "\u0110\u1ed9ng l\u1ef1c nghi\u00ean c\u1ee9u",
+        "Gi\u1ea3i th\u00edch c\u00e1c kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "C\u1ea7n bao g\u1ed3m nh\u1eefng g\u00ec trong \u0111o\u1ea1n v\u0103n \u0111\u1ea7u ti\u00ean c\u1ee7a m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "V\u1ea5n \u0111\u1ec1 v\u00e0 v\u1ea5n \u0111\u1ec1 r\u1ed9ng",
+        "Tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "\u0110\u1ed9ng l\u1ef1c nghi\u00ean c\u1ee9u",
+        "Gi\u1ea3i th\u00edch c\u00e1c kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "C\u1ea7n bao g\u1ed3m nh\u1eefng g\u00ec trong \u0111o\u1ea1n v\u0103n th\u1ee9 hai c\u1ee7a m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "T\u1ea5t c\u1ea3 c\u00e1c nghi\u00ean c\u1ee9u \u0111\u00e3 \u0111\u01b0\u1ee3c th\u1ef1c hi\u1ec7n v\u1ec1 ch\u1ee7 \u0111\u1ec1",
+        "Ch\u1ec9 nh\u1eefng nghi\u00ean c\u1ee9u g\u1ea7n \u0111\u00e2y nh\u1ea5t",
+        "Ch\u1ec9 nh\u1eefng nghi\u00ean c\u1ee9u \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn nghi\u00ean c\u1ee9u hi\u1ec7n t\u1ea1i",
+        "Kh\u00f4ng n\u00ean th\u1ea3o lu\u1eadn v\u1ec1 nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3"
+      ],
+      "question": "C\u1ea7n bao g\u1ed3m nh\u1eefng g\u00ec trong ph\u1ea7n th\u1ea3o lu\u1eadn v\u1ec1 nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3 trong m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "T\u1ea5t c\u1ea3 c\u00e1c l\u00fd thuy\u1ebft c\u01a1 b\u1ea3n",
+        "Ch\u1ec9 c\u00e1c kh\u00e1i ni\u1ec7m kh\u00f4ng quen thu\u1ed9c v\u1edbi sinh vi\u00ean khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "Ch\u1ec9 c\u00e1c kh\u00e1i ni\u1ec7m quen thu\u1ed9c v\u1edbi sinh vi\u00ean khoa h\u1ecdc \u0111\u1ea1i h\u1ecdc",
+        "Kh\u00f4ng c\u1ea7n gi\u1ea3i th\u00edch kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "C\u00e1c kh\u00e1i ni\u1ec7m n\u00e0o c\u1ea7n \u0111\u01b0\u1ee3c gi\u1ea3i th\u00edch trong m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "V\u1ea5n \u0111\u1ec1 v\u00e0 v\u1ea5n \u0111\u1ec1 r\u1ed9ng",
+        "Tuy\u00ean b\u1ed1 r\u00f5 r\u00e0ng v\u1ec1 gi\u1ea3 thuy\u1ebft",
+        "\u0110\u1ed9ng l\u1ef1c nghi\u00ean c\u1ee9u",
+        "Gi\u1ea3i th\u00edch c\u00e1c kh\u00e1i ni\u1ec7m"
+      ],
+      "question": "C\u1ea7n bao g\u1ed3m nh\u1eefng g\u00ec trong \u0111o\u1ea1n v\u0103n cu\u1ed1i c\u00f9ng c\u1ee7a m\u1ed9t Introduction?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Th\u00f4ng tin n\u1ec1n t\u1ea3ng, m\u00f4 t\u1ea3 c\u00e1c nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1, \u0111\u1ed9ng l\u1ef1c nghi\u00ean c\u1ee9u",
+        "\u0110\u1ee7 th\u00f4ng tin, th\u00f4ng tin li\u00ean quan, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1 r\u00f5 r\u00e0ng, \u0111\u1ed9ng l\u1ef1c r\u00f5 r\u00e0ng",
+        "\u0110\u1ee7 th\u00f4ng tin, th\u00f4ng tin li\u00ean quan, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1 r\u00f5 r\u00e0ng, \u00fd ngh\u0129a c\u1ee7a nghi\u00ean c\u1ee9u",
+        "Th\u00f4ng tin n\u1ec1n t\u1ea3ng, m\u00f4 t\u1ea3 c\u00e1c nghi\u00ean c\u1ee9u tr\u01b0\u1edbc \u0111\u00f3, tuy\u00ean b\u1ed1 v\u1ea5n \u0111\u1ec1 r\u00f5 r\u00e0ng, \u00fd ngh\u0129a c\u1ee7a nghi\u00ean c\u1ee9u"
+      ],
+      "question": "Ti\u00eau ch\u00ed n\u00e0o \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 Introductions?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "M\u00f4 t\u1ea3 chi ti\u1ebft v\u1ec1 th\u00ed nghi\u1ec7m v\u00e0 k\u1ebft qu\u1ea3 c\u1ee7a t\u00e1c gi\u1ea3",
+        "Th\u00f4ng tin n\u1ec1n v\u1ec1 ch\u1ee7 \u0111\u1ec1 c\u1ee7a nghi\u00ean c\u1ee9u",
+        "Ph\u00e2n t\u00edch t\u00ednh ch\u1ea5t th\u1ed1ng k\u00ea",
+        "Tham kh\u1ea3o c\u00e1c nghi\u00ean c\u1ee9u kh\u00e1c"
+      ],
+      "question": "Ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p v\u00e0 V\u1eadt li\u1ec7u c\u1ee7a m\u1ed9t b\u00e0i b\u00e1o nghi\u00ean c\u1ee9u n\u00ean bao g\u1ed3m nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Th\u00ec hi\u1ec7n t\u1ea1i",
+        "Th\u00ec t\u01b0\u01a1ng lai",
+        "Th\u00ec qu\u00e1 kh\u1ee9",
+        "Th\u00ec \u0111i\u1ec1u ki\u1ec7n"
+      ],
+      "question": "Th\u00ec n\u00e0o n\u00ean \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p v\u00e0 V\u1eadt li\u1ec7u?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "Bao g\u1ed3m t\u1eebng b\u01b0\u1edbc c\u1ee7a th\u00ed nghi\u1ec7m",
+        "Cung c\u1ea5p \u0111\u1ee7 chi ti\u1ebft \u0111\u1ec3 ng\u01b0\u1eddi \u0111\u1ecdc c\u00f3 th\u1ec3 t\u00e1i hi\u1ec7n nghi\u00ean c\u1ee9u",
+        "Bao g\u1ed3m c\u00e2u chuy\u1ec7n c\u00e1 nh\u00e2n",
+        "S\u1eed d\u1ee5ng quan \u0111i\u1ec3m ng\u01b0\u1eddi th\u1ee9 hai"
+      ],
+      "question": "T\u00e1c gi\u1ea3 n\u00ean xem x\u00e9t nh\u1eefng g\u00ec khi x\u00e1c \u0111\u1ecbnh m\u1ee9c \u0111\u1ed9 chi ti\u1ebft trong ph\u1ea7n Ph\u01b0\u01a1ng ph\u00e1p v\u00e0 V\u1eadt li\u1ec7u?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i cao, nh\u00e3n g\u1ecdn g\u00e0ng v\u00e0 d\u1ec5 \u0111\u1ecdc, \u0111\u01a1n gi\u1ea3n v\u00e0 \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng r\u00f5 r\u00e0ng",
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i th\u1ea5p, nh\u00e3n m\u01a1 h\u1ed3, ph\u1ee9c t\u1ea1p v\u00e0 \u0111\u1ecbnh d\u1ea1ng k\u00e9m",
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i th\u1ea5p, nh\u00e3n kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c, \u0111\u01a1n gi\u1ea3n v\u00e0 \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng r\u00f5 r\u00e0ng",
+        "\u0110\u1ed9 ph\u00e2n gi\u1ea3i cao, nh\u00e3n kh\u00f4ng \u0111\u1ecdc \u0111\u01b0\u1ee3c, ph\u1ee9c t\u1ea1p v\u00e0 \u0111\u1ecbnh d\u1ea1ng k\u00e9m"
+      ],
+      "question": "\u0110\u1eb7c \u0111i\u1ec3m c\u1ee7a m\u1ed9t h\u00ecnh \u1ea3nh ho\u1eb7c b\u1ea3ng t\u1ed1t trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "B\u1eb1ng c\u00e1ch g\u00f5 tr\u1ef1c ti\u1ebfp v\u00e0o b\u00e0i b\u00e1o",
+        "B\u1eb1ng c\u00e1ch l\u01b0u ch\u00fang d\u01b0\u1edbi d\u1ea1ng t\u1ec7p JPEG ho\u1eb7c GIF v\u00e0 nh\u1eadp ch\u00fang v\u00e0o t\u00e0i li\u1ec7u",
+        "B\u1eb1ng c\u00e1ch vi\u1ebft ch\u00fang trong ch\u1ee9c n\u0103ng Tr\u00ecnh so\u1ea1n th\u1ea3o Ph\u01b0\u01a1ng tr\u00ecnh c\u1ee7a Word",
+        "B\u1eb1ng c\u00e1ch tham chi\u1ebfu \u0111\u1ebfn ch\u00fang nh\u01b0 Ph\u01b0\u01a1ng tr\u00ecnh 1, Ph\u01b0\u01a1ng tr\u00ecnh 2, v.v."
+      ],
+      "question": "Ph\u01b0\u01a1ng tr\u00ecnh n\u00ean \u0111\u01b0\u1ee3c bao g\u1ed3m trong m\u1ed9t b\u00e0i b\u00e1o khoa h\u1ecdc nh\u01b0 th\u1ebf n\u00e0o?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Trong m\u1ed9t l\u0129nh v\u1ef1c \u0111\u00e3 \u0111\u01b0\u1ee3c nghi\u00ean c\u1ee9u k\u1ef9",
+        "C\u00f3 t\u00ednh l\u1ecbch s\u1eed",
+        "Kh\u00f4ng c\u00f3 h\u1ee9ng th\u00fa v\u1edbi t\u00e1c gi\u1ea3",
+        "R\u1ed9ng r\u00e3i"
+      ],
+      "question": "M\u1ed9t ch\u1ee7 \u0111\u1ec1 cho m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc n\u00ean l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Ch\u1ee7 \u0111\u1ec1 n\u00ean g\u00e2y tranh c\u00e3i ho\u1eb7c \u0111a d\u1ea1ng",
+        "Ch\u1ee7 \u0111\u1ec1 n\u00ean \u0111\u01b0\u1ee3c \u0111\u1ed3ng \u00fd r\u1ed9ng r\u00e3i",
+        "Ch\u1ee7 \u0111\u1ec1 n\u00ean kh\u00f4ng li\u00ean quan \u0111\u1ebfn c\u00e1c nghi\u00ean c\u1ee9u kh\u00e1c",
+        "Ch\u1ee7 \u0111\u1ec1 n\u00ean d\u1ef1a tr\u00ean \u00fd ki\u1ebfn c\u00e1 nh\u00e2n"
+      ],
+      "question": "Y\u1ebfu t\u1ed1 quan tr\u1ecdng n\u00e0o c\u1ea7n \u0111\u01b0\u1ee3c xem x\u00e9t khi l\u1ef1a ch\u1ecdn m\u1ed9t ch\u1ee7 \u0111\u1ec1 cho m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "H\u1ecfi gi\u1ea3ng vi\u00ean \u0111\u1ec3 \u0111\u01b0\u1ee3c \u0111\u1ec1 xu\u1ea5t",
+        "Tr\u00e1nh qu\u00e9t qua c\u00e1c t\u00e0i li\u1ec7u tham kh\u1ea3o c\u1ee7a c\u00e1c b\u00e0i vi\u1ebft li\u00ean quan",
+        "T\u1eadp trung ch\u1ec9 v\u00e0o c\u00e1c b\u00e0i vi\u1ebft ph\u00e2n t\u00edch g\u1ea7n \u0111\u00e2y",
+        "T\u00ecm ki\u1ebfm c\u00e1c b\u00e0i vi\u1ebft b\u1eb1ng c\u00e1c t\u1eeb kh\u00f3a kh\u00f4ng li\u00ean quan"
+      ],
+      "question": "Trong c\u00e1c g\u1ee3i \u00fd sau, g\u1ee3i \u00fd n\u00e0o h\u1eefu \u00edch \u0111\u1ec3 t\u00ecm c\u00e1c b\u00e0i vi\u1ebft li\u00ean quan cho m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "Bao g\u1ed3m t\u1ea5t c\u1ea3 c\u00e1c nghi\u00ean c\u1ee9u t\u00ecm th\u1ea5y, b\u1ea5t k\u1ec3 t\u00ednh li\u00ean quan",
+        "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3 c\u00e1c nghi\u00ean c\u1ee9u t\u00ecm th\u1ea5y, b\u1ea5t k\u1ec3 t\u00ednh li\u00ean quan",
+        "Ch\u1ec9 bao g\u1ed3m m\u1ed9t s\u1ed1 ph\u1ea7n c\u1ee5 th\u1ec3 c\u1ee7a m\u1ed7i nghi\u00ean c\u1ee9u",
+        "Ch\u1ec9 lo\u1ea1i b\u1ecf m\u1ed9t s\u1ed1 ph\u1ea7n c\u1ee5 th\u1ec3 c\u1ee7a m\u1ed7i nghi\u00ean c\u1ee9u"
+      ],
+      "question": "Ph\u1ea3i l\u00e0m g\u00ec v\u1edbi c\u00e1c nghi\u00ean c\u1ee9u kh\u00f4ng li\u00ean quan khi ti\u1ebfn h\u00e0nh m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "T\u00f3m t\u1eaft c\u00e1c \u0111i\u1ec3m ch\u00ednh c\u1ee7a b\u00e0i vi\u1ebft ph\u00e2n t\u00edch",
+        "T\u1ed5 ch\u1ee9c c\u00e1c nghi\u00ean c\u1ee9u theo th\u1ee9 t\u1ef1 th\u1eddi gian",
+        "X\u00e1c \u0111\u1ecbnh c\u00e1c \u0111i\u1ec3m y\u1ebfu c\u1ee7a m\u1ed7i nghi\u00ean c\u1ee9u",
+        "C\u1ea5u tr\u00fac cho to\u00e0n b\u1ed9 b\u00e0i vi\u1ebft"
+      ],
+      "question": "M\u1ee5c \u0111\u00edch c\u1ee7a vi\u1ec7c vi\u1ebft m\u1ed9t b\u1ea3n d\u1ef1 th\u1ea3o cho m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "T\u00e1c gi\u1ea3 \u0111\u00e3 \u0111\u00e1nh gi\u00e1 c\u00e1c t\u00e0i li\u1ec7u li\u00ean quan \u0111\u1ebfn v\u1ea5n \u0111\u1ec1?",
+        "T\u00e1c gi\u1ea3 \u0111\u00e3 \u0111\u1ec1 ra m\u1ed9t lu\u1eadn \u0111\u1ec1?",
+        "V\u1ea5n \u0111\u1ec1 \u0111\u00e3 \u0111\u01b0\u1ee3c n\u00eau r\u00f5?",
+        "Ph\u00e2n t\u00edch d\u1eef li\u1ec7u c\u00f3 ch\u00ednh x\u00e1c v\u00e0 li\u00ean quan kh\u00f4ng?"
+      ],
+      "question": "C\u00e2u h\u1ecfi n\u00e0o c\u1ea7n \u0111\u01b0\u1ee3c \u0111\u1eb7t khi ph\u00e2n t\u00edch m\u1ed9t nghi\u00ean c\u1ee9u nghi\u00ean c\u1ee9u cho m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "T\u00f3m t\u1eaft c\u00e1c nghi\u00ean c\u1ee9u ch\u00ednh \u0111\u01b0\u1ee3c \u0111i\u1ec1u tra",
+        "Th\u1ea3o lu\u1eadn v\u1ec1 c\u00e1c k\u1ebft lu\u1eadn \u0111\u01b0\u1ee3c r\u00fat ra",
+        "M\u00f4 t\u1ea3 ph\u01b0\u01a1ng ph\u00e1p s\u1eed d\u1ee5ng",
+        "\u0110\u1ecbnh ngh\u0129a ch\u1ee7 \u0111\u1ec1 v\u00e0 lu\u1eadn \u0111\u1ec1"
+      ],
+      "question": "Ph\u1ea7n gi\u1edbi thi\u1ec7u c\u1ee7a m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc n\u00ean bao g\u1ed3m nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "D\u1ef1a tr\u00ean s\u1ed1 l\u01b0\u1ee3ng nghi\u00ean c\u1ee9u \u0111\u01b0\u1ee3c bao g\u1ed3m",
+        "D\u1ef1a tr\u00ean th\u1ee9 t\u1ef1 th\u1eddi gian c\u1ee7a c\u00e1c nghi\u00ean c\u1ee9u",
+        "D\u1ef1a tr\u00ean \u0111\u1ed9 d\u00e0i c\u1ee7a m\u1ed7i nghi\u00ean c\u1ee9u",
+        "D\u1ef1a tr\u00ean c\u00e1c kh\u00eda c\u1ea1nh ho\u1eb7c ph\u01b0\u01a1ng ph\u00e1p th\u1ea3o lu\u1eadn kh\u00e1c nhau"
+      ],
+      "question": "Th\u00e2n b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc n\u00ean \u0111\u01b0\u1ee3c c\u1ea5u tr\u00fac nh\u01b0 th\u1ebf n\u00e0o?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Nh\u1eefng h\u1ec7 qu\u1ea3 c\u1ee7a nghi\u00ean c\u1ee9u v\u00e0 h\u01b0\u1edbng nghi\u00ean c\u1ee9u trong t\u01b0\u01a1ng lai",
+        "Nh\u1eefng h\u1ea1n ch\u1ebf c\u1ee7a c\u00e1c nghi\u00ean c\u1ee9u \u0111\u01b0\u1ee3c ph\u00e2n t\u00edch",
+        "Th\u00f4ng tin n\u1ec1n c\u1ea7n thi\u1ebft \u0111\u1ec3 hi\u1ec3u ch\u1ee7 \u0111\u1ec1",
+        "Th\u1ee9 t\u1ef1 c\u00e1c nghi\u00ean c\u1ee9u \u0111\u00e3 \u0111\u01b0\u1ee3c th\u1ea3o lu\u1eadn"
+      ],
+      "question": "Ph\u1ea7n k\u1ebft lu\u1eadn c\u1ee7a m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc n\u00ean th\u1ea3o lu\u1eadn v\u1ec1 nh\u1eefng g\u00ec?"
+    },
+    {
+      "answer": "C",
+      "options": [
+        "\u00cdt h\u01a1n 10",
+        "Kho\u1ea3ng 20",
+        "T\u1eeb 50 \u0111\u1ebfn 100",
+        "H\u01a1n 100"
+      ],
+      "question": "Bao nhi\u00eau nghi\u00ean c\u1ee9u th\u01b0\u1eddng \u0111\u01b0\u1ee3c tr\u00edch d\u1eabn trong m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc \u0111\u01b0\u1ee3c xu\u1ea5t b\u1ea3n tr\u00ean c\u00e1c t\u1ea1p ch\u00ed chuy\u00ean nghi\u1ec7p?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "1 \u0111\u1ebfn 3 trang",
+        "3 \u0111\u1ebfn 5 trang",
+        "5 \u0111\u1ebfn 7 trang",
+        "7 \u0111\u1ebfn 10 trang"
+      ],
+      "question": "\u0110\u1ed9 d\u00e0i th\u00f4ng th\u01b0\u1eddng c\u1ee7a m\u1ed9t b\u00e0i vi\u1ebft ph\u00e2n t\u00edch v\u0103n h\u1ecdc ng\u1eafn l\u00e0 bao nhi\u00eau?"
+    },
+    {
+      "answer": "D",
+      "options": [
+        "Lu\u1eadn \u0111i\u1ec3m",
+        "Ph\u01b0\u01a1ng ph\u00e1p lu\u1eadn",
+        "Ch\u00ednh s\u00e1ch",
+        "C\u00e2u h\u1ecfi nghi\u00ean c\u1ee9u"
+      ],
+      "question": "C\u1ea7n r\u00f5 r\u00e0ng \u0111i\u1ec1u g\u00ec trong m\u1ed9t b\u00e0i \u0111\u00e1nh gi\u00e1?"
+    },
+    {
+      "answer": "A",
+      "options": [
+        "Li\u00ean quan \u0111\u1ebfn lu\u1eadn \u0111i\u1ec3m",
+        "Li\u00ean quan \u0111\u1ebfn t\u00e1c gi\u1ea3",
+        "Li\u00ean quan \u0111\u1ebfn kh\u00e1n gi\u1ea3",
+        "Li\u00ean quan \u0111\u1ebfn l\u0129nh v\u1ef1c nghi\u00ean c\u1ee9u"
+      ],
+      "question": "S\u1ef1 li\u00ean quan c\u1ee7a t\u00e0i li\u1ec7u \u0111\u01b0\u1ee3c ch\u1ecdn cho m\u1ed9t b\u00e0i \u0111\u00e1nh gi\u00e1 n\u00ean l\u00e0 g\u00ec?"
+    },
+    {
+      "answer": "B",
+      "options": [
+        "T\u00f3m t\u1eaft ch\u00fang",
+        "Ph\u00e2n t\u00edch ch\u00fang",
+        "Lo\u1ea1i b\u1ecf ch\u00fang",
+        "M\u00e2u thu\u1eabn ch\u00fang"
+      ],
+      "question": "C\u1ea7n l\u00e0m g\u00ec v\u1edbi c\u00e1c nghi\u00ean c\u1ee9u trong m\u1ed9t b\u00e0i \u0111\u00e1nh gi\u00e1?"
+    }
+  ]
+}

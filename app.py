@@ -11,7 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Set env
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 from flask import Flask, request, jsonify
 
@@ -23,6 +23,12 @@ def get_set_of_question(qtype):
     en_path = "temp_en_result.json"
     vi_path = "temp_vi_result.json"
     
+    # Delete existing files
+    if os.path.exists(en_path):
+        os.remove(en_path)
+    if os.path.exists(vi_path):
+        os.remove(vi_path)
+        
     format_instructions = utils.get_format_instructions(qtype=qtype)
     
     if qtype=="mcq":
@@ -62,12 +68,14 @@ def get_set_of_question(qtype):
             data.save_to_json(result1['text'], en_path)
             data.save_to_json(result2['text'], vi_path)
             # input("Enter to continue")
+    else:
+        return jsonify({"error": "Internal Server Error"}), 500
     
     if qtype=="mcq":
         # Remove duplicating questions, error question...
         data.format_questions(en_path)
         data.format_questions(vi_path)
-     
+        
     # Load existing JSON data
     with open(en_path, 'r') as json_file:
         en_res = json.load(json_file)
