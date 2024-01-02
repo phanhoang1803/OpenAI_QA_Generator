@@ -1,0 +1,742 @@
+[
+  {
+    "question": "What is the field of study that considers genetic algorithms, evolution strategies, and genetic programming?",
+    "options": [
+      "Artificial intelligence",
+      "Evolutionary computation",
+      "Machine learning",
+      "Natural selection"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "According to Alan Turing, what is irrelevant to intelligence?",
+    "options": [
+      "The appearance of a system",
+      "The capability to adapt",
+      "The behaviour of a system",
+      "The environment"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the result of simulating evolution on a computer?",
+    "options": [
+      "A series of optimisation algorithms",
+      "A feasible solution",
+      "An ever-changing environment",
+      "Intelligent behaviour"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What can be considered as evidence of intelligent behaviour in humans?",
+    "options": [
+      "The capability to adapt",
+      "The appearance of a system",
+      "The process of evolution",
+      "Everyday experience"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What is the process that simulates evolution by using selection, mutation, and reproduction?",
+    "options": [
+      "Genetic algorithms",
+      "Evolution strategies",
+      "Genetic programming",
+      "Evolutionary computation"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What are the processes that neo-Darwinism is based on?",
+    "options": [
+      "Reproduction, mutation, competition, and selection",
+      "Adaptation, mutation, competition, and selection",
+      "Reproduction, adaptation, mutation, and selection",
+      "Reproduction, mutation, adaptation, and selection"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the essential property of life that guarantees the power to mutate?",
+    "options": [
+      "Reproduction",
+      "Competition",
+      "Selection",
+      "Mutation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is being optimized by evolution in natural life?",
+    "options": [
+      "Reproduction",
+      "Mutation",
+      "Competition",
+      "Evolutionary fitness"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What is the measure of an organism's ability to predict environmental changes and respond adequately?",
+    "options": [
+      "Evolutionary fitness",
+      "Adaptive topology",
+      "Optimised fitness",
+      "Quantitative measure"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does adaptive topology simulate?",
+    "options": [
+      "The fact that the environment is static",
+      "The continuous function of fitness",
+      "The changing shape of the topology",
+      "The selection of species"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the goal of evolution?",
+    "options": [
+      "To generate a population of individuals with increasing fitness",
+      "To simulate natural selection and genetics",
+      "To optimise survival in a changing environment",
+      "To create intelligent behaviour"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the explanation provided by Michalewicz for generating a population with increasing fitness?",
+    "options": [
+      "The breeding of rabbits",
+      "The survival of rabbits",
+      "The speed of rabbits",
+      "The genetic structure of rabbits"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of simulating natural evolution in a computer?",
+    "options": [
+      "To create a population of individuals",
+      "To evaluate their fitness",
+      "To generate a new population through genetic operations",
+      "To repeat the process a number of times"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What did John Holland aim to do with genetic algorithms?",
+    "options": [
+      "Make computers do what nature does",
+      "Manipulate strings of binary digits",
+      "Create a population of artificial chromosomes",
+      "Measure the performance of chromosomes"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "How is encoding carried out in genetic algorithms?",
+    "options": [
+      "By representing chromosomes as strings of ones and zeros",
+      "By exchanging parts of two single chromosomes",
+      "By changing the gene value in some randomly chosen location",
+      "By measuring the performance of chromosomes"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the role of an evaluation function in genetic algorithms?",
+    "options": [
+      "To measure the performance of chromosomes",
+      "To select chromosomes for mating",
+      "To create offspring chromosomes",
+      "To replace the initial chromosome population"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the termination criterion for genetic algorithms?",
+    "options": [
+      "A specified number of generations",
+      "A stable fitness of the population",
+      "The appearance of a superior chromosome",
+      "The size of the initial population"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the fitness function in the example?",
+    "options": [
+      "f(x) = 15x",
+      "f(x) = 15x^2",
+      "f(x) = 15x * x^2",
+      "f(x) = 15x + x^2"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the size of the chromosome population in the example?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the crossover probability in the example?",
+    "options": [
+      "0.1",
+      "0.5",
+      "0.7",
+      "0.9"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the mutation probability in the example?",
+    "options": [
+      "0.001",
+      "0.01",
+      "0.1",
+      "1"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the role of mutation in genetic algorithms?",
+    "options": [
+      "To improve the average fitness of the population",
+      "To provide a guarantee that the search algorithm is not trapped on a local optimum",
+      "To create new offspring through crossover",
+      "To select the fittest chromosomes for mating"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of decoding in a genetic algorithm?",
+    "options": [
+      "To calculate the fitness of each chromosome",
+      "To convert binary strings into decimal values",
+      "To randomly generate an initial population",
+      "To represent problem variables as a chromosome"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the range of integers that can be handled by 8-bits?",
+    "options": [
+      "0 to 255",
+      "0 to 127",
+      "0 to 63",
+      "0 to 31"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of crossover in a genetic algorithm?",
+    "options": [
+      "To calculate the fitness of each chromosome",
+      "To recombine features of the best chromosomes",
+      "To randomly generate an initial population",
+      "To convert binary strings into decimal values"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of mutation in a genetic algorithm?",
+    "options": [
+      "To calculate the fitness of each chromosome",
+      "To convert binary strings into decimal values",
+      "To randomly generate an initial population",
+      "To explore the landscape in a random manner"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What is the purpose of performance graphs in a genetic algorithm?",
+    "options": [
+      "To calculate the fitness of each chromosome",
+      "To convert binary strings into decimal values",
+      "To represent the behavior of the algorithm over generations",
+      "To randomly generate an initial population"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the relationship between a schema and a chromosome?",
+    "options": [
+      "A schema is a set of bit strings that match the corresponding positions in a chromosome.",
+      "A schema is a set of bit strings that do not match the corresponding positions in a chromosome.",
+      "A schema is a set of bit strings that have fixed positions in a chromosome.",
+      "A schema is a set of bit strings that have wild cards in a chromosome."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the order of a schema?",
+    "options": [
+      "The number of defined bits in a schema.",
+      "The number of asterisks in a schema.",
+      "The number of chromosomes in a schema.",
+      "The number of instances of a schema."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "According to the Schema Theorem, what can we predict about the presence of a given schema in the next chromosome generation?",
+    "options": [
+      "The presence of a given schema will increase in the next generation.",
+      "The presence of a given schema will decrease in the next generation.",
+      "The presence of a given schema will remain the same in the next generation.",
+      "The presence of a given schema cannot be predicted."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the probability that a schema will survive after crossover?",
+    "options": [
+      "The probability is higher for short schemata than for long ones.",
+      "The probability is higher for long schemata than for short ones.",
+      "The probability is the same for all schemata.",
+      "The probability cannot be determined."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the probability that a schema will survive after mutation?",
+    "options": [
+      "The probability is higher for low-order schemata than for high-order ones.",
+      "The probability is higher for high-order schemata than for low-order ones.",
+      "The probability is the same for all schemata.",
+      "The probability cannot be determined."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Why are scheduling problems so difficult?",
+    "options": [
+      "They are likely to be unmanageable and cannot be solved by combinatorial search techniques.",
+      "Heuristics alone cannot guarantee the best solution.",
+      "They involve a competition for limited resources and are complicated by many constraints.",
+      "All of the above."
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What is the key to the success of the genetic algorithm in scheduling problems?",
+    "options": [
+      "Defining a fitness function that incorporates all the constraints.",
+      "Using heuristics alone to guarantee the best solution.",
+      "Solving the problem using combinatorial search techniques.",
+      "None of the above."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of maintenance scheduling in power systems?",
+    "options": [
+      "To maximize the security of the power system.",
+      "To minimize the net reserve of the power system.",
+      "To predict the maximum load forecast during the maintenance period.",
+      "To schedule outages of power units over a given period of time."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the net reserve of a power system?",
+    "options": [
+      "The total installed generating capacity of the system minus the power lost due to a scheduled outage.",
+      "The maximum load forecast during the maintenance period.",
+      "The total installed generating capacity of the system.",
+      "The power lost due to a scheduled outage."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What are the constraints for the maintenance scheduling problem in power systems?",
+    "options": [
+      "Maintenance of any unit starts at the beginning of an interval and finishes at the end of the same or adjacent interval.",
+      "The net reserve of the power system must be greater than or equal to zero at any interval.",
+      "Both A and B.",
+      "None of the above."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "How is the scheduling problem represented as a chromosome in the genetic algorithm?",
+    "options": [
+      "Each unit is assigned a binary number and the chromosome is a sequence of these binary numbers.",
+      "Each unit is represented as a 4-bit string, where each bit represents a maintenance interval.",
+      "Each unit is represented as a fixed-length chromosome.",
+      "None of the above."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the smallest indivisible part of the chromosome in this problem?",
+    "options": [
+      "A 1-bit string",
+      "A 4-bit string",
+      "A 7-bit string",
+      "A 28-bit string"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of the fitness function in the genetic algorithm?",
+    "options": [
+      "To determine the number of intervals required for maintenance",
+      "To evaluate the chromosome performance",
+      "To select the genes for each unit",
+      "To create an initial population of chromosomes"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What does a negative net reserve at any interval indicate?",
+    "options": [
+      "A legal schedule",
+      "An illegal schedule",
+      "A good maintenance schedule",
+      "A bad maintenance schedule"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of the crossover operator in the genetic algorithm?",
+    "options": [
+      "To randomly select genes from the corresponding pools",
+      "To evaluate the chromosome performance",
+      "To exchange parental genes after a cut",
+      "To replace a gene with a randomly selected gene"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of the mutation operator in the genetic algorithm?",
+    "options": [
+      "To determine the number of intervals required for maintenance",
+      "To evaluate the chromosome performance",
+      "To select the genes for each unit",
+      "To randomly replace a gene with a gene from the corresponding pool"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What is the minimum net reserve for the best schedule created by 50 generations of 20 chromosomes?",
+    "options": [
+      "10 MW",
+      "15 MW",
+      "20 MW",
+      "25 MW"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the minimum net reserve for the best schedule created by 100 generations of 20 chromosomes?",
+    "options": [
+      "10 MW",
+      "15 MW",
+      "20 MW",
+      "25 MW"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the minimum net reserve for the best schedule after increasing the mutation rate to 0.01?",
+    "options": [
+      "15 MW",
+      "20 MW",
+      "25 MW",
+      "30 MW"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What approach was proposed in Germany in the early 1960s to simulate natural evolution?",
+    "options": [
+      "Genetic algorithms",
+      "Evolution strategies",
+      "Analytical objective function",
+      "Conventional optimisation method"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the simplest form of an evolution strategy?",
+    "options": [
+      "(1+1)-evolution strategy",
+      "(1+1)+evolution strategy",
+      "(1-1)-evolution strategy",
+      "(1-1)+evolution strategy"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Why do we vary all the parameters simultaneously when generating a new solution in an evolution strategy?",
+    "options": [
+      "To reflect the nature of a chromosome",
+      "To simplify the optimization process",
+      "To reduce the computational complexity",
+      "To increase the mutation rate"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the principal difference between a genetic algorithm and an evolution strategy?",
+    "options": [
+      "Genetic algorithms use only mutation, while evolution strategies use both crossover and mutation",
+      "Genetic algorithms use both crossover and mutation, while evolution strategies use only mutation",
+      "Genetic algorithms represent the problem in a coded form, while evolution strategies do not",
+      "Genetic algorithms produce better results than evolution strategies"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is the goal of genetic programming?",
+    "options": [
+      "To evolve a bit-string representation of a problem",
+      "To create computer programs as the solution",
+      "To search the space of possible computer programs",
+      "To manipulate programs by applying genetic operators"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which programming language is chosen as the main language for genetic programming?",
+    "options": [
+      "FORTRAN",
+      "LISP",
+      "C++",
+      "Python"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What are the basic data structures in LISP?",
+    "options": [
+      "Atoms and lists",
+      "Numbers and strings",
+      "Functions and terminals",
+      "Branches and leaves"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the graphical representation of a LISP S-expression?",
+    "options": [
+      "A rooted point-labelled tree with ordered branches",
+      "A sequence of operations applied to values",
+      "A collection of items inside a pair of parentheses",
+      "A string of binary numbers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the purpose of the fitness function in genetic programming?",
+    "options": [
+      "To evaluate the performance of a computer program",
+      "To determine the set of terminals",
+      "To select the set of primitive functions",
+      "To define the parameters for controlling the run"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What are the primary parameters used for controlling a run in genetic programming?",
+    "options": [
+      "Population size and maximum number of generations",
+      "Fitness function and crossover operator",
+      "Mutation operator and initial population",
+      "Cloning operator and termination criterion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the common practice in genetic programming for designating the result of a run?",
+    "options": [
+      "Selecting the fittest individual",
+      "Choosing the largest computer program",
+      "Randomly selecting a program",
+      "Copying the initial population"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What are the functions and terminals used in computer programs in genetic programming?",
+    "options": [
+      "+, -, *, /, sqrt, a, b",
+      "sin, cos, tan, log, x, y",
+      "if, else, while, for, true, false",
+      "print, input, int, float, str, list"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Is the crossover operator capable of operating on computer programs?",
+    "options": [
+      "Yes",
+      "No",
+      "It depends on the size of the programs",
+      "Only if the programs have the same fitness"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What does the crossover operator do in genetic programming?",
+    "options": [
+      "It combines randomly chosen parts of two parents to create two offspring",
+      "It randomly changes any function or terminal in a computer program",
+      "It selects the fittest individual as the result of a run",
+      "It assigns the maximum number of generations to be run"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Is mutation used in genetic programming?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if the fitness of the program is poor",
+      "Only if the program is too large"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What can be replaced under mutation in genetic programming?",
+    "options": [
+      "A function can only be replaced by a function and a terminal can only be replaced by a terminal",
+      "A function can be replaced by a terminal and a terminal can be replaced by a function",
+      "A function can be replaced by another function or a terminal, and a terminal can be replaced by another terminal or a function",
+      "A function can be replaced by any other function or terminal, and a terminal can be replaced by any other terminal or function"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the main advantage of genetic programming compared to genetic algorithms?",
+    "options": [
+      "Genetic programming uses high-level building blocks of variable length.",
+      "Genetic programming works well in a large number of different cases.",
+      "Genetic programming does not require a fixed-length coding.",
+      "Genetic programming can be implemented in various programming languages."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is a potential difficulty of genetic programming?",
+    "options": [
+      "Genetic programming may not scale up to more complex problems.",
+      "Genetic programming requires extensive computer run times.",
+      "Genetic programming is limited to LISP S-expressions.",
+      "Genetic programming does not use evolutionary approach."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What are the main steps in developing a genetic algorithm?",
+    "options": [
+      "Create a population, evaluate their fitness, generate a new population, repeat.",
+      "Create a population, evaluate their fitness, select the best individual, repeat.",
+      "Create a population, evaluate their fitness, apply genetic operators, repeat.",
+      "Create a population, evaluate their fitness, terminate the algorithm, repeat."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of the fitness function in genetic algorithms?",
+    "options": [
+      "To evaluate the performance of a chromosome.",
+      "To generate a new population of individuals.",
+      "To exchange parts of two chromosomes.",
+      "To change the gene value in a chromosome."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What are evolution strategies used for?",
+    "options": [
+      "Technical optimization problems",
+      "Analytical objective functions",
+      "Conventional optimization methods",
+      "Engineer's intuition"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is the main difference between evolution strategies and genetic algorithms?",
+    "options": [
+      "Evolution strategies use only a mutation operator",
+      "Evolution strategies require a coded form representation of a problem",
+      "Genetic algorithms use only a mutation operator",
+      "Genetic algorithms require a coded form representation of a problem"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "What is genetic programming?",
+    "options": [
+      "A numerical optimization procedure",
+      "A recent development in evolutionary computation",
+      "A coding technique for genetic algorithms",
+      "A computer program that solves a problem"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Why is LISP chosen as the main language for genetic programming?",
+    "options": [
+      "It allows manipulation of computer programs as data",
+      "It is the most popular programming language",
+      "It is the easiest language to learn",
+      "It has the best performance for genetic programming"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which book is NOT listed in the bibliography?",
+    "options": [
+      "Foundations of Genetic Algorithms 2",
+      "The Theory of Evolution Strategies",
+      "Genetic Algorithms and Robotics",
+      "The Design of Innovation: Lessons from and for Competent Genetic Algorithms"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which book is written by J.R. Koza?",
+    "options": [
+      "Genetic Algorithms and Engineering Design",
+      "Genetic Programming: On the Programming of Computers by Means of Natural Selection",
+      "Genetic Algorithms for Control and Signal Processing",
+      "Genetic Algorithms: Concepts and Designs"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which book is NOT published by Kluwer Academic Publishers?",
+    "options": [
+      "Noisy Optimization with Evolution Strategies",
+      "Designing Efficient Parallel Genetic Algorithms",
+      "Genetic Programming IV: Routine Human-Competitive Machine Intelligence",
+      "Grammatical Evolution: Evolutionary Automatic Programming in an Arbitrary Language"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which book is written by D.A. Coley?",
+    "options": [
+      "An Introduction to Genetic Algorithms for Scientists and Engineers",
+      "Genetic Algorithms and Engineering Optimization",
+      "Genetic Programming III: Darwinian Invention and Problem Solving",
+      "Genetic Programming and Data Structures: Genetic Programming + Data Structures = Automatic Programming!"
+    ],
+    "answer": "A"
+  }
+]

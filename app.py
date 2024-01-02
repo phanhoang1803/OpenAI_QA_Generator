@@ -11,7 +11,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Set env
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 from flask import Flask, request, jsonify
 
