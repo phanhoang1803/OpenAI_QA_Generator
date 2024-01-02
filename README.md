@@ -14,4 +14,5 @@
   - Response as json type:
     + response_data = {"en_res": en_res, "vi_res": vi_res}
 
+### Demo:
 ![](https://github.com/phanhoang1803/OpenAI_QA_Generator/blob/main/MCQ_Generator_Demo.gif)
